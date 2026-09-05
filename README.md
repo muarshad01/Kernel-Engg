@@ -17,3 +17,8 @@
 #### [LeetGPU](https://leetgpu.com/)
 
 ***
+
+* https://github.com/infatoshi/cuda-course
+
+***
+
