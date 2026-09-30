@@ -1,7 +1,11 @@
 #### Kernel-Engg
 * [Vizuara's Kernel Engineering Workshop](https://vizuara.ai/courses/the-kernel-engineering-workshop)
+* [Kernel Engineering: From CUDA Foundations to Frontier AI Kernels](https://maven.com/rajat-dandekar/kernel-engineering?utm_source=vizuara&utm_medium=email&utm_campaign=kernel_oct2026&utm_content=focused_invitation)
 
 *** 
+
+
+
 
 #### Courses
 * [PARALLEL COMPUTING](https://gfxcourses.stanford.edu/cs149/fall25)
