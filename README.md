@@ -10,6 +10,11 @@
 
 ***
 
+#### CUDA Programming Guide
+* [CUDA Programming Guide](https://docs.nvidia.com/cuda/cuda-programming-guide/index.html)
+
+***
+
 #### Useful GPU Resources 
 * [GPU development with Python 101 Tutorial](https://github.com/jacobtomlinson/gpu-python-tutorial)
 * [GPU MODE Resource Stream](https://github.com/gpu-mode/resource-stream)
