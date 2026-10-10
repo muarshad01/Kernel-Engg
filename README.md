@@ -12,6 +12,7 @@
 
 #### CUDA Programming Guide
 * [CUDA Programming Guide](https://docs.nvidia.com/cuda/cuda-programming-guide/index.html)
+* [CUDA C++ Programming Guide](https://docs.nvidia.com/cuda/archive/13.0.0/cuda-c-programming-guide/index.html)
 
 ***
 
