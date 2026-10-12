@@ -13,6 +13,7 @@
 | [Lecture 03]() | Oct xx, 2026| [Lab 03]()| Oct xx, 2026 | 
 
 #### Part II: The GEMM worklog: naive → cuBLAS
+|---|---|---|---|
 | [Lecture 04]() | Oct xx, 2026| [Lab 04]()| Oct xx, 2026 | 
 | [Lecture 05]() | Oct xx, 2026| [Lab 05]()| Oct xx, 2026 | 
 | [Lecture 06]() | Oct xx, 2026| [Lab 06]()| Oct xx, 2026 | 
