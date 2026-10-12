@@ -38,10 +38,14 @@
 | [Lecture 16]() | Oct xx, 2026| [Lab 16]()| Oct xx, 2026 |
 
 #### Part V: AI-written kernels
+| Lecture | Data | Lab | Date |
+|---|---|---|---|
 | [Lecture 17]() | Oct xx, 2026| [Lab 17]()| Oct xx, 2026 | 
 | [Lecture 18]() | Oct xx, 2026| [Lab 18]()| Oct xx, 2026 |
 
 #### Part VI: Kernel Engineering Capstone Projects
+| Lecture | Data | Lab | Date |
+|---|---|---|---|
 | [Lecture 19]() | Oct xx, 2026| [Lab 19]()| Oct xx, 2026 | 
 | [Lecture 20]() | Oct xx, 2026| [Lab 20]()| Oct xx, 2026 |
 
