@@ -5,6 +5,43 @@
 
 *** 
 
+| Lecture | Notes | Date |
+|---|---|---|
+|  | [Notes-01]()| Oct xx, 2026 | 
+|  | [Notes-02]()| Oct xx, 2026 | 
+|  | [Notes-03]()| Oct xx, 2026 | 
+|  | [Notes-04]()| Oct xx, 2026 | 
+|  | [Notes-05]()| Oct xx, 2026 | 
+|  | [Notes-06]()| Oct xx, 2026 | 
+|  | [Notes-07]()| Oct xx, 2026 | 
+|  | [Notes-08]()| Oct xx, 2026 | 
+|  | [Notes-09]()| Oct xx, 2026 | 
+|  | [Notes-10]()| Oct xx, 2026 | 
+|  | [Notes-11]()| Oct xx, 2026 | 
+|  | [Notes-12]()| Oct xx, 2026 | 
+|  | [Notes-13]()| Oct xx, 2026 | 
+|  | [Notes-14]()| Oct xx, 2026 | 
+|  | [Notes-15]()| Oct xx, 2026 | 
+|  | [Notes-16]()| Oct xx, 2026 | 
+|  | [Notes-17]()| Oct xx, 2026 | 
+|  | [Notes-18]()| Oct xx, 2026 | 
+|  | [Notes-19]()| Oct xx, 2026 | 
+|  | [Notes-20]()| Oct xx, 2026 | 
+|  | [Notes-21]()| Oct xx, 2026 | 
+|  | [Notes-22]()| Oct xx, 2026 | 
+|  | [Notes-23]()| Oct xx, 2026 | 
+|  | [Notes-24]()| Oct xx, 2026 | 
+|  | [Notes-25]()| Oct xx, 2026 | 
+|  | [Notes-26]()| Oct xx, 2026 | 
+|  | [Notes-27]()| Oct xx, 2026 | 
+|  | [Notes-28]()| Oct xx, 2026 | 
+|  | [Notes-29]()| Oct xx, 2026 | 
+|  | [Notes-30]()| Oct xx, 2026 |
+
+
+***
+
+
 #### Courses
 * [PARALLEL COMPUTING](https://gfxcourses.stanford.edu/cs149/fall25)
 
