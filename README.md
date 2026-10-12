@@ -19,21 +19,26 @@
 | [Lecture 05]() | Oct xx, 2026| [Lab 05]()| Oct xx, 2026 | 
 | [Lecture 06]() | Oct xx, 2026| [Lab 06]()| Oct xx, 2026 | 
 
+#### Part III: Attention & profiling
+| Lecture | Data | Lab | Date |
+|---|---|---|---|
+| [Lecture 07]() | Oct xx, 2026| [Lab 07]()| Oct xx, 2026 | 
+| [Lecture 08]() | Oct xx, 2026| [Lab 08]()| Oct xx, 2026 | 
+
+#### Part IV: The modern frontier
+| Lecture | Data | Lab | Date |
+|---|---|---|---|
+| [Lecture 09]() | Oct xx, 2026| [Lab 09]()| Oct xx, 2026 | 
+| [Lecture 10]() | Oct xx, 2026| [Lab 10]()| Oct xx, 2026 | 
+| [Lecture 11]() | Oct xx, 2026| [Lab 11]()| Oct xx, 2026 | 
+| [Lecture 12]() | Oct xx, 2026| [Lab 12]()| Oct xx, 2026 | 
+| [Lecture 13]() | Oct xx, 2026| [Lab 13]()| Oct xx, 2026 | 
+| [Lecture 14]() | Oct xx, 2026| [Lab 14]()| Oct xx, 2026 | 
+| [Lecture 15]() | Oct xx, 2026| [Lab 15]()| Oct xx, 2026 | 
+| [Lecture 15]() | Oct xx, 2026| [Lab 16]()| Oct xx, 2026 |
 
 
-| Lecture-04: GEMM worklog I  | [Notes-04]()   | Oct xx, 2026 | 
-| Lecture-05: GEMM worklog II | [Notes-05]()   | Oct xx, 2026 | 
-| Lecture-06: Tensor cores, the second worklog | [Notes-06]()| Oct xx, 2026 | 
-|                      | __Part III: Attention & profiling__ ||
-| Lecture-07: Profiling and debugging like a pro | [Notes-07]()| Oct xx, 2026 | 
-| Lecture-08: Attention: The kernel the ate the world | [Notes-08]()| Oct xx, 2026 | 
-|                      | __Part IV: The modern frontier__ |||
-| Lecture-08: Deep-dive 1 - FlashAttention from Scratch   | [Notes-09]()| Oct xx, 2026 | 
-| Lecture-09: Deep-dive 2 - Beating cuBLAS on H100        | [Notes-10]()| Oct xx, 2026 | 
-| Lecture-10: Deep-dive 3 - Triton CUTLASS -> Cute -> DSL | [Notes-11]()| Oct xx, 2026 | 
-| Lecture-11: Deep-dive 4 - Inference Serving Kernels     | [Notes-12]()| Oct xx, 2026 | 
-| Lecture-12: Deep-dive 5 - Blackwell and NVFP4           | [Notes-13]()| Oct xx, 2026 | 
-| Lecture-13: Deep-dive 6 - Flash Attention 4             | [Notes-14]()| Oct xx, 2026 | 
+
 |                      | __Part V: AI-written kernels__ ||
 | Lecture-14: Deep-dive 7 - DeepSeek: FlashMLA & DeepGEMM| [Notes-15]()| Oct xx, 2026 | 
 | Lecture-15: Deep-dive 8 - LLM Generate Kernels | [Notes-16]()| Oct xx, 2026 | 
