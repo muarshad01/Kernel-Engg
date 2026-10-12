@@ -60,18 +60,9 @@
 #### Useful GPU Resources 
 * [GPU development with Python 101 Tutorial](https://github.com/jacobtomlinson/gpu-python-tutorial)
 * [GPU MODE Resource Stream](https://github.com/gpu-mode/resource-stream)
-
-***
-
-#### [LeetGPU](https://leetgpu.com/)
-
-***
-
+* [LeetGPU](https://leetgpu.com/)
 * https://github.com/infatoshi/cuda-course
-
-***
-
-#### [How a GPU Really Works: Intro to CUDA, From an iPhone to an H100](https://www.youtube.com/watch?v=Nn5XlSwVlOw&t=4021s)
+* [How a GPU Really Works: Intro to CUDA, From an iPhone to an H100](https://www.youtube.com/watch?v=Nn5XlSwVlOw&t=4021s)
 
 ***
 
