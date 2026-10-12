@@ -35,21 +35,17 @@
 | [Lecture 13]() | Oct xx, 2026| [Lab 13]()| Oct xx, 2026 | 
 | [Lecture 14]() | Oct xx, 2026| [Lab 14]()| Oct xx, 2026 | 
 | [Lecture 15]() | Oct xx, 2026| [Lab 15]()| Oct xx, 2026 | 
-| [Lecture 15]() | Oct xx, 2026| [Lab 16]()| Oct xx, 2026 |
+| [Lecture 16]() | Oct xx, 2026| [Lab 16]()| Oct xx, 2026 |
 
+#### Part V: AI-written kernels
+| [Lecture 17]() | Oct xx, 2026| [Lab 17]()| Oct xx, 2026 | 
+| [Lecture 18]() | Oct xx, 2026| [Lab 18]()| Oct xx, 2026 |
 
-
-|                      | __Part V: AI-written kernels__ ||
-| Lecture-14: Deep-dive 7 - DeepSeek: FlashMLA & DeepGEMM| [Notes-15]()| Oct xx, 2026 | 
-| Lecture-15: Deep-dive 8 - LLM Generate Kernels | [Notes-16]()| Oct xx, 2026 | 
-|                      |__Part VI: Kernel Engineering Capstone Projects__ ||
-|  | [Notes-17]()| Oct xx, 2026 | 
-|  | [Notes-18]()| Oct xx, 2026 | 
-|  | [Notes-19]()| Oct xx, 2026 | 
-|  | [Notes-20]()| Oct xx, 2026 | 
+#### Part VI: Kernel Engineering Capstone Projects
+| [Lecture 19]() | Oct xx, 2026| [Lab 19]()| Oct xx, 2026 | 
+| [Lecture 20]() | Oct xx, 2026| [Lab 20]()| Oct xx, 2026 |
 
 ***
-
 
 #### Courses
 * [PARALLEL COMPUTING](https://gfxcourses.stanford.edu/cs149/fall25)
