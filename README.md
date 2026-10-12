@@ -5,9 +5,9 @@
 
 *** 
 
+#### Part I: Parallelism, from the CPU up
 | Lecture | Data | Lab | Date |
 |---|---|---|---|
-|                      | __Part I: Parallelism, from the CPU up__ |||
 | [Lecture 01]() | Oct xx, 2026| [Lab 01]()| Oct xx, 2026 | 
 
 | Lab 01 | [Lab 01]()||
