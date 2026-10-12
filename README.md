@@ -12,14 +12,14 @@
 | Lecture-02: The CUDA programming model    | [Notes-02]()| Oct xx, 2026 | 
 | Lecture-03: The memory hierarchy in anger | [Notes-03]()| Oct xx, 2026 | 
 | __Part II: The GEMM worklog: naive → cuBLAS__ |||
-| GEMM worklog I  | [Notes-04]()   | Oct xx, 2026 | 
-| GEMM worklog II | [Notes-05]()   | Oct xx, 2026 | 
-| Tensor cores, the second worklog | [Notes-06]()| Oct xx, 2026 | 
+| Lecture-04: GEMM worklog I  | [Notes-04]()   | Oct xx, 2026 | 
+| Lecture-05: GEMM worklog II | [Notes-05]()   | Oct xx, 2026 | 
+| Lecture-06: Tensor cores, the second worklog | [Notes-06]()| Oct xx, 2026 | 
 |  | __Part III: Attention & profiling__ ||
-|  | [Notes-07]()| Oct xx, 2026 | 
-|  | [Notes-08]()| Oct xx, 2026 | 
+| Lecture-07: Profiling and debugging like a pro | [Notes-07]()| Oct xx, 2026 | 
+| Lecture-08: Attention: The kernel the ate the world | [Notes-08]()| Oct xx, 2026 | 
 |  | __Part IV: The modern frontier__ |||
-|  | [Notes-09]()| Oct xx, 2026 | 
+| Deep-dive 1: FlashAttention from Scratch | [Notes-09]()| Oct xx, 2026 | 
 |  | [Notes-10]()| Oct xx, 2026 | 
 |  | [Notes-11]()| Oct xx, 2026 | 
 |  | [Notes-12]()| Oct xx, 2026 | 
