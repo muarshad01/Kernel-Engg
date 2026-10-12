@@ -7,10 +7,11 @@
 
 | Lecture | Notes | Date |
 |---|---|---|
-|| __Part I: Parallelism, from the CPU up__||
+|| __Part I: Parallelism, from the CPU up__ ||
 |  | [Notes-01]()| Oct xx, 2026 | 
 |  | [Notes-02]()| Oct xx, 2026 | 
 |  | [Notes-03]()| Oct xx, 2026 | 
+|  | __Part IIThe GEMM worklog: naive → cuBLAS__ ||
 |  | [Notes-04]()| Oct xx, 2026 | 
 |  | [Notes-05]()| Oct xx, 2026 | 
 |  | [Notes-06]()| Oct xx, 2026 | 
