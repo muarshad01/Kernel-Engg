@@ -7,11 +7,11 @@
 
 | Lecture | Notes | Date |
 |---|---|---|
-|__Part I: Parallelism, from the CPU up__ |||
+|| __Part I: Parallelism, from the CPU up__ ||
 | Lecture-01: How fast this can go?         | [Notes-01]()| Oct xx, 2026 | 
 | Lecture-02: The CUDA programming model    | [Notes-02]()| Oct xx, 2026 | 
 | Lecture-03: The memory hierarchy in anger | [Notes-03]()| Oct xx, 2026 | 
-| __Part II: The GEMM worklog: naive → cuBLAS__ |||
+|| __Part II: The GEMM worklog: naive → cuBLAS__ ||
 | Lecture-04: GEMM worklog I  | [Notes-04]()   | Oct xx, 2026 | 
 | Lecture-05: GEMM worklog II | [Notes-05]()   | Oct xx, 2026 | 
 | Lecture-06: Tensor cores, the second worklog | [Notes-06]()| Oct xx, 2026 | 
