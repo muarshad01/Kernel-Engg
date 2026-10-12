@@ -5,13 +5,15 @@
 
 *** 
 
-| Lecture | Notes | Date |
-|---|---|---|
-|                      | __Part I: Parallelism, from the CPU up__ ||
-| Lecture 01: How fast this can go?                     | [Lecture-01]()| Oct xx, 2026 | 
-| Lab 01: Roofline lab: predict then measure | [Lab 01]()||
-| Lecture-02: The CUDA programming model    | [Notes-02]()| Oct xx, 2026 | 
-| Lecture-03: The memory hierarchy in anger | [Notes-03]()| Oct xx, 2026 | 
+| Lecture | Data | Lab | Date |
+|---|---|---|---|
+|                      | __Part I: Parallelism, from the CPU up__ |||
+| [Lecture 01]() | Oct xx, 2026| [Lab 01]()| Oct xx, 2026 | 
+
+| Lab 01 | [Lab 01]()||
+| Lecture-02 | [Notes-02]()| Oct xx, 2026 | 
+| Lecture-03 | [Notes-03]()| Oct xx, 2026 | 
+
 |                      | __Part II: The GEMM worklog: naive → cuBLAS__ ||
 | Lecture-04: GEMM worklog I  | [Notes-04]()   | Oct xx, 2026 | 
 | Lecture-05: GEMM worklog II | [Notes-05]()   | Oct xx, 2026 | 
