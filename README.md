@@ -11,10 +11,10 @@
 | Lecture-01: How fast this can go?         | [Notes-01]()| Oct xx, 2026 | 
 | Lecture-02: The CUDA programming model    | [Notes-02]()| Oct xx, 2026 | 
 | Lecture-03: The memory hierarchy in anger | [Notes-03]()| Oct xx, 2026 | 
-|  | __Part II: The GEMM worklog: naive → cuBLAS__ ||
-|  | [Notes-04]()| Oct xx, 2026 | 
-|  | [Notes-05]()| Oct xx, 2026 | 
-|  | [Notes-06]()| Oct xx, 2026 | 
+| __Part II: The GEMM worklog: naive → cuBLAS__ |||
+| GEMM worklog I  | [Notes-04]()   | Oct xx, 2026 | 
+| GEMM worklog II | [Notes-05]()   | Oct xx, 2026 | 
+| Tensor cores, the second worklog | [Notes-06]()| Oct xx, 2026 | 
 |  | __Part III: Attention & profiling__ ||
 |  | [Notes-07]()| Oct xx, 2026 | 
 |  | [Notes-08]()| Oct xx, 2026 | 
