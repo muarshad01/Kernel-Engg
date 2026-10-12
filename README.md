@@ -11,20 +11,24 @@
 |  | [Notes-01]()| Oct xx, 2026 | 
 |  | [Notes-02]()| Oct xx, 2026 | 
 |  | [Notes-03]()| Oct xx, 2026 | 
-|  | __Part IIThe GEMM worklog: naive → cuBLAS__ ||
+|  | __Part II: The GEMM worklog: naive → cuBLAS__ ||
 |  | [Notes-04]()| Oct xx, 2026 | 
 |  | [Notes-05]()| Oct xx, 2026 | 
 |  | [Notes-06]()| Oct xx, 2026 | 
+|  | __Part III: Attention & profiling__ ||
 |  | [Notes-07]()| Oct xx, 2026 | 
 |  | [Notes-08]()| Oct xx, 2026 | 
+|  | __Part IV: The modern frontier__ |||
 |  | [Notes-09]()| Oct xx, 2026 | 
 |  | [Notes-10]()| Oct xx, 2026 | 
 |  | [Notes-11]()| Oct xx, 2026 | 
 |  | [Notes-12]()| Oct xx, 2026 | 
 |  | [Notes-13]()| Oct xx, 2026 | 
 |  | [Notes-14]()| Oct xx, 2026 | 
+|  | __Part V: AI-written kernels__ ||
 |  | [Notes-15]()| Oct xx, 2026 | 
 |  | [Notes-16]()| Oct xx, 2026 | 
+|  |__Part VI: Kernel Engineering Capstone Projects__ ||
 |  | [Notes-17]()| Oct xx, 2026 | 
 |  | [Notes-18]()| Oct xx, 2026 | 
 |  | [Notes-19]()| Oct xx, 2026 | 
