@@ -19,12 +19,12 @@
 | Lecture-07: Profiling and debugging like a pro | [Notes-07]()| Oct xx, 2026 | 
 | Lecture-08: Attention: The kernel the ate the world | [Notes-08]()| Oct xx, 2026 | 
 |  | __Part IV: The modern frontier__ |||
-| Deep-dive 1: FlashAttention from Scratch | [Notes-09]()| Oct xx, 2026 | 
-|  | [Notes-10]()| Oct xx, 2026 | 
-|  | [Notes-11]()| Oct xx, 2026 | 
-|  | [Notes-12]()| Oct xx, 2026 | 
-|  | [Notes-13]()| Oct xx, 2026 | 
-|  | [Notes-14]()| Oct xx, 2026 | 
+| Lecture-08: Deep-dive 1 - FlashAttention from Scratch   | [Notes-09]()| Oct xx, 2026 | 
+| Lecture-09: Deep-dive 2 - Beating cuBLAS on H100        | [Notes-10]()| Oct xx, 2026 | 
+| Lecture-10: Deep-dive 3 - Triton CUTLASS -> Cute -> DSL | [Notes-11]()| Oct xx, 2026 | 
+| Lecture-11: Deep-dive 4 - Inference Serving Kernels     | [Notes-12]()| Oct xx, 2026 | 
+| Lecture-12: Deep-dive 5 - Blackwell and NVFP4           | [Notes-13]()| Oct xx, 2026 | 
+| Lecture-13: Deep-dive 6 - Flash Attention 4             | [Notes-14]()| Oct xx, 2026 | 
 |  | __Part V: AI-written kernels__ ||
 |  | [Notes-15]()| Oct xx, 2026 | 
 |  | [Notes-16]()| Oct xx, 2026 | 
