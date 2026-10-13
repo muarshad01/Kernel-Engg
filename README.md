@@ -1,9 +1,7 @@
-#### Kernel Engineering
-* [Vizuara's Kernel Engineering Workshop is here](https://kernelworkshop.vizuara.ai/#curriculum)
-* [Kernel Engineering: From CUDA Foundations to Frontier AI Kernels](https://maven.com/rajat-dandekar/kernel-engineering?utm_source=vizuara&utm_medium=email&utm_campaign=kernel_oct2026&utm_content=focused_invitation)
-* [Vizuara's Kernel Engineering Workshop](https://vizuara.ai/courses/the-kernel-engineering-workshop)
+#### Code
+* [Kernel Engineering](https://github.com/VizuaraAI/Kernel-Engg)
 
-*** 
+***
 
 #### Part I: Parallelism, from the CPU up
 | Lecture | Data | Lab | Date |
@@ -48,6 +46,16 @@
 |---|---|---|---|
 | [Lecture 19]() | Oct xx, 2026| [Lab 19]()| Oct xx, 2026 | 
 | [Lecture 20]() | Oct xx, 2026| [Lab 20]()| Oct xx, 2026 |
+
+***
+
+#### Kernel Engineering Course Details
+* [Vizuara's Kernel Engineering Workshop is here](https://kernelworkshop.vizuara.ai/#curriculum)
+* [Kernel Engineering: From CUDA Foundations to Frontier AI Kernels](https://maven.com/rajat-dandekar/kernel-engineering?utm_source=vizuara&utm_medium=email&utm_campaign=kernel_oct2026&utm_content=focused_invitation)
+* [Vizuara's Kernel Engineering Workshop](https://vizuara.ai/courses/the-kernel-engineering-workshop)
+
+***
+
 
 ***
 
