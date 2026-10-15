@@ -23,16 +23,20 @@
 * 8HMB
 1. GPC: Graphic Processing Clusters
 2. SM: Symmetric Multiprocessors (1 GPC = 28 SM)
-3. TC: Tensor Cores
+3. TC: Tensor Cores (1 SM = 4 TC)
 4. Threads
 
 #### GH100 die
 * 5HBM stacks in use
 * 80 GB 3.35 TB/s
+* 989 TFlops/s
 
 #### Qwen3 - 8B
 * 36 transformer blocks
 
 * 40:00
 
-* 
+#### GPU Chip Limits
+* FLOPS/s (H100: 989 TFlops/sec)
+  * Kernel Engineer: Extract as much of it as possible
+* Memory
