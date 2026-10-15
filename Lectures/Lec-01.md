@@ -19,3 +19,4 @@
 
 * 20:00
 
+* NVIDIA Vera Rubin
