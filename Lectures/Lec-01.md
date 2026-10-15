@@ -29,7 +29,7 @@
 #### GH100 die
 * 5HBM stacks in use
 * 80 GB 3.35 TB/s
-* 989 TFlops/s
+* `989 TFlops/s = 132 (SMs) X 4 (tensor cores in each SM) X 1024 (operations per tick in each tensor core) X 1.83 (ticks per second)`
 
 #### Qwen3 - 8B
 * 36 transformer blocks
