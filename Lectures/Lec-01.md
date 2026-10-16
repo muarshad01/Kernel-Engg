@@ -30,7 +30,7 @@
 * 5HBM stacks in use
 * SRAM (100 MB)??
 * 80 GB
-* Bandwidth: 3.35 TB/s
+* Bandwidth: 3.35 TB/s (Bytes / sec)
 * `989 TFlops/s = 132 (SMs) X 4 (tensor cores in each SM) X 1024 (operations per tick in each tensor core) X 1.83 (ticks per second)`
 
 #### Qwen3 - 8B
