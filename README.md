@@ -7,7 +7,7 @@
 #### Part I: Parallelism, from the CPU up
 | Lecture | Data | Status|
 |---|---|---|
-| [Lecture 01 - Theory (Oct 12) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-01.md) | Oct 15, 2026 | |
+| [Lecture 01 - Theory (Oct 12) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-01.md) | Oct 15, 2026 | :white_check_mark: |
 | [Lecture 02 - Coding (Oct 13) - Shubham](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-02.md) | Oct xx, 2026 | |
 | [Lecture 03 - Theory (Oct 15) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-03.md) | Oct xx, 2026 | |
 | [Lecture 04 - Theory (Oct 16) - Raj?](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-04.md) | Oct xx, 2026 |  |
