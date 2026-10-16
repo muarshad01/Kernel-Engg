@@ -30,7 +30,7 @@
 * [H100](https://github.com/muarshad01/Kernel-Engg/blob/main/H100.md)
 
 #### Qwen3 - 8B
-* 36 transformer blocks
+* [Qwen3-8B](https://github.com/muarshad01/Kernel-Engg/blob/main/Qwen3-8B.md)
 
 * 40:00
 
