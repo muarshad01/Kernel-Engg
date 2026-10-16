@@ -1,4 +1,4 @@
-## Lecture 1
+## Lecture 1: How fast this Can go? - Raj
 
 - Graphic Designers
 - 3D animators
