@@ -44,18 +44,19 @@
 
 * 1:20:00
 
-* Bandwidth: 3.35 TB/s (Bytes/s)
-* Arithmetic Intensity (AI) = FLOPs/Byte  (Number of FLOP operations done per Byte which is transferred)
-* AI x Bandwith = FLOPs/s = GPU Utilization
-* operations-per-byte (x) X bandwidth (m) = operations per second (y)
-
 $$
 \begin{align}
    y &=m \times x\\
    FLOPs/s &= Bandwith \times Arithmatic ~Intensity (AI) =    GPU ~Utilization\\ 
-           &= \frac{byte(s)}{s} \times \frac{FLOPs}{byte}
+           &= \frac{byte(s)}{s} \times \frac{FLOPs}{byte} \\
+  operations per second &= bandwidth \times operations-per-byte \\
 \end{align}
 $$
+
+* Bandwidth is fixed: 3.35 TB/s (Bytes/s)
+* Arithmetic Intensity (AI) = FLOPs/Byte  (Number of FLOP operations done per Byte which is transferred)
+
+
 
 ***
 
