@@ -11,11 +11,13 @@
 * Chip design
 
 #### Hierarchy
-* NN
-* LLM / SLM
-* 5D-Parallelism
-* Inference Engineering
-* GPU Kernels
+1. NN
+2. LLM / SLM
+3. 5D-Parallelism
+4. Inference Engineering
+5. GPU Kernels
+
+***
 
 * 20:00
 
