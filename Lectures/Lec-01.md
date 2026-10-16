@@ -35,10 +35,10 @@
 * 40:00
 
 #### GPU Chip Limits
-* FLOPS/s (H100: 989 TFlops/sec)
+* [H100](https://github.com/muarshad01/Kernel-Engg/blob/main/H100.md)
+  * FLOPS/s: 989 TFlops/sec)
   * Kernel Engineer: Extract as much of it as possible
 * Memory
-
 
 ***
 
