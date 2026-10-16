@@ -1,5 +1,6 @@
 #### Kernel Engineering Code
 * [Kernel Engineering](https://github.com/VizuaraAI/Kernel-Engg)
+* [Schedule](https://kernelworkshop.vizuara.ai/schedule)
 
 ***
 
