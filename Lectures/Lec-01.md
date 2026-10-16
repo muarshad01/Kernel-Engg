@@ -20,11 +20,7 @@
 * 20:00
 
 #### NVIDIA Vera Rubin
-* 8HMB
-1. GPC: Graphic Processing Clusters
-2. SM: Symmetric Multiprocessors (1 GPC = 28 SM)
-3. TC: Tensor Cores (1 SM = 4 TC)
-4. Threads
+* [NVIDIA Vera Rubin](https://github.com/muarshad01/Kernel-Engg/blob/main/Nvidia-Vera-Rubin.md)
 
 #### H100 die
 * [H100](https://github.com/muarshad01/Kernel-Engg/blob/main/H100.md)
