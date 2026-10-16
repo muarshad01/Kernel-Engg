@@ -52,7 +52,7 @@
 * Bandwidth: 3.35 TB/s (Bytes/s)
 * Arithmetic Intensity (AI) = FLOPs/Byte  (Number of FLOP operations done per Byte which is transferred)
 * AI x Bandwith = FLOPs/s = GPU Utilization
-* (operations/Byte) X bandwidth = operations/s
+* operations-per-byte (x) X bandwidth (m) = operations per second (y)
 
 ***
 
