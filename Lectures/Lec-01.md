@@ -54,5 +54,11 @@
 * AI x Bandwith = FLOPs/s = GPU Utilization
 * (operations/Byte) X bandwidth = operations/s
 
-* 1:40:00
+***
+
+* 1:50:00
+
+
+
+
 
