@@ -32,6 +32,7 @@
 * 80 GB
 * Bandwidth: 3.35 TB/s (Bytes / sec)
 * `989 TFlops/s = 132 (SMs) X 4 (tensor cores in each SM) X 1024 (operations per tick in each tensor core) X 1.83 (ticks per second)`
+* GPU Utilization % = 3.35/989 = 
 
 #### Qwen3 - 8B
 * 36 transformer blocks
@@ -44,7 +45,14 @@
 * Memory
 
 
-* 1:15:00
+***
 
+* 1:20:00
 
+* Bandwidth: 3.35 TB/s (Bytes/s)
+* Arithmetic Intensity (AI) = FLOPs/Byte  (Number of FLOP operations done per Byte which is transferred)
+* AI x Bandwith = FLOPs/s = GPU Utilization
+* (operations/Byte) X bandwidth = operations/s
+
+* 1:40:00
 
