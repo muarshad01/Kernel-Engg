@@ -30,9 +30,10 @@
 * 5HBM stacks in use
 * SRAM (100 MB)??
 * 80 GB
+* 132 SM (528 Tensor cores, 4 per SM)
 * Bandwidth: 3.35 TB/s (Bytes / sec)
 * `989 TFlops/s = 132 (SMs) X 4 (tensor cores in each SM) X 1024 (operations per tick in each tensor core) X 1.83 (ticks per second)`
-* GPU Utilization % = 3.35/989 = 
+* GPU Utilization % = 3.35/989 
 
 #### Qwen3 - 8B
 * 36 transformer blocks
