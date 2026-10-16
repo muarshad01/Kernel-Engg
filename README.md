@@ -7,10 +7,10 @@
 #### Part I: Parallelism, from the CPU up
 | Lecture | Data |
 |---|---|
-| [Lecture 01 - Theory](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-01.md) | Oct 15, 2026 | 
-| [Lecture 02 - Coding](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-02.md) | Oct xx, 2026 | 
-| [Lecture 03 - Theory](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-03.md) | Oct xx, 2026 | 
-| [Lecture 04 - Theory](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-04.md) | Oct xx, 2026 |  
+| [Lecture 01 - Theory (Oct 12)](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-01.md) | Oct 15, 2026 | 
+| [Lecture 02 - Coding (Oct 13)](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-02.md) | Oct xx, 2026 | 
+| [Lecture 03 - Theory (Oct 15)](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-03.md) | Oct xx, 2026 | 
+| [Lecture 04 - Theory (Oct 16)](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-04.md) | Oct xx, 2026 |  
 
 #### Part II: The GEMM worklog: naive → cuBLAS
 | Lecture | Data | Lab | Date |
