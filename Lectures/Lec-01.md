@@ -49,8 +49,7 @@ $$
    y &=m \times x\\
    FLOPs/s &= Bandwith \times Arithmatic ~Intensity (AI) =    GPU ~Utilization\\ 
            &= \frac{byte(s)}{s} \times \frac{FLOPs}{byte} \\
-  operations-per-second &= bandwidth \times operations-per-byte \\
-                        
+  operations-per-second &= bandwidth \times operations-per-byte \\                     
 \end{align}
 $$
 
