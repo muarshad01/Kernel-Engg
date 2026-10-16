@@ -26,14 +26,8 @@
 3. TC: Tensor Cores (1 SM = 4 TC)
 4. Threads
 
-#### GH100 die
-* 5HBM stacks in use
-* SRAM (100 MB)??
-* 80 GB
-* 132 SM (528 Tensor cores, 4 per SM)
-* Bandwidth: 3.35 TB/s (Bytes / sec)
-* `989 TFlops/s = 132 (SMs) X 4 (tensor cores in each SM) X 1024 (operations per tick in each tensor core) X 1.83 (ticks per second)`
-* GPU Utilization % = 3.35/989 
+#### H100 die
+* [H100](https://github.com/muarshad01/Kernel-Engg/blob/main/H100.md)
 
 #### Qwen3 - 8B
 * 36 transformer blocks
