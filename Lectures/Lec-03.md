@@ -14,7 +14,7 @@
 
 ***
 
-Task -> Blocks -> SMs -> Quadrants -> Warp schedulers -> Warps -> Threads
+* Task -> Blocks -> SMs -> Quadrants -> Warp schedulers -> Warps -> Threads
 
 ***
 
