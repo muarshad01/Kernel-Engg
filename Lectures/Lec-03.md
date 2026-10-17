@@ -20,4 +20,11 @@
 
 * 15:00
 
+#### Image Example
+* Grid -> Blocks -> Threads
+* Block size = Num threads a block contains
+
+* 30:00
+
+
 
