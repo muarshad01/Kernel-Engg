@@ -26,5 +26,31 @@
 
 * 30:00
 
+```
+blockdim.x
+blockdim.y
+
+blockIdx.x
+blockIdx.y
+
+threadIdx.x
+threadIdx.y
+```
+
+#### Formula: Thread Location
+```
+x = (blockIdx.x * blockdim.x) + threadIdx.x
+y = (blockdim.y * blockdim.y) + threadIdx.y
+```
+
+* 40:00
+
+
+
+***
+
+
+
+
 
 
