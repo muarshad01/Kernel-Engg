@@ -17,3 +17,7 @@
 Task -> Blocks -> SMs -> Quadrants -> Warp schedulers -> Warps -> Threads
 
 ***
+
+* 15:00
+
+
