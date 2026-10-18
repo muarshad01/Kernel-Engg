@@ -33,8 +33,10 @@
 
 #### GPU Chip Limits
 * [H100](https://github.com/muarshad01/Kernel-Engg/blob/main/H100.md)
-  * FLOPs/s theoretical: 989 TFLOPs/s
-  * FLOPs/s actual: 
+  * Tensor Core: FLOPs/s theoretical: 989 TFLOPs/s = 132 (SMs) X 4 (tensor cores in each SM) X 1024 (operations per tick in each tensor core) X 1.83 (ticks per second)
+  * Bandwidth: 3.35 TB/s
+  * CUDA Core: 67 TFLOPs/s
+  * GPU Utilization % = 3.35/989??
   * Kernel Engineer: Extract as much of it as possible
 
 ***
