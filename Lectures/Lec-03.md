@@ -78,6 +78,14 @@ y = (blockdim.y x blockdim.y) + threadIdx.y
 
 ***
 
-* 1:30:00
+* 1:40:00
+
+#### SIMD & SIMT
+
+
+***
+
+
+
 
 
