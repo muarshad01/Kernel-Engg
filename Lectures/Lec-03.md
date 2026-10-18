@@ -11,10 +11,11 @@
 ***
 
 * Chip -> GPC -> SM -> Blocks -> Warps -> Threads
+* SMs -> Quadrants -> Warp schedulers -> Warps -> Threads
 
 ***
 
-* Task -> Blocks -> SMs -> Quadrants -> Warp schedulers -> Warps -> Threads
+* Task -> Blocks
 
 ***
 
@@ -24,7 +25,6 @@
 * Grid -> Blocks -> Threads
 * Grid: 768 x 1,024 = 3,072 blocks = 
 * Block: 16 x 16 = 256 threads
-* Each block has 256 threads
 
 * 30:00
 
@@ -73,7 +73,7 @@ y = (blockdim.y x blockdim.y) + threadIdx.y
 
 #### SM Limits
 1. Maximum number of threads = 64 x 32 = 2,048 threads
-2. Maximum number of registers = 65,336
+2. Maximum number of registers = 65,336 ??
 3. Shared memory
 
 ***
