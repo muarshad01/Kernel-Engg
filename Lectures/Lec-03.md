@@ -30,20 +30,9 @@
 * 30:00
 
 #### Formula: Thread Location
-```
-blockDim.x
-blockDim.y
-
-blockIdx.x
-blockIdx.y
-
-threadIdx.x
-threadIdx.y
-```
-
-```c++
-x = (blockIdx.x x blockdim.x) + threadIdx.x
-y = (blockdim.y x blockdim.y) + threadIdx.y
+```python
+x = (blockIdx.x * blockdim.x) + threadIdx.x
+y = (blockdim.y * blockdim.y) + threadIdx.y
 ```
 
 ***
