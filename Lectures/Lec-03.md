@@ -44,7 +44,7 @@ y = (blockdim.y * blockDim.y) + threadIdx.y
 #### SMs
 * [H100](https://github.com/muarshad01/Kernel-Engg/blob/main/H100.md)
 * SMs -> Quadrants -> Warp schedulers -> Warps -> Threads
-* SM has 4 Quadrants: $$\{Q_1, Q_2, Q_3, Q_4\}$$
+* SM has 4 Quadrants: $$\\{Q_1, Q_2, Q_3, Q_4\\}$$
 * Each quadrant has a Warp Scheduler
 * Warps is a group of 32 threads, which are executed together.
 
