@@ -16,10 +16,10 @@
 #### Part II: The GEMM worklog: naive → cuBLAS
 | Lecture | Data | Status |
 |---|---|---|
-| [Lecture 05](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-05.md) | Oct xx, 2026| | 
-| [Lecture 06](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-06.md) | Oct xx, 2026| | 
-| [Lecture 07](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-07.md) | Oct xx, 2026| |
-| [Lecture 08](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-08.md) | Oct xx, 2026| |
+| [Lecture 05 - Theory (Oct 19) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-05.md) | Oct xx, 2026| | 
+| [Lecture 06 - Coding (Oct 20) - Shubham](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-06.md) | Oct xx, 2026| | 
+| [Lecture 07 - Theory (Oct 22) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-07.md) | Oct xx, 2026| |
+| [Lecture 08 - Coding (Oct 23) - Shubham](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-08.md) | Oct xx, 2026| |
 
 #### Part III: Attention & profiling
 | Lecture | Data | Lab | Date |
