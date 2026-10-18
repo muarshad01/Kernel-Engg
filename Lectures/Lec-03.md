@@ -23,14 +23,16 @@
 
 #### Image Example
 * Grid -> Blocks -> Threads
-* Grid: 768 x 1,024 = 3,072 blocks = 
-* Block: 16 x 16 = 256 threads
+* Grid = 768 x 1,024 = 786,432 pixels = 786,432 threads
+* Grid = 3,072 blocks 
+* Grid = 1 Block: 16 x 16 = 256 threads
 
 * 30:00
 
+#### Formula: Thread Location
 ```
-blockdim.x
-blockdim.y
+blockDim.x
+blockDim.y
 
 blockIdx.x
 blockIdx.y
@@ -39,8 +41,7 @@ threadIdx.x
 threadIdx.y
 ```
 
-#### Formula: Thread Location
-```
+```c++
 x = (blockIdx.x x blockdim.x) + threadIdx.x
 y = (blockdim.y x blockdim.y) + threadIdx.y
 ```
