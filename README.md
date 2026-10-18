@@ -76,6 +76,7 @@
 * [LeetGPU](https://leetgpu.com/)
 * https://github.com/infatoshi/cuda-course
 * [How a GPU Really Works: Intro to CUDA, From an iPhone to an H100](https://www.youtube.com/watch?v=Nn5XlSwVlOw&t=4021s)
+* [100-days-cuda](https://github.com/shlokgpu/100-days-cuda)
 
 ***
 
