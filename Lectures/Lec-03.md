@@ -85,7 +85,7 @@ y = (blockdim.y x blockdim.y) + threadIdx.y
 
 ***
 
-
+* 1:50:00
 
 
 
