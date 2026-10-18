@@ -63,10 +63,21 @@ y = (blockdim.y x blockdim.y) + threadIdx.y
 
 * 1:20:00
 
+***
 
+#### The Register Wall
+* 32 cols x 512 rows = 16,348 ergistres
 
 ***
 
 
+#### SM Limits
+1. Maximum number of threads = 64 x 32 = 2,048 threads
+2. Maximum number of registers = 65,336
+3. Shared memory
+
+***
+
+* 1:30:00
 
 
