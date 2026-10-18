@@ -22,7 +22,9 @@
 
 #### Image Example
 * Grid -> Blocks -> Threads
-* Block size = Num threads a block contains
+* Grid: 768 x 1,024 = 3,072 blocks = 
+* Block: 16 x 16 = 256 threads
+* Each block has 256 threads
 
 * 30:00
 
@@ -39,12 +41,14 @@ threadIdx.y
 
 #### Formula: Thread Location
 ```
-x = (blockIdx.x * blockdim.x) + threadIdx.x
-y = (blockdim.y * blockdim.y) + threadIdx.y
+x = (blockIdx.x x blockdim.x) + threadIdx.x
+y = (blockdim.y x blockdim.y) + threadIdx.y
 ```
 
 * 40:00
 
+* 1 Chip = 8 GPC = 8 x 18 = 144 SMs
+* 1 GPUC = 18 SM
 
 
 ***
