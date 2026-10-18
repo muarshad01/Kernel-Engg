@@ -54,7 +54,7 @@ y = (blockdim.y x blockdim.y) + threadIdx.y
 ***
 
 #### SM
-* SM has 4 Quadrants: Q_1, Q_2, Q_3, Q_4
+* SM has 4 Quadrants: $$\{Q_1, Q_2, Q_3, Q_4\}$$
 * Warp Schedulers
 * Warps (A group of 32 threads, which are executed together)
 * Threads
