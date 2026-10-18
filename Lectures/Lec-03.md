@@ -1,5 +1,6 @@
 ## Lecture 3: The CUDA programming model
-
+* How does a GPU run your code?
+* We follow one image through an H100. Grids, blocks, warps and threads; streaming multiprocessors (SM) and the warp scheduler; registers, shared memory and occupancy; and why 32 threads move as one.
 * [CUDA Programming Guide v13.4.2](https://docs.nvidia.com/cuda/cuda-programming-guide/index.html)
 
 #### GPU Limits
