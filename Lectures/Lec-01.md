@@ -1,10 +1,9 @@
 ## Lecture 1: How fast this Can go? - Raj
+* __Qwen3-8B__ on one H100 writes about 149 tokens per second, far below what the chip's arithmetic allows. We find out why with the roofline model: arithmetic intensity (AI), memory-bound and compute-bound work. In the second hour, the class becomes the batch and we watch throughput change as more users arrive.
 
-- Graphic Designers
-- 3D animators
-- Opus 5.5 Astra
-
-#### Limits: Speed and Memory
+#### Limits
+* Compute (FLOPs/s)
+* Memory (TB/s)
 
 #### Data Centers
 * GPU chips
@@ -33,7 +32,9 @@
 * 40:00
 
 #### GPU Chip Limits
-* [H100](https://github.com/muarshad01/Kernel-Engg/blob/main/H100.md) - FLOPS/s: 989 TFlops/s
+* [H100](https://github.com/muarshad01/Kernel-Engg/blob/main/H100.md)
+  * FLOPs/s theoretical: 989 TFLOPs/s
+  * FLOPs/s actual: 
   * Kernel Engineer: Extract as much of it as possible
 
 ***
