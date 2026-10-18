@@ -5,7 +5,7 @@
 #### GPU Limits
 * Compute (FLOPs/s)
 * Bandwidth (TB/s)
-* In out control AI
+* In our control AI
 * AI x Bandwith = Achievable FLOPs/s
 
 ***
@@ -45,34 +45,27 @@ x = (blockIdx.x x blockdim.x) + threadIdx.x
 y = (blockdim.y x blockdim.y) + threadIdx.y
 ```
 
-* 40:00
-
-* 1 Chip = 8 GPC = 8 x 18 = 144 SMs
-* 1 GPUC = 18 SM
-
-
 ***
 
+* 40:00
+
 #### SM
+* [H100](https://github.com/muarshad01/Kernel-Engg/blob/main/H100.md)
+* SMs -> Quadrants -> Warp schedulers -> Warps -> Threads
 * SM has 4 Quadrants: $$\{Q_1, Q_2, Q_3, Q_4\}$$
-* Warp Schedulers
-* Warps (A group of 32 threads, which are executed together)
-* Threads
+* Each quadrant has a Warp Scheduler
+* Warps is a group of 32 threads, which are executed together.
 
 ***
 
 * 1:20:00
 
-***
-
 #### The Register Wall
 * 32 cols x 512 rows = 16,348 ergistres
 
 ***
-
-
 #### SM Limits
-1. Maximum number of threads = 64 x 32 = 2,048 threads
+1. Maximum number of threads = 64 Warps x 32 = 2,048 Threads
 2. Maximum number of registers = 65,336 ??
 3. Shared memory
 
@@ -82,11 +75,9 @@ y = (blockdim.y x blockdim.y) + threadIdx.y
 
 #### SIMD & SIMT
 
-
 ***
 
 * 2:20:00
-
 
 ***
 
