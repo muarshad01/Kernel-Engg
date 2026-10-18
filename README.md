@@ -70,14 +70,6 @@
 
 ***
 
-#### [LeetGPU](https://leetgpu.com/)
-* https://github.com/rishisankar/leetgpu/tree/main
-* https://github.com/dsl-learn/LeetGPU
-* https://github.com/lzyrapx/LeetGPU
-* https://github.com/unava1lable/leetgpu-solutions
-
-***
-
 #### Useful GPU Resources 
 * [GPU development with Python 101 Tutorial](https://github.com/jacobtomlinson/gpu-python-tutorial)
 * [GPU MODE Resource Stream](https://github.com/gpu-mode/resource-stream)
