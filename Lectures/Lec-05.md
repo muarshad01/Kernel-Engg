@@ -33,17 +33,8 @@
 | SRAM | On SMs      | Shared Memory |
 | SRAM | On SMs      | Registers |
 
-#### Off-Chip
-1. HBM (Another name: DRAM) - off-chip - 80 GB
+* __Flash Attention__: L1 Cache + Shared Memory
 
-#### On-Chip
-
-##### Outside SMs
-3. L2 Cache (Shared by ALL the SMs) - on-chip - 50 MB
-##### On SMs
-4. L1 Cache
-5. Share memory
-6. Registers
+***
 
 
-* 
