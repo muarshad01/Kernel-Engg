@@ -27,7 +27,7 @@
 | OFF-Chip | HBM - 80 GB||
 |---|---|---|
 | ON-Chip | Outside SMs | L2 Cache - 50 MB|
-| ON-Chip | Outside SMs | L2 Cache - 50 MB|
+|---|---|---|
 | ON-Chip | Inside SMs  | L1 Cache |
 | ON-Chip | Inside SMs  | Shared Memory |
 | ON-Chip | Inside SMs  | Registers |
