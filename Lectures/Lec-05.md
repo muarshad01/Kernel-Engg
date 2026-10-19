@@ -22,9 +22,13 @@
 * 10:00
 
 
-|||||
-|---|---|---|---|
-| OFF-Chip | HBM (DRAM) - 80 GB | On-Chip            |                 |
+|||
+|---|---|
+| OFF-Chip | HBM (DRAM) - 80 GB  |
+
+
+
+| On-Chip            |                 |
 |---|---|---|---|
 |          |                    | Outside SMs (SRAM) | L2 Cache - 50 MB|
 |---|---|---|---|
