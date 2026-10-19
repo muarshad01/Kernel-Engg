@@ -27,16 +27,16 @@
 
 || ON - Chip |||
 |---|---|---|---|
-| SRAM | Outside SMs | L2 Cache | 50 MB |
-| SRAM | On SMs      | L1 Cache | 256 KB on each SM (65,536 Registers) |
-| SRAM | On SMs      | Shared Memory ||
-| SRAM | On SMs      | Registers | 256 KB on each SM |
+| SRAM | Outside SMs | L2 Cache      | 50 MB |
+| SRAM | On SMs      | L1 Cache      | 256 KB on each SM (65,536 Registers) |
+| SRAM | On SMs      | Shared Memory | |
+| SRAM | On SMs      | Registers     | 256 KB on each SM |
 
 * __Flash Attention__: L1 Cache + Shared Memory
 
 ***
 
-* 30:00
+* 40:00
 
 
 
