@@ -6,3 +6,17 @@
 * Why most kernels spend their time waiting for data rather than doing arithmetic.
 
 *** 
+
+#### Companies
+* NVIDIA
+* Hyperscalers: Google, Amazon, Meta
+
+#### Companies: Memory Wall
+* [Cerebras](https://www.cerebras.ai/)
+* [Weka](https://www.weka.io/)
+* [Tellas??]()
+* [Micron](https://www.micron.com/)
+
+***
+
+* 10:00
