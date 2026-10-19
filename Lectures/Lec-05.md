@@ -22,9 +22,9 @@
 * 10:00
 
 
-| Chip ||
+| OFF - Chip |
 |---|---|
-| OFF-Chip | HBM (DRAM) - 80 GB  |
+| HBM (DRAM) - 80 GB  |
 
 | On-Chip ||
 |---|---|
