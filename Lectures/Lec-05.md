@@ -22,16 +22,16 @@
 * 10:00
 
 
-| OFF - Chip |
-|---|
-| HBM (DRAM) - 80 GB  |
-
-| ON - Chip ||
+|| OFF - Chip |
 |---|---|
-| Outside SMs (SRAM) | L2 Cache - 50 MB|
-| Inside SMs  (SRAM) | L1 Cache |
-| Inside SMs  (SRAM) | Shared Memory |
-| Inside SMs  (SRAM) | Registers |
+| DRAM | HBM - 80 GB  |
+
+|| ON - Chip ||
+|---|---|---|
+| SRAM | Outside SMs | L2 Cache - 50 MB|
+| SRAM | On SMs      | L1 Cache |
+| SRAM | On SMs      | Shared Memory |
+| SRAM | On SMs      | Registers |
 
 #### Off-Chip
 1. HBM (Another name: DRAM) - off-chip - 80 GB
