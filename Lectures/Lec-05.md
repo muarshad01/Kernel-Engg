@@ -23,14 +23,13 @@
 
 || OFF - Chip ||Ticks|
 |---|---|---|---|
-| DRAM | HBM | 80 GB ||
+| DRAM | HBM | 80 GB | 800 |
 
 || ON - Chip |||Ticks|
 |---|---|---|---|---|
-| SRAM | Outside SMs | L2 Cache      | 50 MB ||
-| SRAM | On SMs      | L1 Cache      | 256 KB on each SM (65,536 Registers) ||
-| SRAM | On SMs      | Shared Memory | ||
-| SRAM | On SMs      | Registers     | 256 KB on each SM ||
+| SRAM | Outside SMs | L2 Cache (Shared by ALL SMs) | 50 MB                                | 480 |
+| SRAM | On SMs      | L1 Cache & Shared Memory     | 256 KB on each SM (65,536 Registers) | 320 |
+| SRAM | On SMs      | Registers                    | 256 KB on each SM                    ||
 
 * __Flash Attention__: L1 Cache + Shared Memory
 
