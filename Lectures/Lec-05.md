@@ -57,12 +57,12 @@
 
 * 2:10:00
 
-#### Bank Conflicts
+#### Bank Conflicts (Padding)
 * Shared Memory has 32 banks
 * Warp has 32 threads
 
 
-* 2:30:00
+* 2:40:00
 
 
 
