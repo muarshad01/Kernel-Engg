@@ -54,5 +54,5 @@
 * Blur: Every pixel becomes average of its neighbours
 
 
-* 1:50:00
+* 2:00:00
 
