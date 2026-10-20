@@ -53,8 +53,16 @@
 * Example: Blur image of Dog
 * Blur: Every pixel becomes average of its neighbours
 
+***
 
 * 2:10:00
+
+#### Bank Conflicts
+* Shared Memory has 32 banks
+* Warp has 32 threads
+
+
+* 2:30:00
 
 
 
