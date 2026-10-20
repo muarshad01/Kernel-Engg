@@ -8,14 +8,7 @@
 *** 
 
 #### Companies
-* NVIDIA
-* Hyperscalers: Google, Amazon, Meta
-
-#### Companies: Memory Wall
-* [Cerebras](https://www.cerebras.ai/)
-* [Weka](https://www.weka.io/)
-* [Tellas??]()
-* [Micron](https://www.micron.com/)
+* [Companies](https://github.com/muarshad01/Inference-Engg/blob/main/companies.md)
 
 ***
 
