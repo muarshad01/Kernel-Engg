@@ -50,8 +50,9 @@
 
 #### L1 Cache & Share Memory
 
-***
+* Example: Blur image of Dog
+* Blur: Every pixel becomes average of its neighbours
 
 
-
+* 1:50:00
 
