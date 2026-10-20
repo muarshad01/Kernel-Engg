@@ -64,7 +64,7 @@
 
 * 2:40:00
 
-
+* Threads, Registers, Shared Memory
 
 
 
