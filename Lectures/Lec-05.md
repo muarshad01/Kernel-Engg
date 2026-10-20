@@ -44,9 +44,20 @@
 
 * 1:00:00
 
+#### One Warp, how many Creates!
 
+***
 
+* SIMT disaster a.k.a Warp Divergence
+* Memory disaster / coalescing
 
+***
+
+* 1:30:00
+
+#### L1 Cache & Share Memory
+
+***
 
 
 
