@@ -71,7 +71,7 @@
 
 * 35:00
 
-#### 1. Naive Kernel
+#### 1. Naive Kernel 
 
 * 1 block size = Block(0, 0) = $32 \times 32$ = $1,024$ threads (We are assuming each block has 1,024 threads)
     * Consider every column as a Warp: $\\{Warp_0, \ldots, Warp_{31}\\}$
@@ -87,6 +87,18 @@
 
 ***
 
-* A^{*}[32,1024] \times B^{*}[1024, 32] = C_{Block(0,0)}[32,32]
+* $A^{*}[32,1024] \times B^{*}[1024, 32] = C_{Block(0,0)}[32,32]$
+
+***
+
+#### (SIMT)
+* We have memeory coalenence issue
+* NOTE: 1 sector is 32 bytes
+* Bytes transferred for A = $32 \times 32$ = 1,024 bytes
+* Bytes transferred for B = 32 = 32 bytes (Only one element)
+* Total bytes transferred = 1,056 bytes
+* FLOPs = 64 = 32 additions and multiplications
+* FLOPs/bytes = \frac{64}{1,056} = 0.06
+* Our aim it to achive a reach point of 20 ()
 
 ***
