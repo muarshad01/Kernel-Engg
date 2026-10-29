@@ -160,15 +160,14 @@ $$
 
 | Kernel-3       | |
 |---|---|
-| Bytes transferred for A (1 element)      | 32 bytes (1 sector = 8 elements) <br> NOTE: for one element we transfer 1 sector or 8 elements (i.e., 32 bytes) |
-| Bytes transferred for B (1 row)       | Full row = 128 bytes (4 sector = 32 elememts)|
-| Total bytes transferred (A+B) |  $${\color{red}32 + 128 = 160 ~bytes}$$ |
-| FLOPs                         | 64 (32 additions and multiplications) |
-| AI = FLOPs/bytes              | $\frac{64}{160} = 0.4$ |
+| Bytes transferred for (A_i, B_i) - Global mem to Shared mem | $2 (block) \times 32 \times 32 \times 4(bytes) = 8,192$|
+| FLOPs                         | $2n^3 = 2 \times 32 \times 32 \times 32 = 65,523$ |
+| AI = FLOPs/bytes              | $\frac{65,536}{8,192} = 8$ |
 | Our aim is                    | Achive a reach point of 20 ([H100](https://github.com/muarshad01/Kernel-Engg/blob/main/H100.md)) |
 
-* Bytes transferred: Global mem -> Shared mem - $2 (block) \times 32 \times 32 \times 4(bytes)$
-* FLOPS: $2n^3 = 2 \times 32 \times 32 \times 32 = 65,523$
+* $ K1 (0.01) \rightarrow K2 (0.4) \righarrow K2 (xx)$
+
+* Measure: Kernel-3 took 235.1 micor seconds, 9.14 TFLOPs/s: 1.5 times as fast as kernel 2. The bytes asked of global memory fell 20 times; the time did not.
 
 ***
 
