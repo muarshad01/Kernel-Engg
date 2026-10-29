@@ -1,5 +1,4 @@
 ## Lecture 7: Kernel Optimization Part-1
-
 * GEMM (General Matrix Multiply) worklog I
 * Why matrix multiplication is the operation AI runs more than any other.
 * The naive kernel and the small fraction of the GPU it uses.
