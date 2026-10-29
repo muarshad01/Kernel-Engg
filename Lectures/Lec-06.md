@@ -202,10 +202,10 @@ $$
 
 |   | Kernel-3 | Kernel-4 |
 |---|---|---|
-| Threads   | 1,024 |       32 |
-| Warps     |    32 |        1 |
-| Blocks    | 1,024 |    1,024 |
-| 1 SM      |       | 8 blocks |
-| 1 SM      |       |  8 Warps | 
+| Total Blocks | 1,024 |    1,024 |
+| 1 SM         |       | 8 Blocks |
+| 1 Block.     | 1,024 Threads |       32 Threads |
+| Warps        |    32 |        1 |
+| 1 SM         |       |  8 Warps | 
 
 ***
