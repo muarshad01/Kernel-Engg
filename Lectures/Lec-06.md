@@ -50,5 +50,5 @@
 
 2. Arithmetic -> Computes
 * H100 - 67 TFLOPs/s (operations/s)
-* $\frac{2,147,483,648}{67 ~TFLOPs/s} = 32~\mu sec$ 
+* $\frac{2,147,483,648}{67~\text{TFLOPs/s|} = 32\mu sec$ 
 #### 1. Naive Kernel
