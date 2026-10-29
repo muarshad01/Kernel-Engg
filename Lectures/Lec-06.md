@@ -24,16 +24,14 @@
 ***
 
 #### Part-1
-* Naive Kernel
-* Memory Coalencence Kernel
-* Chunked kernel
-* 1-D block tiling Kernel
-
-#### Part-2
-* 2-D block-tiling Kernel
-* Warp tiling kernel
-* Vector fusion Kernel
-* Autotuning Kernel
+1. Naive Kernel
+2. Memory Coalencence Kerne
+3. Chunked kernel
+4. 1-D block tiling Kernel
+5. 2-D block-tiling Kernel
+6. Warp tiling kernel
+7. Vector fusion Kernel
+8. Autotuning Kernel
 
 ***
 
@@ -44,4 +42,4 @@
 
 ***
 
-
+#### 1. Naive Kernel
