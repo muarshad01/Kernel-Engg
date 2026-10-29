@@ -162,7 +162,7 @@ $$
 |---|---|
 | Bytes transferred for (A_i, B_i) - Global mem to Shared mem | $2 (block) \times 32 \times 32 \times 4(bytes) = 8,192$|
 | FLOPs                         | $2n^3 = 2 \times 32 \times 32 \times 32 = 65,523$ |
-| AI = FLOPs/bytes              | $\frac{65,536}{8,192} = 8$ |
+| AI = FLOPs/bytes              | $\frac{65,536}{8,192} = 8 (Actually ~lower)$ |
 | Our aim is                    | Achive a reach point of 20 ([H100](https://github.com/muarshad01/Kernel-Engg/blob/main/H100.md)) |
 
 * $K_1 (0.01) \rightarrow K_2 (0.4) \rightarrow K_3 (xx)$
@@ -174,9 +174,19 @@ $$
 
 * 1:50:00
 * How many READs for one WRITE?
+* ALL these thread take 2 READs for each compute!
+* For every multiply add therads makes 2 READs.
 
+#### MIO Throttle
+* There is a lot of waiting due to share memory.
 
 ***
+
+#### Kernel-4: Block tiling Kernel
+
+***
+
+
 
 
 
