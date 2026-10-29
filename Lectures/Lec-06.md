@@ -50,7 +50,7 @@
 
 2. Arithmetic -> Computes
 * H100 - 67 TFLOPs/s (operations/s)
-* $\frac{2,147,483,648}{67~\text{TFLOPs/s}} = 32 ~\mu sec$ 
+* $\frac{2,147,483,648}{67~\text{TFLOPs/s}} = 32 ~\mu sec$ -- for cuBLAS (56 \mu sex)
 
 3. Memory: How much memory would move from HBM
 * A: [1024, 1,024] - read once - $1024 \times 1024 \times 4 = 4,194,304$ bytes
