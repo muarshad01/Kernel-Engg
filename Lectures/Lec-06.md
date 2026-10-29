@@ -129,6 +129,15 @@
 
 
 * 1:30
+* ALL threads read same value of A = Use Shared memory
+* What to put in Shared memory
+   * Entire A[32, 1024] = $32 \times 1024 \times 4 = 131,072$ bytes
+   * Entire B[1024, 32] = $1024 \times 32 \times 4 = 131,072$ bytes
+   * Total = 256 KB
+   * [H100 shared memory](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-05.md)
+ 
+* NOTE: A block goes to SM. SM has limits
+* [SM Limits](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-03.md)
 
 ***
 
