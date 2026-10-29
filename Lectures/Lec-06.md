@@ -95,7 +95,7 @@
 * We have memeory coalenence issue
 * NOTE: 1 sector is 32 bytes
 
-| | |
+| $C_{Block(0,0)}[32,32]$       | |
 |---|---|
 | Bytes transferred for A       | $32 \times 32$ = 1,024 bytes |
 | Bytes transferred for B       | 32 bytes (Only one element) |
