@@ -73,7 +73,7 @@
 
 #### 1. Naive Kernel
 
-* 1 block size = $32 \times 32$
+* 1 block size = $32 \times 32$ = $1,024$ threads (We are assuming each block has 1,024 threads)
 * $A \times B = C [1024, 1024] = \frac{1,024 \times 1,024}{32 \times 32} = 1,024$ blocks
 
 
