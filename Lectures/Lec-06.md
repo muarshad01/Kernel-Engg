@@ -100,7 +100,7 @@
 | Bytes transferred for B (1 element)  | 32 bytes (Only one element) |
 | Total bytes transferred (A+B) |  $${\color{red}1,024 + 32 = 1,056 ~bytes}$$ |
 | FLOPs                         | 64 (32 additions and multiplications) |
-| FLOPs/bytes                   |  $${\color{red}$\frac{64}{1,056} = 0.06$}$$ |
+| FLOPs/bytes                   | $\frac{64}{1,056} = 0.06$ |
 | Our aim is                    | Achive a reach point of 20 ([H100](https://github.com/muarshad01/Kernel-Engg/blob/main/H100.md)) |
 
 ***
