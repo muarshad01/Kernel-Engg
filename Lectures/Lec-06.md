@@ -167,8 +167,8 @@ $$
 | AI = FLOPs/bytes              | $\frac{64}{160} = 0.4$ |
 | Our aim is                    | Achive a reach point of 20 ([H100](https://github.com/muarshad01/Kernel-Engg/blob/main/H100.md)) |
 
-Bytes transferred: Global mem -> Shared mem - $2 (block) \times 32 \times 32 \times 4(bytes)$
-FLOPS: $2n^3 = 2 \times 32 \times 32 \times 32 = 65,523$
+* Bytes transferred: Global mem -> Shared mem - $2 (block) \times 32 \times 32 \times 4(bytes)$
+* FLOPS: $2n^3 = 2 \times 32 \times 32 \times 32 = 65,523$
 
 ***
 
