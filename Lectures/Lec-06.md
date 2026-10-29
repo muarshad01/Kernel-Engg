@@ -53,7 +53,7 @@
 * $\frac{2,147,483,648}{67~\text{TFLOPs/s}} = 32\mu sec$ 
 
 3. Memory: How much memory would move from HBM
-* A: [1024, 1,024] - read once - 1024 \times 1024 \times 4 = 4,194,304$ bytes
+* A: [1024, 1,024] - read once - $1024 \times 1024 \times 4 = 4,194,304$ bytes
 * B: [1024, 1,024] - read once
 * C: [1024, 1,024] - write once
 * Total bytes moved = $12,582,912$ bytes
