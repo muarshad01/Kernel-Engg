@@ -60,5 +60,5 @@
 * Memory Bandwidth: 3.35 TB/s (Bytes / sec)
 * Time it takes to move thise bytes = $\frac{12,582,912}{3.35 ~\text{Tera bytes/s}} = 3.76 ~\mu sec$
 * Conclusion: From above we conclude, MM is compute bound.
-* Arithmentic Intensity (AI) = $\frac{2,147,483,648 ops}{12,582,912}=171$
+* Arithmentic Intensity (AI) = $\frac{2,147,483,648 ~ops}{12,582,912 ~bytes}=171$
 #### 1. Naive Kernel
