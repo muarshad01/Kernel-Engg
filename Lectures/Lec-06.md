@@ -44,25 +44,30 @@
 1. __How many FLOPs?__
 * Think of ONE output elememnt (C), which is obtained by multiplying 1st row (A) multiplied by 1st col (B) - $n$ multiplications and $(n-1)$ additions = $(2n-1)$ operations
 * Output matrix C has $n^2$ elements
-* Total operations = $(2n-1) \times n^2 = 2n^3 = 2 \times 1024 \times 1024 \times 1024 = 2,147,483,648$
+* __Total operations__ = $(2n-1) \times n^2 = 2n^3 = 2 \times 1024 \times 1024 \times 1024 = 2,147,483,648$
 
 2. __Arithmetic: Compute__
 * H100 - 67 TFLOPs/s (operations/s)
-* $\frac{2,147,483,648}{67~\text{TFLOPs/s}} = 32 ~\mu sec$ -- for cuBLAS (56 \mu sex)
+* __Total compute time__: $\frac{2,147,483,648}{67~\text{TFLOPs/s}} = 32 ~\mu sec = 56 ~\mu sec (cuBLAS)$
 
 3. __Memory: How much memory would move from HBM__
 * A: [1024, 1,024] - read once - $1024 \times 1024 \times 4 = 4,194,304$ bytes
 * B: [1024, 1,024] - read once
 * C: [1024, 1,024] - write once
-* Total bytes moved = $12,582,912$ bytes
+* __Total bytes moved__ = $12,582,912$ bytes
 * Memory Bandwidth: 3.35 TB/s (Bytes / sec)
-* Time it takes to move thise bytes = $\frac{12,582,912}{3.35 ~\text{Tera bytes/s}} = 3.76 ~\mu sec$
-* Conclusion: From above we conclude, MM is compute bound.
-* Arithmentic Intensity (AI) = $\frac{2,147,483,648 ~ops}{12,582,912 ~bytes}=171$
+* __Time it takes to move these bytes__ = $\frac{12,582,912}{3.35 ~\text{Tera bytes/s}} = 3.76 ~\mu sec$
 
 4. __How a matrix is stored (Byte line format)__
 * Each row is $1024x4=4,096$ bytes apart
 * Each adjacent element is $4$ bytes apart
+
+#### Conclusion: 
+* From above we conclude, MM is compute bound.
+* Arithmentic Intensity (AI) = $\frac{2,147,483,648 ~ops}{12,582,912 ~bytes}=171$
+
+
+***
 
 * 35:00
 
