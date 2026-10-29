@@ -209,7 +209,12 @@ $$
 ***
 
 #### Hyper parameters
-1. Chunk size
+* 1 - Chunk size (Shared memeory is respected)
+* 2 - Size of tile
+   * More size: Less READS per compute
+   * More size: Less Warps per SM!!
+
+***
 
 
 
