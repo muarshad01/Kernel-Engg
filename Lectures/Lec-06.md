@@ -79,9 +79,14 @@
     * Neighboring threads are in columns
 * $A \times B = C [1024, 1024] = \frac{1,024 \times 1,024}{32 \times 32} = 1,024$ total blocks for output C matrix
 
+***
 
-
+* What part of A and B matrices is needed for Block(0, 0) of output matrix C
+* From A, we'll need entire 32 rows
+* From B, we'll need entire 32 columns
 
 ***
 
+* A^{*}[32,1024] \times B^{*}[1024, 32] = C_{Block(0,0)}[32,32]
 
+***
