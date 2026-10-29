@@ -75,8 +75,8 @@
 
 * 1-block size = Block(0, 0) = $32 \times 32$ = $1,024$ threads (We are assuming each block has 1,024 threads)
     * Consider every column as a Warp: $\\{Warp_0, \ldots, Warp_{31}\\}$
-    * Each thread owns one element
     * Neighboring threads are in columns
+    * Each thread owns one element
 * $A \times B = C [1024, 1024] = \frac{1,024 \times 1,024}{32 \times 32} = 1,024$ total blocks for output C matrix
 
 ***
@@ -90,9 +90,11 @@
 
 #### Single Instruciton on Multiple Thread (SIMT)
 * We have memeory coalenence issue
-* __NOTE__: 1 sector is 32 bytes
+* __NOTE__: 1 sector is 32 bytes (8 elements)
+* 1-element: 4 bytes
+* $A[32,1024] \times B[1024, 32] = C_{Block(0,0)}[32,32]$
 
-| $C_{Block(0,0)}[32,32]$       | |
+| Kernel-1       | |
 |---|---|
 | Bytes transferred for A       | $32 (rows) \times 32 (bytes for one element)$ = 1,024 bytes |
 | Bytes transferred for B       | 32 bytes (Only one element) |
@@ -106,8 +108,20 @@
 * 1:10:00
 
 #### Kernel-2: Memory Coalencence Kernel
+* $A[32,1024] \times B[1024, 32] = C_{Block(0,0)}[32,32]$
+    * Consider every row as a Warp: $\\{Warp_0, \ldots, Warp_{31}\\}$
+    * Neighboring threads are in rows
+    * Each thread owns one element
+    * 1 element = 4 bytes
 
-***
+| Kernel-2       | |
+|---|---|
+| Bytes transferred for A       | 32 bytes (1 sector = 8 elements) <br> NOTE: for one element we transfer 1 sector or 8 elements (i.e., 32 bytes)|
+| Bytes transferred for B       | Full row = 128 bytes (4 sector = 32 elememts)|
+| Total bytes transferred (A+B) | 32 + 128 = 160 bytes |
+| FLOPs                         | 64 (32 additions and multiplications) |
+| AI = FLOPs/bytes              | $\frac{64}{160} = 0.4$ |
+| Our aim is                    | Achive a reach point of 20 ([H100](https://github.com/muarshad01/Kernel-Engg/blob/main/H100.md)) |
 
 
 ***
