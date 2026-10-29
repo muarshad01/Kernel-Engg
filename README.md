@@ -18,7 +18,7 @@
 |---|---|---|
 | [Lecture 05 - Theory (Oct 19) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-05.md) | Oct 20, 2026  | :white_check_mark: | 
 | [Lecture 06 - Coding (Oct 20) - Shubham](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-06.md) | Oct xx, 2026 | | 
-| [Lecture 07 - Theory (Oct 22) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-07.md) | Oct xx, 2026 | :white_check_mark: |
+| [Lecture 07 - Theory (Oct 22) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-07.md) | Oct 30, 2026 | :white_check_mark: |
 | [Lecture 08 - Coding (Oct 23) - Shubham](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-08.md) | Oct xx, 2026 | |
 
 #### Part III: GEMM and tensor cores
