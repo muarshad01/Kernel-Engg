@@ -125,7 +125,8 @@
 
 * 1:25:00
 
-#### Kernel-2: Chunked Kernel (Reduce number of READS)
+#### Kernel-2: Chunked Kernel (Reduce number of READS) 
+* Divide and Concur
 
 
 * 1:30
@@ -134,10 +135,27 @@
    * Entire A[32, 1024] = $32 \times 1024 \times 4 = 131,072$ bytes
    * Entire B[1024, 32] = $1024 \times 32 \times 4 = 131,072$ bytes
    * Total = 256 KB
-   * [H100 shared memory](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-05.md)
+   * [H100 shared memory](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-05.md) - 228 KB
  
 * NOTE: A block goes to SM. SM has limits
 * [SM Limits](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-03.md)
+* Blocks of SM: 48 KB of Shared Memory (unless it asks for more)
+
+$$
+\begin{align}
+A[32,1024] &= A_1[32,32], A_2[32,32], \dots, A_{32}[32,32]\\
+B[32,1024] &= B_1[32,32], B_2[32,32], \dots, B_{32}[32,32]\\
+A \times B &= A_1 \times B_1, A_2 \times B_2, \dots, A_{32}\times B_{32}
+\end{align}
+$$
+
+#### Chunking Steps
+1. Each thread will load A_1, B_1 and then synchronize
+2. Multiply add for all threads
+3. Wait for all threads to finish
+4. Load the next chunk
+
+* __NOTE__: size of chunk is a hyper parameter as long as it fits under Shared memory. This parameter needs to be tuned.
 
 ***
 
