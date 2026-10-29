@@ -193,7 +193,19 @@ $$
 
 ***
 
+* NOTE: 1 SM = 8 blocks
+* NOTE: 1 SM = 64 Warps at most
+* Total Blocks = 1,024 for 132 SMs
+* Kernel-3: 1-block = 1,024 threads = 32 Warps; 
+* Kernel-4: 1-block =    32 threads =  1 Warp 
+*                   =     8 SMs     =. 8 Warps
 
+|   | Kernel-3 | Kernel-4 |
+|---|---|---|
+| Threads   | 1,024 |       32 |
+| Warps     |    32 |        1 |
+| Blocks    | 1,024 |    1,024 |
+| 1 SM      |       | 8 blocks |
+| 1 SM      |       |  8 Warps | 
 
-
-
+***
