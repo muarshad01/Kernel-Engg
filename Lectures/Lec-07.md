@@ -17,10 +17,6 @@
 
 ***
 
-* A: [1024, 1,024] x B: [1024, 1,024] = C: [1024, 1,024]
-
-***
-
 #### Part-1
 1. Naive kernel
 2. Memory coalencence kernel
@@ -36,29 +32,30 @@
 ***
 
 #### Comparision
-
-* Theory: TFLOPs/s
-* Gold Standard: cuBLAS is NVIDIA's GPU-accelerated implementation of the standard BLAS (Basic Linear Algebra Subprograms) library built on top of the CUDA runtime
+* __Theory__: TFLOPs/s
+* __Gold Standard (cuBLAS)__: cuBLAS is NVIDIA's GPU-accelerated implementation of the standard BLAS (Basic Linear Algebra Subprograms) library built on top of the CUDA runtime.
 
 ***
 
+* A: [1024, 1,024] x B: [1024, 1,024] = C: [1024, 1,024]
+
 #### Task at hand
 1. __How many FLOPs?__
-* Think of ONE output elememnt (C), which is obtained by multiplying 1st row (A) multiplied by 1st col (B) - $n$ multiplications and $(n-1)$ additions = $(2n-1)$ operations
+* Think of ONE output elememnt (C_{ij}), which is obtained by multiplying 1st row (A_{0j}) multiplied by 1st col (B_{i0}) - $n$ multiplications and $(n-1)$ additions = $(2n-1)$ operations
 * Output matrix C has $n^2$ elements
 * __Total operations__ = $(2n-1) \times n^2 = 2n^3 = 2 \times 1024 \times 1024 \times 1024 = 2,147,483,648$
 
-2. __Arithmetic: Compute__
+2. __Arithmetic: How much Compute__
 * H100 - 67 TFLOPs/s (operations/s)
 * __Total compute time__: $\frac{2,147,483,648}{67~\text{TFLOPs/s}} = 32 ~\mu sec = 56 ~\mu sec (cuBLAS)$
 
 3. __Memory: How much memory would move from HBM__
 * A: [1024, 1,024] - read once - $1024 \times 1024 \times 4 = 4,194,304$ bytes
-* B: [1024, 1,024] - read once
-* C: [1024, 1,024] - write once
-* __Total bytes moved__ = $12,582,912$ bytes
-* Memory Bandwidth: 3.35 TB/s (Bytes / sec)
-* __Time memory time, i.e., time it takes to move these bytes__ = $\frac{12,582,912}{3.35 ~\text{Tera bytes/s}} = 3.76 ~\mu sec$
+* B: [1024, 1,024] - read once - $1024 \times 1024 \times 4 = 4,194,304$ bytes
+* C: [1024, 1,024] - write once - $1024 \times 1024 \times 4 = 4,194,304$ bytes
+* Total bytes moved = $12,582,912$ bytes
+* Memory Bandwidth: 3.35 Tera bytes/s
+* __Total memory time, i.e., time it takes to move these bytes__ = $\frac{12,582,912}{3.35 ~\text{Tera bytes/s}} = 3.76 ~\mu sec$
 
 4. __How a matrix is stored (Byte line format)__
 * Each row is $1024x4=4,096$ bytes apart
@@ -67,7 +64,6 @@
 #### Conclusion: 
 * From above we conclude, MM is compute bound.
 * Arithmentic Intensity (AI) = $\frac{2,147,483,648 ~ops}{12,582,912 ~bytes}=171$
-
 
 ***
 
