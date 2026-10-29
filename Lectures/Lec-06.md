@@ -128,8 +128,8 @@
 #### Kernel-2: Chunked Kernel (Reduce number of READS) 
 * Divide and Concur
 
-
 * 1:30
+
 * ALL threads read same value of A = Use Shared memory
 * What to put in Shared memory
    * Entire A[32, 1024] = $32 \times 1024 \times 4 = 131,072$ bytes
@@ -157,7 +157,6 @@ $$
 
 * __NOTE__: size of chunk is a hyper parameter as long as it fits under Shared memory. This parameter needs to be tuned.
 
-
 | Kernel-3       | |
 |---|---|
 | Bytes transferred for (A_i, B_i) - Global mem to Shared mem | $2 (block) \times 32 \times 32 \times 4(bytes) = 8,192$|
@@ -171,7 +170,6 @@ $$
 
 #### Why Kernel-3 is not 20 times faster
 
-
 * 1:50:00
 * How many READs for one WRITE?
 * ALL these thread take 2 READs for each compute!
@@ -182,7 +180,16 @@ $$
 
 ***
 
-#### Kernel-4: Block tiling Kernel
+* READs/WRITE = 2/1 (Can we readuce this RATIO!!!)
+
+#### Kernel-4: 1-D Block Tiling
+* Thread ownership of row-col
+* 1-thread has 32 accumulators (Instruction Level Parallelism)
+* READs/Compute = 33/32 
+
+***
+
+* 2:20:00
 
 ***
 
