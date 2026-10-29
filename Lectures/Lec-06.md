@@ -58,5 +58,5 @@
 * C: [1024, 1,024] - write once
 * Total bytes moved = $12,582,912$ bytes
 * Memory Bandwidth: 3.35 TB/s (Bytes / sec)
-* Time it takes to move thise bytes = $\frac{12,582,912}{3.35 \text{Tera bytes/s}} = 3.76 ~\mu sec$
+* Time it takes to move thise bytes = $\frac{12,582,912}{3.35 ~\text{Tera bytes/s}} = 3.76 ~\mu sec$
 #### 1. Naive Kernel
