@@ -56,7 +56,7 @@
 * C: [1024, 1,024] - write once
 * __Total bytes moved__ = $12,582,912$ bytes
 * Memory Bandwidth: 3.35 TB/s (Bytes / sec)
-* __Time it takes to move these bytes__ = $\frac{12,582,912}{3.35 ~\text{Tera bytes/s}} = 3.76 ~\mu sec$
+* __Time memory time, i.e., time it takes to move these bytes__ = $\frac{12,582,912}{3.35 ~\text{Tera bytes/s}} = 3.76 ~\mu sec$
 
 4. __How a matrix is stored (Byte line format)__
 * Each row is $1024x4=4,096$ bytes apart
