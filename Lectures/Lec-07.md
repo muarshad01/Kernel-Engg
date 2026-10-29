@@ -126,7 +126,7 @@
 
 * 1:25:00
 
-#### Kernel-2: Chunked Kernel (Reduce number of READS) 
+#### Kernel-3: Chunked Kernel (Reduce number of READS) 
 * Divide and Concur
 
 * 1:30
@@ -138,9 +138,9 @@
    * Total = 256 KB
    * [H100 shared memory](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-05.md) - 228 KB
  
-* NOTE: A block goes to SM. SM has limits
+* __NOTE__: A block goes to SM. SM has limits
 * [SM Limits](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-03.md)
-* Blocks of SM: 48 KB of Shared Memory (unless it asks for more)
+   * Blocks of SM: 48 KB of Shared Memory (unless it asks for more)
 
 $$
 \begin{align}
@@ -151,7 +151,7 @@ A \times B &= A_1 \times B_1, A_2 \times B_2, \dots, A_{32}\times B_{32}
 $$
 
 #### Chunking Steps
-1. Each thread will load A_1, B_1 and then synchronize
+1. Each thread will load (A_1, B_1) and then synchronize
 2. Multiply add for all threads
 3. Wait for all threads to finish
 4. Load the next chunk
@@ -169,19 +169,18 @@ $$
 
 * Measure: Kernel-3 took 235.1 micor seconds, 9.14 TFLOPs/s: 1.5 times as fast as kernel 2. The bytes asked of global memory fell 20 times; the time did not.
 
-#### Why Kernel-3 is not 20 times faster
-
 * 1:50:00
+
+#### Why Kernel-3 is not 20 times faster
 * How many READs for one WRITE?
 * ALL these thread take 2 READs for each compute!
 * For every multiply add therads makes 2 READs.
 
 #### MIO Throttle
 * There is a lot of waiting due to share memory.
+* READs/WRITE = 2/1 (Can we readuce this RATIO!!!)
 
 ***
-
-* READs/WRITE = 2/1 (Can we readuce this RATIO!!!)
 
 #### Kernel-4: 1-D Block Tiling
 * Thread ownership of row-col
