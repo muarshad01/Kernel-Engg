@@ -75,6 +75,8 @@
 
 * 1 block size = Block(0, 0) = $32 \times 32$ = $1,024$ threads (We are assuming each block has 1,024 threads)
     * Consider every col as Warp: $\\{Warp_0, \ldots, Warp_{31}\\}$
+    * Each thread owns one element
+    * Neighboring threads are in columns
 * $A \times B = C [1024, 1024] = \frac{1,024 \times 1,024}{32 \times 32} = 1,024$ blocks
 
 
