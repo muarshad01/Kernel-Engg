@@ -157,6 +157,19 @@ $$
 
 * __NOTE__: size of chunk is a hyper parameter as long as it fits under Shared memory. This parameter needs to be tuned.
 
+
+| Kernel-3       | |
+|---|---|
+| Bytes transferred for A (1 element)      | 32 bytes (1 sector = 8 elements) <br> NOTE: for one element we transfer 1 sector or 8 elements (i.e., 32 bytes) |
+| Bytes transferred for B (1 row)       | Full row = 128 bytes (4 sector = 32 elememts)|
+| Total bytes transferred (A+B) |  $${\color{red}32 + 128 = 160 ~bytes}$$ |
+| FLOPs                         | 64 (32 additions and multiplications) |
+| AI = FLOPs/bytes              | $\frac{64}{160} = 0.4$ |
+| Our aim is                    | Achive a reach point of 20 ([H100](https://github.com/muarshad01/Kernel-Engg/blob/main/H100.md)) |
+
+Bytes transferred: Global mem -> Shared mem - $2 (block) \times 32 \times 32 \times 4(bytes)$
+FLOPS: $2n^3 = 2 \times 32 \times 32 \times 32 = 65,523$
+
 ***
 
 
