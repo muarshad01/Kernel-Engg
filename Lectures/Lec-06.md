@@ -97,7 +97,7 @@
 
 | $C_{Block(0,0)}[32,32]$       | |
 |---|---|
-| Bytes transferred for A       | $32 \times 32$ = 1,024 bytes |
+| Bytes transferred for A       | $32 (rows) \times 32 (bytes for one element)$ = 1,024 bytes |
 | Bytes transferred for B       | 32 bytes (Only one element) |
 | Total bytes transferred (A+B) | 1,024 + 32 = 1,056 bytes |
 | FLOPs                         | 64 (32 additions and multiplications) |
