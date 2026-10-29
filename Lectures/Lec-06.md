@@ -36,3 +36,12 @@
 * Autotuning Kernel
 
 ***
+
+#### Comparision
+
+* Theory: TFLOPs/s
+* Gold Standard: cuBLAS is NVIDIA's GPU-accelerated implementation of the standard BLAS (Basic Linear Algebra Subprograms) library built on top of the CUDA runtime
+
+***
+
+
