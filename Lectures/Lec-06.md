@@ -43,9 +43,12 @@
 ***
 
 #### Task at hand
-* How many FLOPs?
+1. How many FLOPs?
 * Think of ONE output elememnt (C), which is obtained by multiplying 1st row (A) multiplied by 1st col (B) - $n$ multiplications and $(n-1)$ additions = $(2n-1)$ operations
 * Output matrix C has $n^2$ elements
 * Total operations = $(2n-1) \times n^2 = 2n^3 = 2 \times 1024 \times 1024 \times 1024 = 2,147,483,648$
 
+2. Arithmetic -> Computes
+* H100 - 67 TFLOPs/s (operations/s)
+* $\frac{2,147,483,648}{/67 TFLOPs/s } = 32 \mu sec$ 
 #### 1. Naive Kernel
