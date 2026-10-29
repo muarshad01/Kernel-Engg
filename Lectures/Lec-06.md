@@ -128,8 +128,10 @@
 
 * 1:25:00
 
-#### Kernel-2: Chunked Kernel
+#### Kernel-2: Chunked Kernel (Reduce number of READS)
 
+
+* 1:30
 
 ***
 
