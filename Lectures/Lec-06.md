@@ -44,8 +44,8 @@
 
 #### Task at hand
 * How many FLOPs?
-* Think of ONE output elememnt: 1st row, 1st col - n multiplications and (n-1) additions = (2n-1) operations
-* Since there are n^2 output elements in matric x
+* Think of ONE output elememnt (C), which is obtained by multiplying 1st row (A) multiplied by 1st col (B) - $n$ multiplications and $(n-1)$ additions = $(2n-1)$ operations
+* Output matrix C has $n^2$ elements
 * Total operations = $(2n-1) \times n^2 = 2n^3 = 2 \times 1024 \times 1024 \times 1024 = 2,147,483,648$
 
 #### 1. Naive Kernel
