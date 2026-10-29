@@ -1,4 +1,4 @@
-## Lecture 7: Kernel Optimization - Part 1
+## Lecture 7: Kernel Optimization Part-1
 
 ***
 
