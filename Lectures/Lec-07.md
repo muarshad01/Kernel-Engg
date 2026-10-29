@@ -41,7 +41,7 @@
 
 #### Task at hand
 1. __How many FLOPs?__
-* Think of ONE output elememnt (C_{ij}), which is obtained by multiplying 1st row (A_{0j}) multiplied by 1st col (B_{i0}) - $n$ multiplications and $(n-1)$ additions = $(2n-1)$ operations
+* Think of ONE output elememnt ($C_{ij}$), which is obtained by multiplying 1st row ($A_{0j}$) multiplied by 1st col ($B_{i0}$) - $n$ multiplications and $(n-1)$ additions = $(2n-1)$ operations
 * Output matrix C has $n^2$ elements
 * __Total operations__ = $(2n-1) \times n^2 = 2n^3 = 2 \times 1024 \times 1024 \times 1024 = 2,147,483,648$
 
@@ -71,17 +71,17 @@
 
 #### 1. Kernel-1: Naive Kernel 
 
-* 1-block size = Block(0, 0) = $32 \times 32$ = $1,024$ threads (We are assuming each block has 1,024 threads)
+* 1-block size = Block(0, 0) = $32 \times 32$ = $1,024$ threads
+    * We are assuming each block has 1,024 threads (i.e., each thread owns one element.)
     * Consider every column as a Warp: $\\{Warp_0, \ldots, Warp_{31}\\}$
     * Neighboring threads are in columns
-    * Each thread owns one element
 * $A \times B = C [1024, 1024] = \frac{1,024 \times 1,024}{32 \times 32} = 1,024$ total blocks for output C matrix
 
 ***
 
 * What part of A and B matrices is needed for Block(0, 0) of output matrix C
-* From A, we'll need entire 32 rows - A[32,1024]
-* From B, we'll need entire 32 columns - B[1024, 32]
+* From A, we'll need entire 32 rows (A_{i0}) - A[32,1024]
+* From B, we'll need entire 32 columns (B_{0j}) - B[1024, 32]
 * $A[32,1024] \times B[1024, 32] = C_{Block(0,0)}[32,32]$
 
 ***
@@ -89,7 +89,7 @@
 #### Single Instruciton on Multiple Thread (SIMT)
 * We have memeory coalenence issue
 * __NOTE__: 1 sector is 32 bytes (8 elements)
-* 1-element: 4 bytes
+* __NOTE__: 1-element: 4 bytes
 * $A[32,1024] \times B[1024, 32] = C_{Block(0,0)}[32,32]$
 
 | Kernel-1       | |
