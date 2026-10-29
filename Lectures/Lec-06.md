@@ -165,7 +165,7 @@ $$
 | AI = FLOPs/bytes              | $\frac{65,536}{8,192} = 8$ |
 | Our aim is                    | Achive a reach point of 20 ([H100](https://github.com/muarshad01/Kernel-Engg/blob/main/H100.md)) |
 
-* $K_1 (0.01) \rightarrow K_2 (0.4) \righarrow K_3 (xx)$
+* $K_1 (0.01) \rightarrow K_2 (0.4) \rightarrow K_3 (xx)$
 
 * Measure: Kernel-3 took 235.1 micor seconds, 9.14 TFLOPs/s: 1.5 times as fast as kernel 2. The bytes asked of global memory fell 20 times; the time did not.
 
