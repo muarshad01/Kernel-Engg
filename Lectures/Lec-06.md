@@ -94,11 +94,14 @@
 #### (SIMT)
 * We have memeory coalenence issue
 * NOTE: 1 sector is 32 bytes
-* Bytes transferred for A = $32 \times 32$ = 1,024 bytes
-* Bytes transferred for B = 32 = 32 bytes (Only one element)
-* Total bytes transferred = 1,056 bytes
-* FLOPs = 64 = 32 additions and multiplications
-* FLOPs/bytes = \frac{64}{1,056} = 0.06
-* Our aim it to achive a reach point of 20 ()
+
+|||
+|---|---|
+| Bytes transferred for A | $32 \times 32$ = 1,024 bytes |
+| Bytes transferred for B | 32 bytes (Only one element) |
+| Total bytes transferred |1,024 + 32 = 1,056 bytes |
+| FLOPs | 64 (32 additions and multiplications) |
+| FLOPs/bytes | $\frac{64}{1,056} = 0.06$ |
+| Our aim it to achive a reach point of 20 ([H100](https://github.com/muarshad01/Kernel-Engg/blob/main/H100.md)) |
 
 ***
