@@ -72,3 +72,12 @@
 * 35:00
 
 #### 1. Naive Kernel
+
+* AB = C [1024, 1024] = $\frac{1,024 \times 1,024}{32 \times 32} = 1,024$ blocks
+* 1 block size = $32 \times 32$
+
+
+
+***
+
+
