@@ -13,8 +13,8 @@
 *** 
 
 * Get to matrix multiplication
-* CUDA core
-* Tensor core
+* CUDA Core
+* Tensor Core
 
 ***
 
