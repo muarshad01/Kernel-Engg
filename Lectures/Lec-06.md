@@ -43,16 +43,16 @@
 ***
 
 #### Task at hand
-1. How many FLOPs?
+1. __How many FLOPs?__
 * Think of ONE output elememnt (C), which is obtained by multiplying 1st row (A) multiplied by 1st col (B) - $n$ multiplications and $(n-1)$ additions = $(2n-1)$ operations
 * Output matrix C has $n^2$ elements
 * Total operations = $(2n-1) \times n^2 = 2n^3 = 2 \times 1024 \times 1024 \times 1024 = 2,147,483,648$
 
-2. Arithmetic -> Computes
+2. __Arithmetic: Compute__
 * H100 - 67 TFLOPs/s (operations/s)
 * $\frac{2,147,483,648}{67~\text{TFLOPs/s}} = 32 ~\mu sec$ -- for cuBLAS (56 \mu sex)
 
-3. Memory: How much memory would move from HBM
+3. __Memory: How much memory would move from HBM__
 * A: [1024, 1,024] - read once - $1024 \times 1024 \times 4 = 4,194,304$ bytes
 * B: [1024, 1,024] - read once
 * C: [1024, 1,024] - write once
@@ -62,8 +62,10 @@
 * Conclusion: From above we conclude, MM is compute bound.
 * Arithmentic Intensity (AI) = $\frac{2,147,483,648 ~ops}{12,582,912 ~bytes}=171$
 
-4. How a matrix is stored (Byte line format)
+4. __How a matrix is stored (Byte line format)__
 * Each row is $1024x4=4,096$ bytes apart
 * Each adjacent element is $4$ bytes apart
+
+* 35:00
 
 #### 1. Naive Kernel
