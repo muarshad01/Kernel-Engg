@@ -199,9 +199,18 @@ $$
 
 |   | Kernel-3 | Kernel-4 |
 |---|---|---|
-| Total Blocks   | 1,024                    | 1,024 |
-| 1 Block        | 1,024 Threads (32 Warps) | 32 Threads (1 Warp) |
-| 1 SM           | 8 Blocks (256 Warps)     | 8 Blocks (Also 8 Warps) |
-| 1 SM           |                          | 8 Warps | 
+| Total Blocks   | 1,024                     | 1,024 |
+| 1 Block        | 1,024 Threads (32 Warps)  | 32 Threads (1 Warp) |
+| 1 SM           | 8 Blocks (256 Warps)      | 8 Blocks (Also 8 Warps) |
+| 1 SM           |                           | 8 Warps / 64 | 
+| 1 SM           | 2 blocks / 8              ||
+|                | 100% Utilization of Warps | 80% Warps are empty |
+
+***
+
+#### Hyper parameters
+1. Chunk size
+
+
 
 ***
