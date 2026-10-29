@@ -96,8 +96,8 @@
 
 | Kernel-1       | |
 |---|---|
-| Bytes transferred for A       | $32 (rows) \times 32 (bytes for one element)$ = 1,024 bytes |
-| Bytes transferred for B       | 32 bytes (Only one element) |
+| Bytes transferred for A (1 col)      | $32 (rows) \times 32 (bytes for one element = 1 sector)$ = 1,024 bytes |
+| Bytes transferred for B (1 element)  | 32 bytes (Only one element) |
 | Total bytes transferred (A+B) | 1,024 + 32 = 1,056 bytes |
 | FLOPs                         | 64 (32 additions and multiplications) |
 | FLOPs/bytes                   | $\frac{64}{1,056} = 0.06$ |
@@ -116,8 +116,8 @@
 
 | Kernel-2       | |
 |---|---|
-| Bytes transferred for A       | 32 bytes (1 sector = 8 elements) <br> NOTE: for one element we transfer 1 sector or 8 elements (i.e., 32 bytes)|
-| Bytes transferred for B       | Full row = 128 bytes (4 sector = 32 elememts)|
+| Bytes transferred for A (1 element)      | 32 bytes (1 sector = 8 elements) <br> NOTE: for one element we transfer 1 sector or 8 elements (i.e., 32 bytes)|
+| Bytes transferred for B (1 row)       | Full row = 128 bytes (4 sector = 32 elememts)|
 | Total bytes transferred (A+B) | 32 + 128 = 160 bytes |
 | FLOPs                         | 64 (32 additions and multiplications) |
 | AI = FLOPs/bytes              | $\frac{64}{160} = 0.4$ |
