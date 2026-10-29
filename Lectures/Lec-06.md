@@ -23,7 +23,7 @@
 
 #### Part-1
 1. Naive Kernel
-2. Memory Coalencence Kerne
+2. Memory Coalencence Kernel
 3. Chunked kernel
 4. 1-D block tiling Kernel
 5. 2-D block tiling Kernel
@@ -71,9 +71,9 @@
 
 * 35:00
 
-#### 1. Naive Kernel 
+#### 1. Kernel-1: Naive Kernel 
 
-* 1 block size = Block(0, 0) = $32 \times 32$ = $1,024$ threads (We are assuming each block has 1,024 threads)
+* 1-block size = Block(0, 0) = $32 \times 32$ = $1,024$ threads (We are assuming each block has 1,024 threads)
     * Consider every column as a Warp: $\\{Warp_0, \ldots, Warp_{31}\\}$
     * Each thread owns one element
     * Neighboring threads are in columns
@@ -82,18 +82,15 @@
 ***
 
 * What part of A and B matrices is needed for Block(0, 0) of output matrix C
-* From A, we'll need entire 32 rows
-* From B, we'll need entire 32 columns
-
-***
-
+* From A, we'll need entire 32 rows - A[32,1024]
+* From B, we'll need entire 32 columns - B[1024, 32]
 * $A[32,1024] \times B[1024, 32] = C_{Block(0,0)}[32,32]$
 
 ***
 
 #### Single Instruciton on Multiple Thread (SIMT)
 * We have memeory coalenence issue
-* NOTE: 1 sector is 32 bytes
+* __NOTE__: 1 sector is 32 bytes
 
 | $C_{Block(0,0)}[32,32]$       | |
 |---|---|
@@ -106,7 +103,11 @@
 
 ***
 
-* 1:00:00
+* 1:10:00
+
+#### Kernel-2: Memory Coalencence Kernel
+
+***
 
 
 ***
