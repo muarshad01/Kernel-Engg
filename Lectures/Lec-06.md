@@ -96,7 +96,7 @@
 
 | Kernel-1       | |
 |---|---|
-| Bytes transferred for A (1 col)      | 1,024 bytes = 32 sector \times 32 (bytes for each sector) <br> <br> NOTE: for one element we transfer 1 sector or 8 elements (i.e., 32 bytes)|
+| Bytes transferred for A (1 col)      | 1,024 bytes = $32 sector \times 32 (bytes ~for ~each ~sector)$ <br> <br> NOTE: for one element we transfer 1 sector or 8 elements (i.e., 32 bytes)|
 | Bytes transferred for B (1 element)  | 32 bytes (Only one element) |
 | Total bytes transferred (A+B) | 1,024 + 32 = 1,056 bytes |
 | FLOPs                         | 64 (32 additions and multiplications) |
