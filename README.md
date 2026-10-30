@@ -23,7 +23,7 @@
 #### Part III: GEMM and tensor cores
 | Lecture | Data | Status |
 |---|---|---|
-| [Lecture 09 - Theory (Oct 26) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-09.md) | Oct xx, 2026 | In Progress | 
+| [Lecture 09 - Theory (Oct 26) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-09.md) | Oct 31, 2026 | :white_check_mark: | 
 | [Lecture 10 - Coding (Oct 27) - Shubham](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-10.md) | Oct xx, 2026 | | 
 | [Lecture 11 - Theory (Oct 29) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-11.md) | Oct xx, 2026| |
 | [Lecture 12 - Coding (Oct 30) - Shubham](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-12.md) | Oct xx, 2026 | |
