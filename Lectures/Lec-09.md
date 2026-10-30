@@ -45,11 +45,13 @@
 ***
 
 #### Tunable Parameters
-* BM -> block size (x) - 32
-* BN -> block size (y) - 32
-* BK -> chunk size - 32
-* TM -> thread access (x) - 32
-* TN -> thread access (y) - 32
+|Parameter | Kernel |
+|---|---|
+| BM: block size (x)    | 32 |
+| BN: block size (y)    | 32 |
+| BK: chunk size        | 32 |
+| TM: thread access (x) | 32 |
+| TN: thread access (y) | 32 |
 
 ***
 
