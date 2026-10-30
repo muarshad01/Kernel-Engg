@@ -74,6 +74,10 @@
 
 * 1:10:00
 
+* Number of reads/Warp = WM+WN
+* Option-1 = 8+32 = 40
+* Option-2 = 16+16 = 32
+
 ***
 
 #### Vector fusion kernel
