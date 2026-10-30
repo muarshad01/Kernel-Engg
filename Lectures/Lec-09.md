@@ -6,7 +6,7 @@
   
 #### 2-D block tiling kernel
 
-* A[32,32]XB[32,32]=C[32,32]
+* A[32,32] * B[32,32]=C[32,32]
 * One single thread owns all of C!!!
 * One singel thread owns 1,024 values.
 
