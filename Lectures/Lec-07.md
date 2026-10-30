@@ -17,17 +17,17 @@
 
 ***
 
-#### Part-1
+#### Part-1 (Lecture 7)
 1. Naive kernel
 2. Memory coalencence kernel
 3. Chunked kernel
-4. 1-D block tiling kernel
+4. 1D block tiling kernel
 
-#### Part-2 (Next Lecture)
-5. 2-D block tiling kernel
+#### Part-2 (Lecture 9)
+5. 2D block tiling kernel
 6. Warp tiling kernel
-7. Vector fusion kernel
-8. Auto-tuning kernel
+7. Autotuning kernel
+8. Vector fusion kernel
 
 ***
 
