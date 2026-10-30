@@ -38,10 +38,9 @@
 
 ***
 
-GMEM: A,B,C
-SMEM: Chunk of A, Chunk of B
-Regiters/Thread: 1,024+64 = 1088
-
+* GMEM: A,B,C
+* SMEM: Chunk of A, Chunk of B
+* Regiters/Thread: 1,024+64 = 1088
 
 ***
 
