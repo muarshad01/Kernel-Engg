@@ -34,7 +34,7 @@
 #### Formula: Thread Location
 ```python
 x = (blockIdx.x * blockDim.x) + threadIdx.x
-y = (blockdim.y * blockDim.y) + threadIdx.y
+y = (blockIdx.y * blockDim.y) + threadIdx.y
 ```
 
 ***
