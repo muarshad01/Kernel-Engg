@@ -14,9 +14,18 @@
 
 * 30:00
 
+***
+
 #### READs/COMPUTE
 * $n=32$
 * $\frac{2n}{n^2}=\frac{64}{1024}$
+
+|Kernel| Reads/Compute|
+|---|---|
+| Kernel-2 |2|
+| Kernel-3 |33/32|
+| Kernel-4 |64/1024|
+
 
 
 ***
