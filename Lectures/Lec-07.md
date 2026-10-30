@@ -69,8 +69,7 @@
 
 * 35:00
 
-#### 1. Kernel-1: Naive Kernel 
-
+#### KERNEL-1: Naive Kernel 
 * 1-block size = Block(0, 0) = $32 \times 32$ = $1,024$ threads
     * We are assuming each block has 1,024 threads (i.e., each thread owns one element.)
     * Consider every column as a Warp: $\\{Warp_0, \ldots, Warp_{31}\\}$
@@ -105,7 +104,7 @@
 
 * 1:10:00
 
-#### $${\color{green}Kernel-2: Memory Coalencence Kernel}$$
+#### KERNEL-2: Memory Coalencence Kernel
 * $A[32,1024] \times B[1024, 32] = C_{Block(0,0)}[32,32]$
     * Consider every row as a Warp: $\\{Warp_0, \ldots, Warp_{31}\\}$
     * Neighboring threads are in rows
@@ -126,7 +125,7 @@
 
 * 1:25:00
 
-#### Kernel-3: Chunked Kernel (Reduce number of READS) 
+#### KERNEL-3: Chunked Kernel (Reduce number of READS) 
 * Divide and Concur
 
 * 1:30
@@ -182,7 +181,7 @@ $$
 
 ***
 
-#### Kernel-4: 1-D Block Tiling
+#### KERNEL-4: 1-D Block Tiling
 * Thread ownership of row-col
 * 1-thread has 32 accumulators (Instruction Level Parallelism)
 * READs/Compute = 33/32 
