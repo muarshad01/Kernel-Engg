@@ -80,6 +80,8 @@
 
 ***
 
+* 1:30:00
+
 #### Vector fusion kernel
 
 ***
