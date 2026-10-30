@@ -6,7 +6,7 @@
 
 * 15:00
   
-#### 2-D block tiling kernel
+#### 2D block tiling kernel
 
 * A[32,32] * B[32,32]=C[32,32]
 * One single thread owns all of C!!!
@@ -47,11 +47,14 @@
 #### Tunable Parameters
 |Parameter | Kernel |
 |---|---|
+|                       | Kernel-3|
 | BM: block size (x)    | 32 |
 | BN: block size (y)    | 32 |
 | BK: chunk size        | 32 |
 | TM: thread access (x) | 32 |
 | TN: thread access (y) | 32 |
+| WM: Warp tiling (x)   | -- |
+| WM: Warp tiling (y)   | -- |
 
 ***
 
@@ -61,9 +64,14 @@
 * A[32,32] * B[32,32] = C[32,32]
 * Thread = (TM=2, TN=4) = takes care of 8 elements
 * $\frac{32 \times 32}{ 2 \times 4} = 128$
+* How many warps in a block = 4
 
 ***
 
-
 #### Vector fusion kernel
+
+***
+
 #### Auto-tuning kernel
+
+***
