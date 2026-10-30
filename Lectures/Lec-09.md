@@ -18,14 +18,29 @@
 
 #### READs/COMPUTE
 * $n=32$
-* $\frac{2n}{n^2}=\frac{64}{1024}$
 
-|Kernel| Reads/Compute|
+| Kernel | Reads/Compute|
 |---|---|
-| Kernel-2 |2|
+| Kernel-2 | 2 |
 | Kernel-3 | $\frac{33}{32}$|
-| Kernel-4 | $\frac{64}{1024}$ |
+| Kernel-4 | $\frac{2n}{n^2}=\frac{64}{1024}$ |
 
+#### Accumulators/Threads
+* Instruction level parallelism
+
+| Kernel | Accumulators/Threads |
+|---|---|
+| Kernel-2 | 1 |
+| Kernel-3 | 32 |
+| Kernel-4 | 1,024 |
+
+* __LIMIT__: Maximum number of registers / thread = 256!!!
+
+***
+
+GMEM: A,B,C
+SMEM: Chunk of A, Chunk of B
+Regiters/Thread: 1,024+64 = 1088
 
 
 ***
