@@ -6,7 +6,7 @@
 
 * 15:00
   
-#### 2D block tiling kernel
+#### Kernel-5: 2D block tiling kernel
 
 * A[32,32] * B[32,32]=C[32,32]
 * One single thread owns all of C!!!
@@ -48,13 +48,15 @@
 | Tiling Levels | Parameter | Kernel |
 |---|---|---|
 ||                       | Kernel-3|
-| Block Level | BM: block size (x)    | 32 |
-|| BN: block size (y)    | 32 |
-|| BK: chunk size        | 32 |
-| Warp Level | WM: Warp tiling (x)   | -- |
-|| WM: Warp tiling (y)   | -- |
+| Block Level  | BM: block size (x)    | 32 |
+|              | BN: block size (y)    | 32 |
+|              | BK: chunk size        | 32 |
+|---|---|---|
+| Warp Level   | WM: Warp tiling (x)   | -- |
+|              | WM: Warp tiling (y)   | -- |
+|---|---|---|
 | Thread Level | TM: thread access (x) | 32 |
-|| TN: thread access (y) | 32 |
+|              | TN: thread access (y) | 32 |
 
 ***
 
