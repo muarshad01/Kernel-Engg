@@ -41,7 +41,7 @@ y = (blockIdx.y * blockDim.y) + threadIdx.y
 
 * 40:00
 
-* __GigaThread__ engine distributed block to SMs
+* __GigaThread__ engine distributes block to SMs
 
 #### SMs
 * [H100](https://github.com/muarshad01/Kernel-Engg/blob/main/H100.md)
