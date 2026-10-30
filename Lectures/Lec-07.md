@@ -105,7 +105,7 @@
 
 * 1:10:00
 
-#### Kernel-2: Memory Coalencence Kernel
+#### $${\color{green}Kernel-2: Memory Coalencence Kernel}$$
 * $A[32,1024] \times B[1024, 32] = C_{Block(0,0)}[32,32]$
     * Consider every row as a Warp: $\\{Warp_0, \ldots, Warp_{31}\\}$
     * Neighboring threads are in rows
