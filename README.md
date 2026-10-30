@@ -4,7 +4,7 @@
 
 ***
 
-#### Part I: Why GPUs, and how they run your code
+#### Part I: Why GPUs, and how they run your code?
 | Lecture | Data | Status |
 |---|---|---|
 | [Lecture 01 - Theory (Oct 12) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-01.md) | Oct 15, 2026 | :white_check_mark: |
@@ -12,7 +12,7 @@
 | [Lecture 03 - Theory (Oct 15) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-03.md) | Oct 17, 2026 | :white_check_mark: |
 | [Lecture 04 - Theory (Oct 16) - Shubham](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-04.md) | Oct xx, 2026 |  |
 
-#### Part II: Memory; The GEMM worklog: naive → cuBLAS
+#### Part II: Memory; The GEMM worklog: Naive → cuBLAS
 | Lecture | Data | Status |
 |---|---|---|
 | [Lecture 05 - Theory (Oct 19) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-05.md) | Oct 20, 2026  | :white_check_mark: | 
