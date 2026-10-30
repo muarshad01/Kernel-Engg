@@ -23,8 +23,8 @@
 |Kernel| Reads/Compute|
 |---|---|
 | Kernel-2 |2|
-| Kernel-3 |33/32|
-| Kernel-4 |64/1024|
+| Kernel-3 | $\frac{33}{32}$|
+| Kernel-4 | $\frac{64}{1024}$ |
 
 
 
