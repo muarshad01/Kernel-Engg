@@ -10,6 +10,8 @@
 * One single thread owns all of C!!!
 * One singel thread owns 1,024 values.
 
+* 30:00
+
 #### READs/COMPUTE
 
 ***
