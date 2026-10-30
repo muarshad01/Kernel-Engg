@@ -82,12 +82,14 @@
 
 ***
 
+#### Kernel Auto-tuning
+* Very important
+
+***
+
 * 1:45:00
 
 #### Vector fusion kernel
 
 ***
 
-#### Auto-tuning kernel
-
-***
