@@ -58,10 +58,9 @@ y = (blockIdx.y * blockDim.y) + threadIdx.y
 * 32 cols x 512 rows = 16,348 ergistres
 
 ***
+
 #### SM Limits
-1. Maximum number of threads = 64 Warps x 32 = 2,048 Threads
-2. Maximum number of registers = 65,336 ??
-3. Shared memory
+* [SM Limits](https://github.com/muarshad01/Kernel-Engg/blob/main/H100.md)
 
 ***
 
