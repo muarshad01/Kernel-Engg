@@ -60,7 +60,7 @@
 #### Warp tiling kernel
 * A[32,32] * B[32,32] = C[32,32]
 * Thread = (TM=2, TN=4) = takes care of 8 elements
-* \frac{32 \times 32}{ 2 \times 4} = 128
+* $\frac{32 \times 32}{ 2 \times 4} = 128$
 
 ***
 
