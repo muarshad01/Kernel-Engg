@@ -72,6 +72,8 @@
 * Option-1: Warp tile(8,32)
 * Option-2: Warp tile(16,16)
 
+* 1:10:00
+
 ***
 
 #### Vector fusion kernel
