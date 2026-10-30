@@ -30,10 +30,17 @@
 
 
 #### Part III: Attention & profiling
-| Lecture | Data | Lab | Date |
-|---|---|---|---|
-| [Lecture 07]() | Oct xx, 2026| [Lab 07]()| Oct xx, 2026 | 
-| [Lecture 08]() | Oct xx, 2026| [Lab 08]()| Oct xx, 2026 | 
+| Lecture | Data | Status |
+|---|---|---|
+| [Lecture 13 - Theory (Nov 02) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-13.md) | Nov xx, 2026 |  | 
+| [Lecture 14 - Coding (Nov 03) - Shubham](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-14.md) | Nov xx, 2026 | | 
+| [Lecture 15 - Theory (Nov 05) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-15.md) | Nov xx, 2026 |  |
+| [Lecture 16 - Coding (Nov 06) - Shubham](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-16.md) | Nov xx, 2026 | |
+
+
+
+
+
 
 #### Part IV: The modern frontier
 | Lecture | Data | Lab | Date |
