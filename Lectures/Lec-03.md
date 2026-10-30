@@ -12,7 +12,8 @@
 ***
 
 * Chip -> GPC -> SM -> Blocks -> Warps -> Threads
-* SMs -> Quadrants -> Warp schedulers -> Warps -> Threads
+* SMs -> Quadrants
+* Warp schedulers -> Warps -> Threads
 
 ***
 
