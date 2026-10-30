@@ -38,9 +38,9 @@
 
 ***
 
-* GMEM: A,B,C
-* SMEM: Chunk of A, Chunk of B
-* Regiters/Thread: 1,024+64 = 1088
+* __GMEM__: A,B,C
+* __SMEM__: Chunk of A, Chunk of B
+* __Regiters/Thread__: 1,024+64 = 1088
 
 ***
 
