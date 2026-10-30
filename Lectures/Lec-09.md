@@ -45,7 +45,7 @@
 ***
 
 #### Tunable Parameters
-| Tiling | Parameter | Kernel |
+| Tiling Levels | Parameter | Kernel |
 |---|---|---|
 ||                       | Kernel-3|
 | Block Level | BM: block size (x)    | 32 |
