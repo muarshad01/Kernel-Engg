@@ -45,16 +45,16 @@
 ***
 
 #### Tunable Parameters
-|Parameter | Kernel |
-|---|---|
-|                       | Kernel-3|
-| BM: block size (x)    | 32 |
-| BN: block size (y)    | 32 |
-| BK: chunk size        | 32 |
-| WM: Warp tiling (x)   | -- |
-| WM: Warp tiling (y)   | -- |
-| TM: thread access (x) | 32 |
-| TN: thread access (y) | 32 |
+| Tiling | Parameter | Kernel |
+|---|---|---|
+||                       | Kernel-3|
+| Block Level | BM: block size (x)    | 32 |
+|| BN: block size (y)    | 32 |
+|| BK: chunk size        | 32 |
+| Warp Level | WM: Warp tiling (x)   | -- |
+|| WM: Warp tiling (y)   | -- |
+| Thread Level | TM: thread access (x) | 32 |
+|| TN: thread access (y) | 32 |
 
 ***
 
