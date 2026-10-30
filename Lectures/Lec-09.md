@@ -6,7 +6,7 @@
 
 * 15:00
   
-#### Kernel-5: 2D block tiling kernel
+#### KERNEL-5: 2D block tiling kernel
 
 * A[32,32] * B[32,32]=C[32,32]
 * One single thread owns all of C!!!
@@ -82,7 +82,7 @@
 
 ***
 
-#### Kernel Auto-tuning
+#### Kernel Autotuning
 * Very important
 
 ***
