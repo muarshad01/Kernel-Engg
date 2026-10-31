@@ -37,5 +37,8 @@
 mma.sync
 ```
 
+* One FFMA (Fused Floating-point Multiply-Add) did 32 multiply-adds. This one instruction does 1,024
+* One instruction 1,024
+
 ***
 
