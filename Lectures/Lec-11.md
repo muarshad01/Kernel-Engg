@@ -52,9 +52,11 @@ mma.sync
 
 * A[4096,4096] * B[4096,4096] = C[4096,4096]
 
-* __Step 1__: Block Size C[256,128] = A[256,4096]  * B[4096,128] 
+* __Step 1__: Block Size tile: C[256,128] = A[256,4096]  * B[4096,128] 
 * __Step 2__: Load chunk of A and Chunk of B into shared mem
-* __Step 3__: Warp tiling - each warp gets its 64x64 tile
-* __Srep 4__: 16x8
+* __Step 3__: Warp Tile: - each warp gets its 64x64 tile
+* __Srep 4__: Tensor Core tile: 16x8
 
 *** 
+
+* 1:30:00
