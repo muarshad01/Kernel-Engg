@@ -30,7 +30,7 @@
 
 
 #### Part III: Attention & profiling
-| Lecture | Data | Status |
+| Lecture | Date | Status |
 |---|---|---|
 | [Lecture 13 - Theory (Nov 02) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-13.md) | Nov xx, 2026 |  | 
 | [Lecture 14 - Coding (Nov 03) - Shubham](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-14.md) | Nov xx, 2026 | | 
@@ -38,21 +38,13 @@
 | [Lecture 16 - Coding (Nov 06) - Shubham](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-16.md) | Nov xx, 2026 | |
 
 
-
-
-
-
 #### Part IV: The modern frontier
-| Lecture | Data | Lab | Date |
-|---|---|---|---|
-| [Lecture 09]() | Oct xx, 2026| [Lab 09]()| Oct xx, 2026 | 
-| [Lecture 10]() | Oct xx, 2026| [Lab 10]()| Oct xx, 2026 | 
-| [Lecture 11]() | Oct xx, 2026| [Lab 11]()| Oct xx, 2026 | 
-| [Lecture 12]() | Oct xx, 2026| [Lab 12]()| Oct xx, 2026 | 
-| [Lecture 13]() | Oct xx, 2026| [Lab 13]()| Oct xx, 2026 | 
-| [Lecture 14]() | Oct xx, 2026| [Lab 14]()| Oct xx, 2026 | 
-| [Lecture 15]() | Oct xx, 2026| [Lab 15]()| Oct xx, 2026 | 
-| [Lecture 16]() | Oct xx, 2026| [Lab 16]()| Oct xx, 2026 |
+| Lecture | Date | Status |
+|---|---|---|
+| [Lecture 17 - Theory (Nov 09) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-17.md) | Nov xx, 2026 |  | 
+| [Lecture 18 - Coding (Nov 10) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-18.md) | Nov xx, 2026 | | 
+| [Lecture 19 - Theory (Nov 12) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-19.md) | Nov xx, 2026 |  |
+| [Lecture 20 - Coding (Nov 13) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-20.md) | Nov xx, 2026 | |
 
 #### Part V: AI-written kernels
 | Lecture | Data | Lab | Date |
