@@ -5,3 +5,5 @@
 * WMMA and mma.sync fragments, ldmatrix and shared-memory swizzling.
 
 *** 
+
+* [Muse Spark Open Kernel Challenge](https://openkernelchallenge.dev/)
