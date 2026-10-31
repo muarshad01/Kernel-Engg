@@ -46,7 +46,7 @@
 | [Lecture 19 - Theory (Nov 12) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-19.md) | Nov xx, 2026 |  |
 | [Lecture 20 - Coding (Nov 13) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-20.md) | Nov xx, 2026 | |
 
-#### Part V: AI-written kernels
+#### Part V: Blackwell & AI-written kernels
 | Lecture | Data | Lab | Date |
 |---|---|---|---|
 | [Lecture 17]() | Oct xx, 2026| [Lab 17]()| Oct xx, 2026 | 
