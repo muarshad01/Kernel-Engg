@@ -32,5 +32,10 @@
 #### What exactly is TC?
 * 30:00
 
+* Matric Multiply Accumulate
+```cuda
+mma.sync
+```
+
 ***
 
