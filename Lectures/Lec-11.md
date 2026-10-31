@@ -22,6 +22,6 @@
 
 |||
 |---|---|
-| Multiply and Add Operations | $2n-1 \times n^3 = 2xn^3$ = 137.4 Billion |
+| Multiply and Add Operations | $2n-1 \times n^3 = 2 \times n^3$ = 137.4 Billion |
 | Time  | $\frac{137.4 ~\text{billion ops}}{67 ~\text{billion ops/s}}=2052 ~\mu ~sec$ |
 | Ttime cuBLAS | $2,658$ ~\mu sec |
