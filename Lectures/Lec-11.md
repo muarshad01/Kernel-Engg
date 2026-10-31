@@ -24,3 +24,4 @@
 | Operations   |  137.4 billion |
 | Time         | $\frac{137.4 ~\text{billion ops}}{67 ~\text{trillion ops/s}}=2,052 ~\mu ~sec$ |
 | Time cuBLAS  | $2,658 ~\mu ~sec$ |
+| Time best kernel 10  | $3,523 ~\mu ~sec$ |
