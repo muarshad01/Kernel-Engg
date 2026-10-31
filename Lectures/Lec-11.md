@@ -23,4 +23,4 @@
 |---|---|
 | Operations   |  137.4 Billion |
 | Time         | $\frac{137.4 ~\text{billion ops}}{67 ~\text{billion ops/s}}=2052 ~\mu ~sec$ |
-| Time cuBLAS | $2,658$ ~\mu sec |
+| Time cuBLAS  | $2,658 ~\mu ~sec$ |
