@@ -17,7 +17,7 @@
 
 #### Example
 * A[4096,4096] * B[4096,4096] = C[4096,4096]
-* Multiply and Add Operations * $2n-1 \times n^3 = 2 \times n^3$ = 137.4 Billion
+* Multiply and Add Operations = $2n-1 \times n^3 = 2 \times n^3$ = 137.4 Billion
 
 |||
 |---|---|
