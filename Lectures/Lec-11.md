@@ -15,5 +15,7 @@
 * CUDA cores
 * Tensor cores - tiling
 
-* A[4096,4096] * B[4096,4096]=C[4096,4096]
-* Multiply and Add Operations = $2n^3$ = 137 Billion
+#### Example
+* A[4096,4096] * B[4096,4096] = C[4096,4096]
+* Multiply and Add Operations = $2n-1 \times n^3 = 2xn^3$ = 137.4 Billion
+* Time = $\frac{137.4 billion}{67 billion ops/s}=2052 ~\mu ~sec$
