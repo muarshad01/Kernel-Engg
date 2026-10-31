@@ -94,4 +94,55 @@
 
 ***
 
+#### TODO
+Most AI engineers learn GPU, Agents, and Inference separately.
 
+That's backwards.
+
+They're the same stack. Here's how they connect ↓
+
+𝗟𝗮𝘆𝗲𝗿 𝟭: 𝗚𝗣𝗨 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗶𝗻𝗴
+
+The foundation. Memory coalescing. Tiling. Tensor cores.
+
+Start here:
+→ GPU Puzzles: https://lnkd.in/e2H5JdNn
+→ Simon Boehm's CUDA Matmul: https://lnkd.in/eYYWvy37
+→ GPU MODE lectures: https://lnkd.in/e5hqbZRc
+
+𝗟𝗮𝘆𝗲𝗿 𝟮: 𝗜𝗻𝗳𝗲𝗿𝗲𝗻𝗰𝗲 𝗢𝗽𝘁𝗶𝗺𝗶𝘇𝗮𝘁𝗶𝗼𝗻
+
+GPU skills → attention kernels → serving frameworks.
+
+FlashAttention is a CUDA kernel. PagedAttention is memory management. Speculative decoding is branch prediction for LLMs.
+
+Learn here:
+→ FlashAttention paper: https://lnkd.in/eNP4Fsda
+→ vLLM: https://lnkd.in/eeT_HM2B
+→ NVIDIA inference guide: https://lnkd.in/efsGMGqB
+
+𝗟𝗮𝘆𝗲𝗿 𝟯: 𝗔𝗜 𝗔𝗴𝗲𝗻𝘁𝘀
+
+Agents make LLM calls. Lots of them. Your inference cost IS your agent cost.
+
+Optimized inference = cheaper agents = more complex workflows = better products.
+
+Learn here:
+→ Anthropic, "Building Effective Agents": https://lnkd.in/ejVK_Dma
+→ LangGraph: https://lnkd.in/e8sUVfEp
+→ DeepLearning.AI Agents course: https://lnkd.in/gpRsubrC
+
+𝗧𝗵𝗲 𝗰𝗼𝗻𝗻𝗲𝗰𝘁𝗶𝗼𝗻:
+
+GPU engineers write FlashAttention.
+FlashAttention powers vLLM.
+vLLM serves your agent's LLM calls.
+Your agent's latency and cost depend on all three layers.
+
+The engineers who understand the full stack don't just build agents.
+
+They build agents that are 10x cheaper and 5x faster.
+
+Which layer is your weakest? 👇
+
+♻️ Repost for someone who thinks "I don't need to learn CUDA."
