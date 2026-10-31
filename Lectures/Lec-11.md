@@ -7,3 +7,10 @@
 *** 
 
 * [Muse Spark Open Kernel Challenge](https://openkernelchallenge.dev/)
+
+* 10:00
+
+***
+
+
+
