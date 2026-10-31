@@ -15,4 +15,5 @@
 * CUDA cores
 * Tensor cores - tiling
 
-
+* A[4096,4096] * B[4096,4096]=C[4096,4096]
+* Multiply and Add Operations = $2n^3$ = 137 Billion
