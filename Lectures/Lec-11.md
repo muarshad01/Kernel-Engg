@@ -45,3 +45,7 @@ mma.sync
 * 2,048 multiply-add in one tick
 *   512 multiply-add in one tick (each quadrant)
 * CUDA core: 32 multiply-add in one tick (32 lanes)
+
+***
+
+* 55:00
