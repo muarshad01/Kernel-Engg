@@ -47,16 +47,17 @@
 | [Lecture 20 - Coding (Nov 13) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-20.md) | Nov xx, 2026 | |
 
 #### Part V: Blackwell & AI-written kernels
-| Lecture | Data | Lab | Date |
-|---|---|---|---|
-| [Lecture 17]() | Oct xx, 2026| [Lab 17]()| Oct xx, 2026 | 
-| [Lecture 18]() | Oct xx, 2026| [Lab 18]()| Oct xx, 2026 |
+| Lecture | Date | Status |
+|---|---|---|
+| [Lecture 21 - Theory (Nov 16) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-21.md) | Nov xx, 2026 |  | 
+| [Lecture 22 - Coding (Nov 17) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-22.md) | Nov xx, 2026 | | 
+| [Lecture 23 - Theory (Nov 19) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-23.md) | Nov xx, 2026 |  |
+| [Lecture 24 - Coding (Nov 20) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-24.md) | Nov xx, 2026 | |
 
 #### Part VI: Kernel Engineering Capstone Projects
-| Lecture | Data | Lab | Date |
-|---|---|---|---|
-| [Lecture 19]() | Oct xx, 2026| [Lab 19]()| Oct xx, 2026 | 
-| [Lecture 20]() | Oct xx, 2026| [Lab 20]()| Oct xx, 2026 |
+| Lecture | Date | Status |
+|---|---|---|
+| [Lecture 25 - Theory (Dec 07) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-25.md) | Nov xx, 2026 |  | 
 
 ***
 
