@@ -12,5 +12,7 @@
 
 ***
 
+* CUDA cores
+* Tensor cores - tiling
 
 
