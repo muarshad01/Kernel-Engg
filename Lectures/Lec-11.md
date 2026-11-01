@@ -111,9 +111,9 @@ mma.sync x 32
 
 * 
 
-#### Swizzling
+#### Padding versus Swizzling
 
 ***
 
-
+* 128 bytes = 32 words
 
