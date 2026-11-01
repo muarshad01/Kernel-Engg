@@ -1,8 +1,7 @@
 #### Kernel Engineering Code
 * [Schedule](https://kernelworkshop.vizuara.ai/schedule)
 * [Code-Kernel-Engg](https://github.com/VizuaraAI/Kernel-Engg)
-* [How a GPU Really Works: Intro to CUDA, From an iPhone to an H100](https://www.youtube.com/watch?v=Nn5XlSwVlOw&t=4021s)
-  * [How GPU Works](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/how-gpu-really-work.md)
+* [How GPU Really Works](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/how-gpu-really-work.md)
 
 ***
 
