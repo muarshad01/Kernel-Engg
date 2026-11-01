@@ -13,7 +13,9 @@
 | [Lecture 03 - Theory (Oct 15) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-03.md) | Oct 17, 2026 | :white_check_mark: |
 | [Lecture 04 - Theory (Oct 16) - Shubham](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-04.md) | Oct xx, 2026 |  |
 
-#### Part II: Memory; The GEMM worklog: Naive → cuBLAS
+***
+
+#### Part I - Memory, and Part II - The GEMM worklog begins
 | Lecture | Date | Status |
 |---|---|---|
 | [Lecture 05 - Theory (Oct 19) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-05.md) | Oct 20, 2026  | :white_check_mark: | 
@@ -21,7 +23,9 @@
 | [Lecture 07 - Theory (Oct 22) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-07.md) | Oct 30, 2026 | :white_check_mark: |
 | [Lecture 08 - Coding (Oct 23) - Shubham](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-08.md) | Oct xx, 2026 | |
 
-#### Part III: GEMM and tensor cores
+***
+
+#### Part II: GEMM and tensor cores
 | Lecture | Date | Status |
 |---|---|---|
 | [Lecture 09 - Theory (Oct 26) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-09.md) | Oct 31, 2026 | :white_check_mark: | 
@@ -29,33 +33,45 @@
 | [Lecture 11 - Theory (Oct 29) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-11.md) | Nov 01, 2026 | :white_check_mark: |
 | [Lecture 12 - Coding (Oct 30) - Shubham](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-12.md) | Oct xx, 2026 | |
 
+***
 
-#### Part III: Attention & profiling
+#### Part III: Profiling
 | Lecture | Date | Status |
 |---|---|---|
 | [Lecture 13 - Theory (Nov 02) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-13.md) | Nov xx, 2026 | In Progress |
+
+***
+
+#### Part III - Debuggina and Attention, and Part IV begins
+| Lecture | Date | Status |
+|---|---|---|
 | [Lecture 14 - Coding (Nov 03) - Shubham](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-14.md) | Nov xx, 2026 | | 
 | [Lecture 15 - Theory (Nov 05) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-15.md) | Nov xx, 2026 |  |
 | [Lecture 16 - Coding (Nov 06) - Shubham](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-16.md) | Nov xx, 2026 | |
+| [Lecture 17 - Theory (Nov 09) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-17.md) | Nov xx, 2026 |  | 
 
+***
 
-#### Part IV: The modern frontier
+#### Part IV: The modern frontier 
 | Lecture | Date | Status |
 |---|---|---|
-| [Lecture 17 - Theory (Nov 09) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-17.md) | Nov xx, 2026 |  | 
 | [Lecture 18 - Coding (Nov 10) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-18.md) | Nov xx, 2026 | | 
 | [Lecture 19 - Theory (Nov 12) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-19.md) | Nov xx, 2026 |  |
 | [Lecture 20 - Coding (Nov 13) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-20.md) | Nov xx, 2026 | |
+| [Lecture 21 - Theory (Nov 16) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-21.md) | Nov xx, 2026 |  | 
 
-#### Part V: Blackwell & AI-written kernels
+***
+
+#### Part IV - Flash Attention 4 and DeepSeek, and Part V · AI-written kernels
 | Lecture | Date | Status |
 |---|---|---|
-| [Lecture 21 - Theory (Nov 16) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-21.md) | Nov xx, 2026 |  | 
 | [Lecture 22 - Coding (Nov 17) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-22.md) | Nov xx, 2026 | | 
 | [Lecture 23 - Theory (Nov 19) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-23.md) | Nov xx, 2026 |  |
 | [Lecture 24 - Coding (Nov 20) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-24.md) | Nov xx, 2026 | |
 
-#### Part VI: Kernel Engineering Capstone Projects
+***
+
+#### Part V - Capstone Projects
 | Lecture | Date | Status |
 |---|---|---|
 | [Lecture 25 - Theory (Dec 07) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-25.md) | Nov xx, 2026 |  | 
