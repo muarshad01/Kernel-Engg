@@ -39,6 +39,7 @@ mma.sync
 
 * One FFMA (Fused Floating-point Multiply-Add) did 32 multiply-adds. This one instruction does 1,024
 * One instruction 1,024
+* CUDA core: One Instructio or 32 threads.
 
 ***
 
@@ -60,6 +61,22 @@ mma.sync
 *** 
 
 * 2:00:00
+
+#### Mapping to Threads
+Therads = $\\{T_1, T_2, \ldots, T_{32}\\}$
+* 16x8 tile of A and C matrix = 128 elements
+* every thread actually gets 4 numbers
+
+<p aling="center">
+<img src="https://github.com/muarshad01/Kernel-Engg/blob/main/images/Lecture-11/matrix-A-and-C.png" width="300" height="300" />
+</p>
+
+* 8x8 tile of B matrix = 64 elements
+* every thread actually gets 2 numbers
+
+<p aling="center">
+<img src="https://github.com/muarshad01/Kernel-Engg/blob/main/images/Lecture-11/matrix-B.png" width="300" height="300" />
+</p>
 
 ***
 
