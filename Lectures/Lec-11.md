@@ -96,6 +96,12 @@ Therads = $\\{T_1, T_2, \ldots, T_{32}\\}$
 
 * 2:15:00
 
+```cude
+2 x ldmatrix.x4              A's slice
+2 x ldmatrix.x2.trans        B's slice
 
+mma.sync x 32
+```
 
+* 2:25:00
 
