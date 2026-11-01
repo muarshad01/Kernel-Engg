@@ -2,8 +2,9 @@
 
 * 20:00
 
-* A20 Chip
-* 7 GPU Cores (Apple jargon) or 7 SMs (NVIDIA jargon)
+* iPhone Duo - A20 Chip - 7 SMs (Apple calls them GPU pro)
+
+* 40:00
 
 ***
 
