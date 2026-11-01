@@ -68,7 +68,7 @@ Therads = $\\{T_1, T_2, \ldots, T_{32}\\}$
 * every thread actually gets 4 numbers
 
 <p aling="center">
-<img src="https://github.com/muarshad01/Kernel-Engg/blob/main/images/Lecture-11/matrix-A-and-C.png" width="300" height="300" />
+<img src="https://github.com/muarshad01/Kernel-Engg/blob/main/images/Lecture-11/matrix-A-and-C.png" width="300" height="400" />
 </p>
 
 * 8x8 tile of B matrix = 64 elements
