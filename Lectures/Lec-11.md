@@ -89,7 +89,7 @@ Therads = $\\{T_1, T_2, \ldots, T_{32}\\}$
 * Each threads share of tile is called a fragment.
 
 <p aling="center">
-  <img src="https://github.com/muarshad01/Kernel-Engg/blob/main/images/Lecture-11/fragments-of-threads.png" width="300" height="300" />
+  <img src="https://github.com/muarshad01/Kernel-Engg/blob/main/images/Lecture-11/fragments-of-threads.png" width="400" height="400" />
 </p>
 
 ***
