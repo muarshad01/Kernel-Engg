@@ -104,7 +104,7 @@ mma.sync x 32
 ```
 
 <p aling="center">
-  <img src="https://github.com/muarshad01/Kernel-Engg/blob/main/images/Lecture-11/mma.sync.png" width="400" height="400" />
+  <img src="https://github.com/muarshad01/Kernel-Engg/blob/main/images/Lecture-11/mma.sync.png" width="500" height="400" />
 </p>
 
 * 2:25:00
