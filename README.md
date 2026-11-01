@@ -25,14 +25,14 @@
 |---|---|---|
 | [Lecture 09 - Theory (Oct 26) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-09.md) | Oct 31, 2026 | :white_check_mark: | 
 | [Lecture 10 - Coding (Oct 27) - Shubham](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-10.md) | Oct xx, 2026 | | 
-| [Lecture 11 - Theory (Oct 29) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-11.md) | Nov 01, 2026 | In Progress |
+| [Lecture 11 - Theory (Oct 29) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-11.md) | Nov 01, 2026 | :white_check_mark: |
 | [Lecture 12 - Coding (Oct 30) - Shubham](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-12.md) | Oct xx, 2026 | |
 
 
 #### Part III: Attention & profiling
 | Lecture | Date | Status |
 |---|---|---|
-| [Lecture 13 - Theory (Nov 02) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-13.md) | Nov xx, 2026 |  | 
+| [Lecture 13 - Theory (Nov 02) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-13.md) | In Progress |  | 
 | [Lecture 14 - Coding (Nov 03) - Shubham](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-14.md) | Nov xx, 2026 | | 
 | [Lecture 15 - Theory (Nov 05) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-15.md) | Nov xx, 2026 |  |
 | [Lecture 16 - Coding (Nov 06) - Shubham](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-16.md) | Nov xx, 2026 | |
