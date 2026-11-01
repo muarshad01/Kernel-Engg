@@ -1,6 +1,7 @@
 #### Kernel Engineering Code
 * [Schedule](https://kernelworkshop.vizuara.ai/schedule)
 * [Code-Kernel-Engg](https://github.com/VizuaraAI/Kernel-Engg)
+* [How a GPU Really Works: Intro to CUDA, From an iPhone to an H100](https://www.youtube.com/watch?v=Nn5XlSwVlOw&t=4021s)
 
 ***
 
@@ -82,7 +83,6 @@
 * [GPU development with Python 101 Tutorial](https://github.com/jacobtomlinson/gpu-python-tutorial)
 * [GPU MODE Resource Stream](https://github.com/gpu-mode/resource-stream)
 * https://github.com/infatoshi/cuda-course
-* [How a GPU Really Works: Intro to CUDA, From an iPhone to an H100](https://www.youtube.com/watch?v=Nn5XlSwVlOw&t=4021s)
 * [100-days-cuda](https://github.com/shlokgpu/100-days-cuda)
 
 ***
