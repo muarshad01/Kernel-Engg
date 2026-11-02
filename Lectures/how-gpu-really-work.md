@@ -4,7 +4,7 @@
 
 * iPhone Duo - A20 Chip - 7 SMs (Apple calls them GPU pro)
 
-* 40:00
+* 50:00
 
 ***
 
