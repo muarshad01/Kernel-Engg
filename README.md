@@ -1,7 +1,7 @@
 #### Kernel Engineering Code
 * [Schedule](https://kernelworkshop.vizuara.ai/schedule)
 * [Code-Kernel-Engg](https://github.com/VizuaraAI/Kernel-Engg)
-* [How GPU Really Works](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/how-gpu-really-work.md)
+* [How GPU Really Works](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/how-gpu-really-work.md) -- Nov 03, 2026
 
 ***
 
