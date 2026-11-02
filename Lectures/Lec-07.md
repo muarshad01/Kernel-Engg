@@ -17,6 +17,11 @@
 
 ***
 
+<p align="center">
+<img src="https://github.com/muarshad01/Kernel-Engg/blob/main/images/Lecture-7/different-kernels.png" width="300" height="300" />
+</p>p
+
+
 #### Part-1 (Lecture 7)
 1. Naive kernel
 2. Memory coalencence kernel
