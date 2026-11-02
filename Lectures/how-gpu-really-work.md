@@ -10,3 +10,6 @@
 
 ***
 
+* [How a Matmul Kernel Gets Fast](https://vizuaraai.github.io/cuda-matmul/)
+* [How a Matmul Kernel Gets Fast](https://vizuaraai.github.io/matmul-book/)
+* [The CUDA Programming Model](https://vizuaraai.github.io/cuda-programming-model/)
