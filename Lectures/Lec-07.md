@@ -18,7 +18,7 @@
 ***
 
 <p align="center">
-<img src="https://github.com/muarshad01/Kernel-Engg/blob/main/images/Lecture-7/different-kernels.png" width="300" height="300" />
+   <img src="https://github.com/muarshad01/Kernel-Engg/blob/main/images/Lecture-7/different-kernels.png" width="500" height="400" />
 </p>p
 
 
