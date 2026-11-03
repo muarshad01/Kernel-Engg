@@ -2,7 +2,7 @@
 
 #### Lecture 13: Profiling + Debugging (Nsight Compute)
 
-| Kernel || | Read/Compute | Accumulators |Problem|
+| Kernel | | Read/Compute |  | Accumulators | Problem |
 |---|---|---|---|---|---|
 | K1 | One thread an element | | | ||
 | K2 | One thread an element <br >(row / col swapped) ||| 1 ||
