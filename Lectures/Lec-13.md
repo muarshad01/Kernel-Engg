@@ -46,12 +46,21 @@
 #### GPU Speed of light throughput
 * Compute / Memory
 * FFMA / LSM
+* Buy is not fast
 
 ***
 
-* 1:00:00
+* 1:15:00
+
+#### Where the bytes actully went?
+* LSU
+  * Global Load (LDG) -> L2 -> HBM
+  * Shared Load (LDS) - Banks
 
 ***
+
+
+
 
 
 
