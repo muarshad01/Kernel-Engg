@@ -41,6 +41,11 @@
 
 ***
 
+#### GPU Speed of light throughput
+* Compute / Memory
+* FFMA / LSM
+
+***
 
 
 
