@@ -16,11 +16,8 @@
 
 ***
 
-#### READs/COMPUTE
-* $n=32$
-
-#### Accumulators/Threads
-* Instruction level parallelism
+#### Accumulators per Threads
+* Instruction level parallelism (ILP)
 
 | Kernel | Accumulators per Threads |
 |---|---|
