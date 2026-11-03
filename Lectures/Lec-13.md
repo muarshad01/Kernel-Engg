@@ -39,7 +39,7 @@
 * 1 - Compute
 * 2 - Memory
 * 3 - Occupancy
-* 4 - Launch Config
+* 4 - Launch Configuration
 
 ***
 
@@ -70,6 +70,8 @@
 ***
 
 * 1:50:00
+
+#### 4 - Launch Configuration
 
 *** 
 
