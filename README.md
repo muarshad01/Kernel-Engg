@@ -38,7 +38,7 @@
 #### Part III: Profiling
 | Lecture | Date | Status |
 |---|---|---|
-| [Lecture 13 - Theory (Nov 02) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-13.md) | Nov xx, 2026 | In Progress |
+| [Lecture 13 - Theory (Nov 02) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-13.md) | Nov 03, 2026 | In Progress |
 
 ***
 
