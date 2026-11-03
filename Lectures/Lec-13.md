@@ -4,9 +4,9 @@
 
 | Kernel | | Read/Compute | Accumulators |
 |---|---|---|---|
-| K1 | | | |
-| K2 ||| 1 |
-| K3: Chunked | 2/1  || 8 |
+| K1: One thread an element | | | |
+| K2: One thread an element (row / col swapped) ||| 1 |
+| K3: One thread an element Chunked (tiles in shared memory) | 2/1  || 8 |
 | K4: 1D tiling | 33/2 || 64 |
 | K5: 2D tiling ||||
 | K6 ||||
