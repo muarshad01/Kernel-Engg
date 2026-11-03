@@ -5,9 +5,9 @@
 | Kernel | | Read/Compute |  | Accumulators | Problem | Shared Memory |
 |---|---|---|---|---|---|---|
 | K1 | One thread an element | | | || 0 |
-| K2 | One thread an element <br >(row / col swapped) ||| 1 || 0 | 
-| K3 | - One thread an element <br> - Chunked (tiles in shared memory) <br> - Memory coalescing | $\frac{2]{1}$  || 8 | LG throttle | :white_check_mark:|
-| K4 | 1D tiling | $\frac{33}{32}$ || 64 ||:white_check_mark:|
+| K2 | One thread an element <br >(row / col swapped) |$\frac{2}{1}$|| 1 || 0 | 
+| K3 | - One thread an element <br> - Chunked (tiles in shared memory) <br> - Memory coalescing | $\frac{33}{32}$  || 8 | LG throttle | :white_check_mark:|
+| K4 | 1D tiling |  || 64 ||:white_check_mark:|
 | K5 | 2D tiling |||||:white_check_mark:|
 | K6 | |||||:white_check_mark:|
 | K7 | Warp tiling |||||:white_check_mark:|
