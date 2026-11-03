@@ -10,8 +10,14 @@
 | K4: 1D tiling | 33/2 || 64 |
 | K5: 2D tiling ||||
 | K6 ||||
-|K7 |||
+| K7: Warp tiling |||
 
+***
+
+* BM, BN - block size
+* Bk - chunk size
+* WM,WK - warp size
+* TM,TK - thread size
 
 ***
 
