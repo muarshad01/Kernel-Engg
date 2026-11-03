@@ -20,14 +20,20 @@
 
 ***
 
-#### Hyperparameters
+#### Tunable Hyperparameters
 
-| Hyperparameter ||
-|---|---|
-| BM, BN | block size  |
-| Bk     | chunk size  |
-| WM, WK | warp size   |
-| TM, TK | thread size |
+| Tiling Levels | Hyper Parameters | Kernel |
+|---|---|---|
+||                                     | K-3|
+| Block Level  | BM: block size (x)    | 32 |
+|              | BN: block size (y)    | 32 |
+|              | BK: chunk size        | 32 |
+|---|---|---|
+| Warp Level   | WM: Warp tiling (x)   | -- |
+|              | WN: Warp tiling (y)   | -- |
+|---|---|---|
+| Thread Level | TM: thread access (x) | 32 |
+|              | TN: thread access (y) | 32 |
 
 ***
 
