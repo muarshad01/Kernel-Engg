@@ -2,11 +2,11 @@
 
 #### Lecture 13: Profiling + Debugging (Nsight Compute)
 
-| Kernel | | Read per Compute |  | Accumulators | Problem | Shared Memory |
+| Kernel | Description | Read per Compute |  | Accumulators | Problem | Shared Memory |
 |---|---|---|---|---|---|---|
-| K1 | One thread an element | | | || 0 |
+| K1 | One thread an element | | | | LG throttle | 0 |
 | K2 | One thread an element <br > (row / col swapped) <br> - Memory coalescing | $\frac{2}{1}$ || 1 || 0 | 
-| K3 | - One thread an element <br> - (Chunked: tiles in shared memory) | $\frac{33}{32}$  || 8 | LG throttle | :white_check_mark:|
+| K3 | - One thread an element <br> - (Chunked: tiles in shared memory) | $\frac{33}{32}$  || 8 | MIO throttle| :white_check_mark:|
 | K4 | 1D tiling |  || 64 ||:white_check_mark:|
 | K5 | 2D tiling |||||:white_check_mark:|
 | K6 | |||||:white_check_mark:|
@@ -62,6 +62,14 @@
 * 1:40:00
 
 #### 3 - Occupancy
+* LG throttle - Warp's next instruction is a global load, and L1's queue for such loads is full. (Kernel-1)
+* MIO throttle - Warp's next instruction uses shared memeory, and the queue in front of shared memory is full. (Kernel-3)
+* Short scoreboard
+* Long scoreboard
+
+***
+
+
 
 
 
