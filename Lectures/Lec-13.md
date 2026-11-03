@@ -26,10 +26,12 @@
 * 20:00
 
 #### How Nsight compute watches a launch
-
+* Counters
+* Sampling
 
 ***
 
+* 30:00
 
 
 
