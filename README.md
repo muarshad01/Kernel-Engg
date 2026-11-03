@@ -15,7 +15,7 @@
 
 ***
 
-#### Part I - Memory, and Part II - The GEMM worklog begins
+#### Part I: Memory, and Part II: The GEMM worklog begins
 | Lecture | Date | Status |
 |---|---|---|
 | [Lecture 05 - Theory (Oct 19) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-05.md) | Oct 20, 2026  | :white_check_mark: | 
@@ -41,8 +41,9 @@
 | [Lecture 13 - Theory (Nov 02) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-13.md) | Nov 03, 2026 | In Progress |
 
 ***
+***
 
-#### Part III - Debuggina and Attention, and Part IV begins
+#### Part III: Debugging and Attention, and Part IV: Begins
 | Lecture | Date | Status |
 |---|---|---|
 | [Lecture 14 - Coding (Nov 03) - Shubham](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-14.md) | Nov xx, 2026 | | 
@@ -62,7 +63,7 @@
 
 ***
 
-#### Part IV - Flash Attention 4 and DeepSeek, and Part V · AI-written kernels
+#### Part IV: Flash Attention 4 and DeepSeek, and Part V: AI-written kernels
 | Lecture | Date | Status |
 |---|---|---|
 | [Lecture 22 - Coding (Nov 17) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-22.md) | Nov xx, 2026 | | 
@@ -71,7 +72,7 @@
 
 ***
 
-#### Part V - Capstone Projects
+#### Part V: Capstone Projects
 | Lecture | Date | Status |
 |---|---|---|
 | [Lecture 25 - Theory (Dec 07) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-25.md) | Nov xx, 2026 |  | 
@@ -82,9 +83,6 @@
 * [Vizuara's Kernel Engineering Workshop is here](https://kernelworkshop.vizuara.ai/#curriculum)
 * [Kernel Engineering: From CUDA Foundations to Frontier AI Kernels](https://maven.com/rajat-dandekar/kernel-engineering?utm_source=vizuara&utm_medium=email&utm_campaign=kernel_oct2026&utm_content=focused_invitation)
 * [Vizuara's Kernel Engineering Workshop](https://vizuara.ai/courses/the-kernel-engineering-workshop)
-
-***
-
 
 ***
 
