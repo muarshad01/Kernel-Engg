@@ -10,7 +10,7 @@
 | K4 | 1D tiling | 33/2 || 64 ||:white_check_mark:|
 | K5 | 2D tiling |||||:white_check_mark:|
 | K6 | |||||:white_check_mark:|
-| K7 | Warp tiling ||||:white_check_mark:|
+| K7 | Warp tiling |||||:white_check_mark:|
 
 ***
 
