@@ -16,10 +16,12 @@
 
 #### Hyperparameters
 
-* BM, BN - block size
-* Bk - chunk size
-* WM,WK - warp size
-* TM,TK - thread size
+| Hyperparameter ||
+|---|---|
+| BM, BN | block size  |
+| Bk     | chunk size  |
+| WM, WK | warp size   |
+| TM, TK | thread size |
 
 ***
 
