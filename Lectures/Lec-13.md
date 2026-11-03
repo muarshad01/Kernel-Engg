@@ -2,15 +2,15 @@
 
 #### Lecture 13: Profiling + Debugging (Nsight Compute)
 
-| Kernel | | Read/Compute | Accumulators |
-|---|---|---|---|
-| K1: One thread an element | | | |
-| K2: One thread an element (row / col swapped) ||| 1 |
-| K3: One thread an element Chunked (tiles in shared memory) | 2/1  || 8 |
-| K4: 1D tiling | 33/2 || 64 |
-| K5: 2D tiling ||||
-| K6 ||||
-| K7: Warp tiling |||
+| Kernel | | Read/Compute | Accumulators |Problem|
+|---|---|---|---|---|
+| K1: One thread an element | | | ||
+| K2: One thread an element <br >(row / col swapped) ||| 1 ||
+| K3: One thread an element <br> Chunked (tiles in shared memory) | 2/1  || 8 | LG throttle |
+| K4: 1D tiling | 33/2 || 64 ||
+| K5: 2D tiling |||||
+| K6 |||||
+| K7: Warp tiling ||||
 
 ***
 
