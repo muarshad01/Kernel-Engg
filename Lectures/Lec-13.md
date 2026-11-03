@@ -33,5 +33,14 @@
 
 * 30:00
 
+#### 4 sections
+* Compute
+* Memory
+* Occupancy
+* Launch Config
+
+***
+
+
 
 
