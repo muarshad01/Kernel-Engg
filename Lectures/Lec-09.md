@@ -19,12 +19,6 @@
 #### READs/COMPUTE
 * $n=32$
 
-| Kernel | Reads/Compute|
-|---|---|
-| Kernel-2 | 2 |
-| Kernel-3 | $\frac{33}{32}$|
-| Kernel-4 | $\frac{2n}{n^2}=\frac{64}{1024}$ |
-
 #### Accumulators/Threads
 * Instruction level parallelism
 
@@ -35,7 +29,7 @@
 | Kernel-4 | 1,024 |
 
 
-| Kernel | Description | Read per Compute |  | Accumulators | Problem | Shared Memory |
+| Kernel | Description | Reads per Compute |  | Accumulators | Problem | Shared Memory |
 |---|---|---|---|---|---|---|
 | K-1 | One thread an element | | | | LG throttle <br> - due to LDG | 0 |
 | K-2 | One thread an element <br> - Memory coalescing <br> - row / col swapped | 2 | | 1 | | 0 | 
