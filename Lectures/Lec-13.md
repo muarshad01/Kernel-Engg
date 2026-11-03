@@ -2,7 +2,7 @@
 
 #### Lecture 13: Profiling + Debugging (Nsight Compute)
 
-| Kernel | | Read/Compute |  | Accumulators | Problem | Shared Memory |
+| Kernel | | Read per Compute |  | Accumulators | Problem | Shared Memory |
 |---|---|---|---|---|---|---|
 | K1 | One thread an element | | | || 0 |
 | K2 | One thread an element <br >(row / col swapped) <br> - Memory coalescing | $\frac{2}{1}$ || 1 || 0 | 
