@@ -35,15 +35,15 @@
 
 * 30:00
 
-#### 4 sections
-* Compute
-* Memory
-* Occupancy
-* Launch Config
+#### 4 Sections
+* 1 - Compute
+* 2 - Memory
+* 3 - Occupancy
+* 4 - Launch Config
 
 ***
 
-#### GPU Speed of light throughput
+#### 1 - Compute: GPU Speed of light throughput
 * Compute / Memory
 * FFMA / LSM
 * Buy is not fast
@@ -52,16 +52,16 @@
 
 * 1:15:00
 
-#### Where the bytes actully went?
+#### 2 - Memory: Where the bytes actully went?
 * LSU
   * Global Load (LDG) -> L2 -> HBM
   * Shared Load (LDS) - Banks
 
 ***
 
-* 1:30:00
+* 1:40:00
 
-
+#### 3 - Occupancy
 
 
 
