@@ -4,9 +4,9 @@
 
 | Kernel | Description | Read per Compute |  | Accumulators | Problem | Shared Memory |
 |---|---|---|---|---|---|---|
-| K1 | One thread an element | | | | LG throttle <> - due to LDG| 0 |
+| K1 | One thread an element | | | | LG throttle <br> - due to LDG| 0 |
 | K2 | One thread an element <br > (row / col swapped) <br> - Memory coalescing | $\frac{2}{1}$ || 1 || 0 | 
-| K3 | - One thread an element <br> - (Chunked: tiles in shared memory) | $\frac{33}{32}$  || 8 | MIO throttle| :white_check_mark:|
+| K3 | - One thread an element <br> - (Chunked: tiles in shared memory) | $\frac{33}{32}$  || 8 | MIO throttle <br> - due to LDS | :white_check_mark:|
 | K4 | 1D tiling |  || 64 ||:white_check_mark:|
 | K5 | 2D tiling |||||:white_check_mark:|
 | K6 | |||||:white_check_mark:|
