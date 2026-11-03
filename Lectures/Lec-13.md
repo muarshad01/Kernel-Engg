@@ -14,6 +14,8 @@
 
 ***
 
+#### Hyperparameters
+
 * BM, BN - block size
 * Bk - chunk size
 * WM,WK - warp size
