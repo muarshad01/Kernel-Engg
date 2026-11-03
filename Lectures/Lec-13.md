@@ -1,4 +1,10 @@
 ## Week 4: Nsight compute profiling theory + break week
+* Reading an Nsight Compute report from top to bottom.
+* Stall reasons and the source view with SASS next to your code.
+* compute-sanitizer for races and out-of-bounds accesses.
+* A repeatable method for finding out why a kernel is slow.
+
+***
 
 #### Lecture 13: Profiling + Debugging (Nsight Compute)
 
