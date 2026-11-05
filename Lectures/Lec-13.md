@@ -1,3 +1,7 @@
+####  [Find the Bottleneck: Optimize AI Pipelines With Nsight Systems](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-AC-14+V1)
+
+***
+
 ## Week 4: Nsight compute profiling theory + break week
 * Reading an Nsight Compute report from top to bottom.
 * Stall reasons and the source view with SASS next to your code.
