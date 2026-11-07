@@ -14,9 +14,9 @@
 
 * 10:00
 
-|| OFF - Chip || Ticks | Bandwidth | 
-|---|---|---|---|---|
-| DRAM | HBM | 80 GB | 800 | 3.35 TB/s|
+|| OFF - Chip ||| Ticks | Bandwidth | 
+|---|---|---|---|---|---|
+| DRAM | HBM | | 80 GB | 800 | 3.35 TB/s|
 
 || ON - Chip |||Ticks| Bandwidth | 
 |---|---|---|---|---|---|
