@@ -14,9 +14,9 @@
 
 * 10:00
 
-|||||||
+|||||Ticks|Bandwidth|
 |---|---|---|---|---|---|
-|| **OFF - Chip** ||| Ticks | Bandwidth | 
+|| **OFF - Chip** |||  |  | 
 | DRAM | HBM | | 80 GB | 800 | 3.35 TB/s|
 || **ON - Chip** ||||  | 
 | SRAM | Outside SMs | L2         | 50 MB (Shared by ALL SMs)            | 480 | 4 TB/s|
