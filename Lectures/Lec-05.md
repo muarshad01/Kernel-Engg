@@ -19,7 +19,7 @@
 || **OFF - Chip** |||  |  | 
 | DRAM | HBM | | 80 GB | 800 | 3.35 TB/s|
 || **ON - Chip** ||||  | 
-| SRAM | Outside SMs | L2         | 50 MB (Shared by ALL SMs)            | 480 | 4 TB/s|
+| SRAM | Outside SMs | L2         | 50 MB (Shared by ALL SMs)            | 480 | 12 TB/s|
 | SRAM | On SMs      | L1 / SMEM  | 256 KB on each SM = 64K Register <br> 228 KB Shared Memory <br> 1-block of SM has 48 KB of Shared memory        | 320 | 19 TB/s |
 | SRAM | On SMs      | Registers                    | 256 KB on each SM                    || 20 TB/s |
 
