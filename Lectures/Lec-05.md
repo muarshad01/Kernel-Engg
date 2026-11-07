@@ -14,15 +14,15 @@
 
 * 10:00
 
-|| OFF - Chip ||Ticks|
-|---|---|---|---|
-| DRAM | HBM | 80 GB | 800 |
-
-|| ON - Chip |||Ticks|
+|| OFF - Chip || Ticks | Bandwidth | 
 |---|---|---|---|---|
-| SRAM | Outside SMs | L2 Cache                     | 50 MB (Shared by ALL SMs)            | 480 |
-| SRAM | On SMs      | L1 Cache & Shared Memory     | 64K Register = 256 KB on each SM <br> 228 KB Shared Memory <br> 1-block of SM has 48 KB of Shared memory | 320 |
-| SRAM | On SMs      | Registers                    | 256 KB on each SM                    ||
+| DRAM | HBM | 80 GB | 800 | 3.35 TB/s|
+
+|| ON - Chip |||Ticks| Bandwidth | 
+|---|---|---|---|---|---|
+| SRAM | Outside SMs | L2         | 50 MB (Shared by ALL SMs)            | 480 | 4 TB/s|
+| SRAM | On SMs      | L1 / SMEM  | 64K Register = 256 KB on each SM <br> 228 KB Shared Memory <br> 1-block of SM has 48 KB of Shared memory        | 320 | 19 TB/s |
+| SRAM | On SMs      | Registers                    | 256 KB on each SM                    || 20 TB/s |
 
 * __Flash Attention__: L1 Cache + Shared Memory
 
