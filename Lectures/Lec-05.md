@@ -14,7 +14,7 @@
 
 * 10:00
 
-|||||Ticks|Bandwidth|
+| DRAM/SRAM | ON/OFF Chip | Memory Type | Memory Size |Ticks|Bandwidth|
 |---|---|---|---|---|---|
 || **OFF - Chip** |||  |  | 
 | DRAM | HBM | | 80 GB | 800 | 3.35 TB/s|
