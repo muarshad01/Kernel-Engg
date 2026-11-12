@@ -80,7 +80,7 @@ O = P @ V
 | Kernel ||||
 |---|---|---|---|
 | Kernel-1 | $S=Q \times K^T$         |||
-| Kernel-2 | Scale by $\frac{1}{128}$ | Read S, scales every score + writes | 1024 MB (Read) <br> 1024 MB (Write)|
+| Kernel-2 | Scale by $\frac{1}{128}$ | Read S <br> scale every score <br> Write S | 1024 MB (Read) <br> 1024 MB (Write)|
 | Kernel-3 | softmax                  |||
 | Kernel-4 | $O = P \times V$         |||
 
