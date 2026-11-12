@@ -1,5 +1,5 @@
 ## FlashAttention
-* (Pretraining, Inference) <--> Kernels
+* (Pretraining, Inference{Prefill,Decode}) <--> Kernels
 
 ***
 
