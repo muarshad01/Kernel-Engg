@@ -1,7 +1,5 @@
 ## FlashAttention
-* Pretraining
-* Inference
-* Kernels
+* (Pretraining, Inference) <--> Kernels
 
 ***
 
