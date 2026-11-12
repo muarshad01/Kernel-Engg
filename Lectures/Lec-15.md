@@ -12,7 +12,7 @@
 * x = 196 token
 
 $$
-  A_{m\times n} =
+  A_{196 \times 4096} =
   \left[ {\begin{array}{cccc}
     a_{11} & a_{12} & \cdots & a_{1,4096}\\
     a_{21} & a_{22} & \cdots & a_{2n}\\
