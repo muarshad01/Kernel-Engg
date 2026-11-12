@@ -1,6 +1,8 @@
 ## FlashAttention
-* (Pretraining, Inference{Prefill,Decode}) <--> Kernels
-
+* (Pretraining, Inference) <--> Kernels
+* Inference: Prefill and Decode
+  * Prefill is compute bound
+  * Decode is memory bound
 ***
 
 * [Flash Attention](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-5.md)
