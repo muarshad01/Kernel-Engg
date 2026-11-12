@@ -94,6 +94,13 @@ O = P @ V
 
 *** 
 
+* 1:10:00
+
+* Can attention keep score on chip without ever writing to HBM.
+
+***
+
+
 
 
 
