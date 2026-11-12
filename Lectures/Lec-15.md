@@ -42,7 +42,7 @@ $$
 * __Step__: Context vector
   * $O [196,128] = P[196,196] \times V [196,128]$
     * For every token, we have not captured the influence of its neighbors.
-* __NOTE__: For multi-head attention (if one layers has 32 heads) then $num_{heads} \times x d_{head} = 32 \times 128 = 4,096$
+* __NOTE__: For multi-head attention (if one layers has 32 heads) then $num_{heads} \times d_{head} = 32 \times 128 = 4,096$
 
 ***
 
