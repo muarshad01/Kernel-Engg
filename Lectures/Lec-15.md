@@ -55,5 +55,9 @@ $$\underbrace{n_{heads} \times d_{head}}_{d_{model}} = 32 \times 128 = 4,096$$
 
 ***
 
+* 30:00
+
+***
+
 
 
