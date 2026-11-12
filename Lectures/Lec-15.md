@@ -8,7 +8,7 @@
 ***
 
 * [Qwen3-8B](https://github.com/muarshad01/Kernel-Engg/blob/main/Qwen3-8B.md)
-* d_{model} = 4,096
+* $d_{model}$ = 4,096
 * x = 196 token
 
 $$
