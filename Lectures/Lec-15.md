@@ -40,7 +40,7 @@ $$
   * [Softmax](https://github.com/muarshad01/DeepSeek/blob/main/softmax.md)
   * $P [196,196] = \text{softmax}(\frac{QK^T}{\sqrt{d_{keys}}})=\text{softmax}(\frac{QK^T}{\sqrt{128}})$
 * __Step__: Context vector
-  * $O [196,128] = P \times V [196,128]$
+  * $O [196,128] = P[196,196] \times V [196,128]$
 
 ***
 
