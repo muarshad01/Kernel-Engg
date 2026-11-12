@@ -44,6 +44,9 @@ $$
     * For every token, we have not captured the influence of its neighbors.
 * __NOTE__: For multi-head attention (if one layers has 32 heads) then $$\underbrace{n_{heads} \times d_{head}}_{d_{model}} = 32 \times 128 = 4,096$$
 
+
+$$\underbrace{n_{heads} \times d_{head}}_{d_{model}} = 32 \times 128 = 4,096$$
+
 ***
 
 
