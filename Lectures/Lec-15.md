@@ -78,7 +78,7 @@ O = P @ V
 ***
 
 * s = 4,096
-* Memory per head= s \times s \times 2 = 32 MB per head
+* Memory per head = $s \times s \times 2$ = 32 MB per head
 * Memory per layers = 32 MB x 32 = 1 GB
 
 | Kernel ||||
