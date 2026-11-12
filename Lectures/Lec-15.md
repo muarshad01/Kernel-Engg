@@ -82,7 +82,7 @@ O = P @ V
 | Kernel-1 | $S=Q \times K^T$         | - Multipley $Q$ by $K^T$ <br> - Write S to HBM | - 1024 MB (Write)|
 | Kernel-2 | Scale by $\frac{1}{128}$ | - Read S <br> - Scale every score <br> - Write S | - 1024 MB (Read) <br> - 1024 MB (Write) |
 | Kernel-3 | softmax                  | - Read S <br> - Write P | - 1024 MB (Read) <br> - 1024 MB (Write) |
-| Kernel-4 | $O = P \times V$         |||
+| Kernel-4 | $O = P \times V$         |- Read P | - 1024 MB (Read)|
 
 
 
