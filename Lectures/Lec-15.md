@@ -34,7 +34,7 @@ $$
 * Set above diagonal elements to $0$, i.e., causal mask
 * [Softmax](https://github.com/muarshad01/DeepSeek/blob/main/softmax.md)
 * $S=Q\times K^T$, upper-half masked
-* P = softmax of each row of $S = \text{softmax}(\frac{QK^T}{\sqrt{d_{keys}})$
+* P = softmax of each row of $S = \text{softmax}(\frac{QK^T}{\sqrt{d_{keys}}})$
 
 ***
 
