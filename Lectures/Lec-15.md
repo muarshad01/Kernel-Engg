@@ -71,7 +71,18 @@ O = P @ V
 
 * 45:00
 
+#### Issues with Simple Attention
+* __Issue 1__:
+  * Quadratic memory for Attention matrix: (s \times s \ 2 ) bytes
+
 ***
+
+| Kernel ||||
+|---|---|---|---|
+| Kernel-1 | $S=Q \times K^T$         |||
+| Kernel-2 | Scale by $\frac{1}{128}$ | Read S, scales every score + writes | 1024 MB (Read) + 1024 MB (Write)|
+| Kernel-3 | softmax                  |||
+| Kernel-4 | $O = P \times V$         |||
 
 
 
