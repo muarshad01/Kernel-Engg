@@ -29,4 +29,10 @@ $$
 * $Q[196,128] = x \times W_Q$
 * $V[196,128] = x \times W_V$
 
+* Attention Score = $Q\times K^T [196,196]$
+* Dive by $\sqrt{196}$
+* Set above diagonal elements to $0$, i.e., causal mask
+* [Softmax](https://github.com/muarshad01/DeepSeek/blob/main/softmax.md)
+  * Normal softmax
+  * Safe softmax 
 ***
