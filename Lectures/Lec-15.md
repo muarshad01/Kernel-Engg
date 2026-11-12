@@ -26,9 +26,9 @@ $$
   * $W_Q[4096,128]$
   * $W_V[4096,128]$
 * __Step__: Project into $K,Q,V$ space
-  * $K [196,128] = x \times W_K$
-  * $Q [196,128] = x \times W_Q$
-  * $V [196,128] = x \times W_V$
+  * $K [196,128] = x[196,4096] \times W_K[4096,128]$
+  * $Q [196,128] = x[196,4096] \times W_Q[4096,128]$
+  * $V [196,128] = x[196,4096] \times W_V[4096,128]$
 * __Step__: Attention Score
   * $Q \times K^T [196,196]$
 * __Step__: Variance Issue
