@@ -77,12 +77,16 @@ O = P @ V
 
 ***
 
+* s = 4,096
+* Memory per head= s \times s \times 2 = 32 MB per head
+* Memory per layers = 32 MB x 32 = 1 GB
+
 | Kernel ||||
 |---|---|---|---|
-| Kernel-1 | $S=Q \times K^T$         | - Multipley $Q$ by $K^T$ <br> - Write S to HBM | - 1024 MB (Write)|
-| Kernel-2 | Scale by $\frac{1}{128}$ | - Read S <br> - Scale every score <br> - Write S | - 1024 MB (Read) <br> - 1024 MB (Write) |
-| Kernel-3 | softmax                  | - Read S <br> - Write P | - 1024 MB (Read) <br> - 1024 MB (Write) |
-| Kernel-4 | $O = P \times V$         |- Read P | - 1024 MB (Read)|
+| Kernel-1 | $S=Q \times K^T$         | - Multipley $Q$ by $K^T$ <br> - WRITE S to HBM | - 1024 MB (Write)|
+| Kernel-2 | Scale by $\frac{1}{128}$ | - READ S <br> - Scale every score <br> - WRITE S | - 1024 MB (Read) <br> - 1024 MB (Write) |
+| Kernel-3 | softmax                  | - READ S <br> - WRITE P | - 1024 MB (Read) <br> - 1024 MB (Write) |
+| Kernel-4 | $O = P \times V$         | - READ P | - 1024 MB (Read) |
 
 
 
