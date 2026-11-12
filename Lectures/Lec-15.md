@@ -98,6 +98,9 @@ O = P @ V
 
 * Can attention keep score on chip without ever writing to HBM.
 
+
+* [FlashAttention - Online Softmax](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-5.md)
+
 ***
 
 
