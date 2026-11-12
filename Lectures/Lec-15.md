@@ -9,7 +9,12 @@
 
 * [Qwen3-8B](https://github.com/muarshad01/Kernel-Engg/blob/main/Qwen3-8B.md)
 * Embedding dimentions = $d_{model}$ = 4,096
-* x = 196 token
+
+***
+
+#### Example
+
+* Conside $x = 196$ tokens
 
 $$
   \mathcal{X}_{196 \times 4096} =
