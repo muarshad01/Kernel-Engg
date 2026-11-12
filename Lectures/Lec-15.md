@@ -8,7 +8,7 @@
 ***
 
 * [Qwen3-8B](https://github.com/muarshad01/Kernel-Engg/blob/main/Qwen3-8B.md)
-* $d_{model}$ = 4,096
+* Embedding dimentions = $d_{model}$ = 4,096
 * x = 196 token
 
 $$
@@ -41,6 +41,7 @@ $$
   * $P [196,196] = \text{softmax}(\frac{QK^T}{\sqrt{d_{keys}}})=\text{softmax}(\frac{QK^T}{\sqrt{128}})$
 * __Step__: Context vector
   * $O [196,128] = P[196,196] \times V [196,128]$
+    * For every token, we have not captured the influence of its neighbors.
 
 ***
 
