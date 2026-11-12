@@ -35,10 +35,10 @@ $$
   * $\frac{Q \times K^T}{\sqrt{128}}=\frac{Q \times K^T}{\sqrt{keys}}$
 * __Step__: Causal mask
   * Set above diagonal elements to $0$, i.e., causal mask
-  * $S = Q \times K^T$, upper-half masked
+  * Attention score = $S = Q \times K^T$, upper-half masked
 * __Step__: Sum of each row should be $1$
   * [Softmax](https://github.com/muarshad01/DeepSeek/blob/main/softmax.md)
-  * $P [196,196] = \text{softmax}(\frac{QK^T}{\sqrt{d_{keys}}})=\text{softmax}(\frac{QK^T}{\sqrt{128}})$
+  * Attention weights = $P [196,196] = \text{softmax}(\frac{QK^T}{\sqrt{d_{keys}}})=\text{softmax}(\frac{QK^T}{\sqrt{128}})$
 * __Step__: Context vector
   * $O [196,128] = P[196,196] \times V [196,128]$
     * For every token, we have not captured the influence of its neighbors.
