@@ -14,7 +14,7 @@
 
 #### Example
 
-* Conside $x = 196$ tokens
+* Consider $x = 196$ tokens
 
 $$
   \mathcal{X}_{196 \times 4096} =
