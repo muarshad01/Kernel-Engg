@@ -21,6 +21,7 @@ $$
   \end{array} } \right]
 $$
 
+#### Compute $S,P,O$
 * __Trainable matrices__
   * $W_K[4096,128]$
   * $W_Q[4096,128]$
@@ -30,18 +31,19 @@ $$
   * $Q [196,128] = x[196,4096] \times W_Q[4096,128]$
   * $V [196,128] = x[196,4096] \times W_V[4096,128]$
 * __Step__: Attention Score
-  * $Q \times K^T [196,196]=Q \times K^T [tokens,tokens]$
+  * $S = Q \times K^T [196,196]=Q \times K^T [tokens,tokens]$
 * __Step__: Variance Issue
-  * $\frac{Q \times K^T}{\sqrt{128}}=\frac{Q \times K^T}{\sqrt{keys}}$
+  * $S = \frac{Q \times K^T}{\sqrt{128}}=\frac{Q \times K^T}{\sqrt{keys}}$
 * __Step__: Causal mask
   * Set above diagonal elements to $0$, i.e., causal mask
-  * Attention score = $S = Q \times K^T$, upper-half masked
-* __Step__: Sum of each row should be $1$
+  * $S = Q \times K^T$, upper-half masked
+* __Step__: Attention weights
+  * Sum of each row should be $1$
   * [Softmax](https://github.com/muarshad01/DeepSeek/blob/main/softmax.md)
-  * Attention weights = $P [196,196] = \text{softmax}(\frac{QK^T}{\sqrt{d_{keys}}})=\text{softmax}(\frac{QK^T}{\sqrt{128}})$
+  * $P [196,196] = \text{softmax}(\frac{QK^T}{\sqrt{d_{keys}}})=\text{softmax}(\frac{QK^T}{\sqrt{128}})$
 * __Step__: Context vector
+  * For every token, we have now captured the influence of its neighbors.
   * $O [196,128] = P[196,196] \times V [196,128]$
-    * For every token, we have not captured the influence of its neighbors.
 * __NOTE__: For multi-head attention (if one layers has 32 heads) then
 
 $$\underbrace{n_{heads} \times d_{head}}_{d_{model}} = 32 \times 128 = 4,096$$
