@@ -7,3 +7,6 @@
 
 ***
 
+* [Qwen3-8B](https://github.com/muarshad01/Kernel-Engg/blob/main/Qwen3-8B.md)
+
+***
