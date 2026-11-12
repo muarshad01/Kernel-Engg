@@ -15,9 +15,9 @@ $$
   A_{196 \times 4096} =
   \left[ {\begin{array}{cccc}
     a_{11} & a_{12} & \cdots & a_{1,4096}\\
-    a_{21} & a_{22} & \cdots & a_{2n}\\
+    a_{21} & a_{22} & \cdots & a_{2,4086}\\
     \vdots & \vdots & \ddots & \vdots\\
-    a_{196,1} & a_{m2} & \cdots & a_{196,4096}\\
+    a_{196,1} & a_{196,2} & \cdots & a_{196,4096}\\
   \end{array} } \right]
 $$
 
