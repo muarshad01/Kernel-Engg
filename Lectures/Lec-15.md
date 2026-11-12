@@ -57,9 +57,23 @@ $$\underbrace{n_{heads} \times d_{head}}_{d_{model}} = 32 \times 128 = 4,096$$
 
 ***
 
-* 30:00
+* 40:00
+
+#### Simple Attentions
+```python
+S = Q @ K.transpose(-2, -1) * 128 ** -0.5
+S = S.masked_fill(mask, float('inf'))
+P = torch.softmax(S, dim=-1)
+O = P @ V
+```
 
 ***
+
+* 45:00
+
+***
+
+
 
 
 
