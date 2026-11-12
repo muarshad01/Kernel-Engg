@@ -1,5 +1,5 @@
 #### Qwen3-8B
-* 36 transformer blocks
-* Qwen3-8B: 4096 dimensions
+* 36 transformer blocks/layers
+* * Embedding dimentions = $d_{model}$ = 4,096
 
 ***
