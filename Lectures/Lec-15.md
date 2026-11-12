@@ -21,26 +21,27 @@ $$
   \end{array} } \right]
 $$
 
-* $W_K[4096,128]$
-* $W_Q[4096,128]$
-* $W_V[4096,128]$
-
+* __Trainable matrices__
+  * $W_K[4096,128]$
+  * $W_Q[4096,128]$
+  * $W_V[4096,128]$
 * __Step__: Project into $K,Q,V$ space
-  * $K[196,128] = x \times W_K$
-  * $Q[196,128] = x \times W_Q$
-  * $V[196,128] = x \times W_V$
+  * $K [196,128] = x \times W_K$
+  * $Q [196,128] = x \times W_Q$
+  * $V [196,128] = x \times W_V$
 * __Step__: Attention Score
-  * $Q\times K^T [196,196]$
+  * $Q \times K^T [196,196]$
 * __Step__: Variance Issue
-  * $\frac{Q\times K^T}{sqrt{128}}$
+  * $\frac{Q \times K^T}{sqrt{128}}$
 * __Step__: Causal mask
   * Set above diagonal elements to $0$, i.e., causal mask
 * __Step__: Sum of each row should be $1$
   * [Softmax](https://github.com/muarshad01/DeepSeek/blob/main/softmax.md)
-  * $S=Q\times K^T$, upper-half masked
+  * $S = Q \times K^T$, upper-half masked
   * $P [196,196] = \text{softmax}(\frac{QK^T}{\sqrt{d_{keys}}})$ = softmax of each row of S
 * __Step__: Context vector
-  * O [196,128] = P \times V [196,128]
+  * $O [196,128] = P \times V [196,128]$
+
 ***
 
 
