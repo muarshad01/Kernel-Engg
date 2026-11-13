@@ -49,7 +49,7 @@
 | Lecture | Date | Status |
 |---|---|---|
 | [Lecture 14 - Coding (Nov 09) - Shubham](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-14.md) | Nov xx, 2026 | | 
-| [Lecture 15 - Theory (Nov 10) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-15.md) | Nov 15, 2026 |  |
+| [Lecture 15 - Theory (Nov 10) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-15.md) | Nov 12, 2026 | :white_check_mark: |
 | [Lecture 16 - Coding (Nov 12) - Shubham - Cancelled](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-16.md) | Nov xx, 2026 | |
 | [Lecture 17 - Theory (Nov 13) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-17.md) | Nov xx, 2026 |  | 
 
