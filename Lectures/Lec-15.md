@@ -83,7 +83,7 @@ O = P @ V
 | Kernel ||||
 |---|---|---|---|
 | Kernel-1 | $S=Q \times K^T$         | - Multipley $Q$ by $K^T$ <br> - WRITE S to HBM | - 1024 MB (Write)|
-| Kernel-2 | Scale by $\frac{1}{128}$ | - READ S <br> - Scale every score <br> - WRITE S | - 1024 MB (Read) <br> - 1024 MB (Write) |
+| Kernel-2 | Scale S by $\frac{1}{128}$ | - READ S <br> - Scale every score <br> - WRITE S | - 1024 MB (Read) <br> - 1024 MB (Write) |
 | Kernel-3 | P = softmax(S)                  | - READ S <br> - WRITE P | - 1024 MB (Read) <br> - 1024 MB (Write) |
 | Kernel-4 | $O = P \times V$         | - READ P | - 1024 MB (Read) |
 * Total transport back and forth from HBM = 3r + 3w = 6,144 MB (S and P are 97%)
