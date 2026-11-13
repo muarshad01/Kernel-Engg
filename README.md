@@ -65,12 +65,13 @@
 
 ***
 
-#### Part IV: Flash Attention 4 and DeepSeek, and Part V: AI-written kernels
+#### Part IV · Inference, Blackwell and DeepSeek, and Part V · AI-written kernels
 | Lecture | Date | Status |
 |---|---|---|
-| [Lecture 22 - Coding (Nov 17) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-22.md) | Nov xx, 2026 | | 
-| [Lecture 23 - Theory (Nov 19) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-23.md) | Nov xx, 2026 |  |
-| [Lecture 24 - Coding (Nov 20) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-24.md) | Nov xx, 2026 | |
+| [Lecture 21 - Coding (Nov 21) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-21.md) | Nov xx, 2026 | | 
+| [Lecture 22 - Theory (Nov 22) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-22.md) | Nov xx, 2026 |  |
+| [Lecture 23 - Coding (Nov 23) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-23.md) | Nov xx, 2026 | |
+| [Lecture 24 - Coding (Nov 24) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-24.md) | Nov xx, 2026 | |
 
 ***
 
