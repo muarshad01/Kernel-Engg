@@ -50,18 +50,18 @@
 |---|---|---|
 | [Lecture 14 - Coding (Nov 09) - Shubham](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-14.md) | Nov xx, 2026 | | 
 | [Lecture 15 - Theory (Nov 10) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-15.md) | Nov 12, 2026 | :white_check_mark: |
-| [Lecture 16 - Coding (Nov 12) - Shubham - Cancelled](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-16.md) | Nov xx, 2026 | |
-| [Lecture 17 - Theory (Nov 13) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-17.md) | Nov xx, 2026 | In progress | 
+| ~~[Lecture 16 - Coding (Nov 12) - Shubham - Cancelled](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-16.md)~~ | Nov xx, 2026 | |
+| [Lecture 16 - Theory (Nov 13) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-16.md) | Nov xx, 2026 | In progress | 
 
 ***
 
 #### Part IV: FlashAttention and the modern frontier
 | Lecture | Date | Status |
 |---|---|---|
-| [Lecture 18 - Coding (Nov 16) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-18.md) | Nov xx, 2026 | | 
-| [Lecture 19 - Theory (Nov 17) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-19.md) | Nov xx, 2026 |  |
-| [Lecture 20 - Coding (Nov 19) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-20.md) | Nov xx, 2026 | |
-| [Lecture 21 - Theory (Nov 20) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-21.md) | Nov xx, 2026 |  | 
+| [Lecture 17 - Coding (Nov 16) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-17.md) | Nov xx, 2026 | | 
+| [Lecture 18 - Theory (Nov 17) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-18.md) | Nov xx, 2026 |  |
+| [Lecture 19 - Coding (Nov 19) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-19.md) | Nov xx, 2026 | |
+| [Lecture 20 - Theory (Nov 20) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-20.md) | Nov xx, 2026 |  | 
 
 ***
 
