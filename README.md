@@ -55,7 +55,7 @@
 
 ***
 
-#### Part IV: The modern frontier 
+#### Part IV: FlashAttention and the modern frontier
 | Lecture | Date | Status |
 |---|---|---|
 | [Lecture 18 - Coding (Nov 16) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-18.md) | Nov xx, 2026 | | 
