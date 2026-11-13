@@ -58,10 +58,10 @@
 #### Part IV: The modern frontier 
 | Lecture | Date | Status |
 |---|---|---|
-| [Lecture 18 - Coding (Nov 10) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-18.md) | Nov xx, 2026 | | 
-| [Lecture 19 - Theory (Nov 12) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-19.md) | Nov xx, 2026 |  |
-| [Lecture 20 - Coding (Nov 13) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-20.md) | Nov xx, 2026 | |
-| [Lecture 21 - Theory (Nov 16) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-21.md) | Nov xx, 2026 |  | 
+| [Lecture 18 - Coding (Nov 16) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-18.md) | Nov xx, 2026 | | 
+| [Lecture 19 - Theory (Nov 17) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-19.md) | Nov xx, 2026 |  |
+| [Lecture 20 - Coding (Nov 19) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-20.md) | Nov xx, 2026 | |
+| [Lecture 21 - Theory (Nov 20) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-21.md) | Nov xx, 2026 |  | 
 
 ***
 
