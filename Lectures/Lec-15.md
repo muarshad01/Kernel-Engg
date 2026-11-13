@@ -73,7 +73,7 @@ O = P @ V
 
 #### Issues with Simple Attention
 * __Issue 1__:
-  * Quadratic memory for Attention matrix: (s \times s \ 2 ) bytes
+  * Quadratic memory for Attention matrix: $s \times s \ 2$ bytes
 
 * __Issue 2__:
 * s = 4,096 tokens
