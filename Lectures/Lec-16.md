@@ -14,6 +14,14 @@ Tiled Neural Network Computations - 2021](https://www.eecs.harvard.edu/~htk/publ
 
 * 1:10:00
 
+* CUDA C++ ->
+* NVCC (NVIDIA CUDA Compiler) ->
+* frontend (clang) ->
+* LLVM IR ->
+* backend ->
+* PTX/SASS
+* ptxas is NVIDIA's Parallel Thread Execution (PTX) assembler included in the CUDA Toolkit
+
 ***
 
 
