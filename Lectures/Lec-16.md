@@ -1,3 +1,4 @@
+#### Triton
 * [Triton Tutorials](https://triton-lang.org/main/getting-started/tutorials/index.html)
 * [Triton GitHub](https://github.com/triton-lang/triton)
 * [Triton: An Intermediate Language and Compiler for
@@ -11,7 +12,7 @@ Tiled Neural Network Computations - 2021](https://www.eecs.harvard.edu/~htk/publ
 
 ***
 
-* 1:00:00
+* 1:10:00
 
 ***
 
