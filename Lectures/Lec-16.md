@@ -30,7 +30,7 @@ Tiled Neural Network Computations - 2021](https://www.eecs.harvard.edu/~htk/publ
 ```
 t1.program_id(axis=0)
 ```
-* 1:30:00
+* 2:00:00
 
 
 
