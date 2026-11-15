@@ -30,8 +30,8 @@ Tiled Neural Network Computations - 2021](https://www.eecs.harvard.edu/~htk/publ
 ```
 t1.program_id(axis=0)
 ```
-* 2:00:00
 
+* 2:00:00
 
 ||||
 |---|---|---|
@@ -49,4 +49,7 @@ x[:, NONE] * 10 + y[NONE, :]
 120.  120 121 122
 130.  130 131 132
 ```
+
+* 2:30:00
+
 
