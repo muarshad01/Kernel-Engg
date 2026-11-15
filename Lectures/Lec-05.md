@@ -15,7 +15,7 @@
 * 10:00
 
 <p align="center">
-  <img src="https://github.com/muarshad01/Kernel-Engg/blob/main/images/OnChip-OffChip.png" width="400" height="300" />
+  <img src="https://github.com/muarshad01/Kernel-Engg/blob/main/images/OnChip-OffChip.png" width="600" height="500" />
 </p>p
   
 | DRAM/SRAM | ON/OFF Chip | Memory Type | Memory Size |Ticks|Bandwidth|
