@@ -2,6 +2,7 @@
 * [Triton GitHub](https://github.com/triton-lang/triton)
 * [Triton: An Intermediate Language and Compiler for
 Tiled Neural Network Computations - 2021](https://www.eecs.harvard.edu/~htk/publication/2019-mapl-tillet-kung-cox.pdf)
+* [Introducing Triton: Open-source GPU programming for neural networks - OpenAI](https://openai.com/index/triton/)
 * [CUTLASS](https://github.com/NVIDIA/cutlass)
 
 *** 
