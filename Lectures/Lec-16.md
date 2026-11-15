@@ -7,3 +7,9 @@
 #### Lecture 16: Tile Programming using Triton, NVIDIA cuTile, and PyTorch Helion
 
 ***
+
+* 1:00:00
+
+***
+
+
