@@ -56,7 +56,19 @@ x[:, NONE] * 10 + y[NONE, :]
 
 #### cuTile
 
+* [Advancing GPU Programming with the CUDA Tile IR Backend for OpenAI Triton](https://developer.nvidia.com/blog/advancing-gpu-programming-with-the-cuda-tile-ir-backend-for-openai-triton/)
+
+
 ***
+
+* 3:00:00
+
+#### PyTorch Helion
+
+
+***
+
+
 
 
 
