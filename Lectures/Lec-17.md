@@ -50,7 +50,16 @@ STORE result
 
 * [softmax](https://github.com/muarshad01/DeepSeek/blob/main/softmax.md)
 
-* 30:00
+***
+
+* 40:00
+
+#### Coding
+
+***
+
+
+
 
 
 
