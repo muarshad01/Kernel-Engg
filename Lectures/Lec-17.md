@@ -132,3 +132,15 @@ $$
           &= \sum \bigg [exp(x_i - m_i^{new})\bigg]\\
 \end{align}
 $$
+
+* 2:00:00
+
+***
+
+
+
+
+
+
+
+
