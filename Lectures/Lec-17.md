@@ -46,9 +46,11 @@ STORE result
 ```
 ***
 
-* 20:00
+* 25:00
 
+* [softmax](https://github.com/muarshad01/DeepSeek/blob/main/softmax.md)
 
+* 30:00
 
 
 
