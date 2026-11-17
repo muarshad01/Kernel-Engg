@@ -60,12 +60,12 @@ STORE result
 
 * 1:00:00
 
+* $0 \leq bid \leq \lceil\frac{N}{B_r}\rceil$
+* $\frac{(bid+1)*B_r}{B_c}$
 
-* $0 \leq bid \leq ceil[\frac{N}{B_r}]$
+* 1:30:00
 
-(bid+1)*Br/Bc
-
-120
+*** 
 
 
 
