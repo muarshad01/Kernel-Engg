@@ -4,3 +4,12 @@
 * We write one fused kernel in each and compare the code and the speed.
  
 *** 
+
+#### FlashAttention
+* FA
+* FA2 - 
+* FA3 - Hopper
+* FA4 - Blackwell
+* FA5 - Ruben???
+
+***
