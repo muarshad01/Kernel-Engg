@@ -87,12 +87,12 @@ m_ij = ct.max(S_ij, axis=1, keepdims=True)
 ```
 P_ij = ct.exp(S_ij - m_ij)
 ```
-* $P_{ij}=\text{max}(S_{ij} - m_{ij})$
+* $P_{ij}=\text{exp}(S_{ij} - m_{ij})$
 
 ```
 l_ij = ct.sum(P_ij, axis=1, keepdims=True)
 ```
-* $l_{ij}=\text{max}(P_{ij})$
+* $l_{ij}=\text{sum}(P_{ij})$
 
 ```
 m_i_new = ct.maximum(m_i, m_ij)
