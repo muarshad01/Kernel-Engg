@@ -69,8 +69,12 @@ STORE result
 
 
 # Note: any operation along axis=1 is rowwise
+S_ij = ct.matmul(Q_i, ct.transpose(K_j))
 $S_{ij} = Q_i \times K_j^{T}$
-        col_idx = j * B_c + ct.arange(B_c, dtype=ct.int32)[None, :]
+
+        
+        
+  col_idx = j * B_c + ct.arange(B_c, dtype=ct.int32)[None, :]
         row_idx = bid * B_r + ct.arange(B_r, dtype=ct.int32)[:, None]  # shape: (B_r, 1)
         causal_mask = (row_idx >= col_idx) & (col_idx < N)
         S_ij = ct.where(causal_mask, S_ij, -float('inf'))
