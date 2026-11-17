@@ -67,8 +67,6 @@ STORE result
 
 *** 
 
-
-# Note: any operation along axis=1 is rowwise
 ```
 S_ij = ct.matmul(Q_i, ct.transpose(K_j))
 ```
