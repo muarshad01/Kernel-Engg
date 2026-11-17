@@ -80,10 +80,22 @@ row_idx = bid * B_r + ct.arange(B_r, dtype=ct.int32)[:, None]  # shape: (B_r, 1)
 causal_mask = (row_idx >= col_idx) & (col_idx < N)
 S_ij = ct.where(causal_mask, S_ij, -float('inf'))
 ```
+```
 
 m_ij = ct.max(S_ij, axis=1, keepdims=True)
+```
+* $m_{ij}=\text{max}(S_{ij})$
+
+```
 P_ij = ct.exp(S_ij - m_ij)
+```
+* $P_{ij}=\text{max}(S_{ij} - m_{ij})$
+
+```
 l_ij = ct.sum(P_ij, axis=1, keepdims=True)
+```
+* $l_{ij}=\text{max}(P_{ij})$
+
 # m_i_new = ct.maximum(m_i, m_ij)
 m_i^{new}  = \text{max}(m_i, m_{ij})
 #l_i^{new} = \text{exp}(m_i - m_{i}^{new}) * l_i) + (\text{exp}(m_{ij} - m_{i}^{new}) * l_{ij}
