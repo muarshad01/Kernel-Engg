@@ -104,10 +104,12 @@ m_i_new = ct.maximum(m_i, m_ij)
 ```
 l_i_new = (ct.exp(m_i - m_i_new) * l_i) + (ct.exp(m_ij - m_i_new) * l_ij)
 ```
+* $l_i^{new} = \text{exp}(m_i - m_i^{new}) * l_i + \text{exp}(m_{ij} - m_i^{new}) * l_{ij}$
 
 ```
 O_i = (l_i * ct.exp(m_i - m_i_new) * O_i) + (ct.exp(m_ij - m_i_new) * ct.matmul(P_ij, V_j))
 ```
+* $O_i = (l_i * \text{exp}(m_i - m_i^{new}) * O_i) + (\text{exp}(m_{ij} - m_i^{new}) * ct.matmul(P_{ij}, V_j))$
 
 ```
 O_i = (1.0 / l_i_new) * O_i
