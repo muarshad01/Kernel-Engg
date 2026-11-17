@@ -69,18 +69,21 @@ STORE result
 
 
 # Note: any operation along axis=1 is rowwise
-* S_ij = ct.matmul(Q_i, ct.transpose(K_j))
+```
+S_ij = ct.matmul(Q_i, ct.transpose(K_j))
+```
 * $S_{ij} = Q_i \times K_j^{T}$
 
-        
-        
-  col_idx = j * B_c + ct.arange(B_c, dtype=ct.int32)[None, :]
-        row_idx = bid * B_r + ct.arange(B_r, dtype=ct.int32)[:, None]  # shape: (B_r, 1)
-        causal_mask = (row_idx >= col_idx) & (col_idx < N)
-        S_ij = ct.where(causal_mask, S_ij, -float('inf'))
-        m_ij = ct.max(S_ij, axis=1, keepdims=True)
-        P_ij = ct.exp(S_ij - m_ij)
-        l_ij = ct.sum(P_ij, axis=1, keepdims=True)
+```
+col_idx = j * B_c + ct.arange(B_c, dtype=ct.int32)[None, :]
+row_idx = bid * B_r + ct.arange(B_r, dtype=ct.int32)[:, None]  # shape: (B_r, 1)
+causal_mask = (row_idx >= col_idx) & (col_idx < N)
+S_ij = ct.where(causal_mask, S_ij, -float('inf'))
+```
+
+m_ij = ct.max(S_ij, axis=1, keepdims=True)
+P_ij = ct.exp(S_ij - m_ij)
+l_ij = ct.sum(P_ij, axis=1, keepdims=True)
 # m_i_new = ct.maximum(m_i, m_ij)
 m_i^{new}  = \text{max}(m_i, m_{ij})
 #l_i^{new} = \text{exp}(m_i - m_{i}^{new}) * l_i) + (\text{exp}(m_{ij} - m_{i}^{new}) * l_{ij}
