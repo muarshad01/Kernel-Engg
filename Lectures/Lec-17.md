@@ -5,7 +5,7 @@
  
 *** 
 
-#### FlashAttention
+#### FlashAttention Varients
 * FA
 * FA2 - 
 * FA3 - Hopper
@@ -13,3 +13,37 @@
 * FA5 - Ruben???
 
 ***
+
+#### [Tile Arena](https://tile-arena.vizuara.ai/)
+
+***
+
+* 10:00
+
+#### FlashAttention
+* Fused exact attention kernel
+* Reduces number of HMB (global mem) accesses
+* Letency reduced
+* Longer context
+
+***
+
+```
+LOAD Q,K
+Compute QK^T
+STORE QK^T
+
+LOAD QK^T
+Compute softmax(QK^T)
+STORE softmax(QK^T)
+===
+
+FUSED
+-----
+LOAD Q,K
+...
+STORE result
+```
+
+
+
