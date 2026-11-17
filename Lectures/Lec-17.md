@@ -129,5 +129,6 @@ $$
           &= exp(m_{ij}-m_i^{new}).\ell_{ij}\\
           &= exp(m_{ij}-m_i^{new}).\ell_i.\sum exp(x_i-m_{ij})\\
           &= \sum \bigg [exp(x_i-m_{ij})+(m_{ij}-m_i^{new})\bigg]\\
+          &= \sum \bigg [exp(x_i - m_i^{new})\bigg]\\
 \end{align}
 $$
