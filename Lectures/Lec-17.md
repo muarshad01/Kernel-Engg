@@ -124,4 +124,10 @@ m_i = m_i_new
 ```
 * $m_i = m_i^{new}$
 
-
+$$
+\begin{align}
+\ell_{ij} &= \sum exp(x_i-m_{ij})\\
+          &= exp(m_{ij}-m_i^{new}).\ell_i.\sum exp(x_i-m_{ij})\\
+          &= \sum \bigg [exp(x_i-m_{ij})+(m_{ij}-m_i^{new})\bigg]\\
+\end{align}
+$$
