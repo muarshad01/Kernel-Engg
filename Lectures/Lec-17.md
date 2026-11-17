@@ -61,6 +61,13 @@ STORE result
 * 1:00:00
 
 
+* $0 \leq bid \leq ceil[\frac{N}{B_r}]$
+
+(bid+1)*Br/Bc
+
+120
+
+
 
 
 
