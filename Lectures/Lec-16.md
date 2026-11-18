@@ -69,6 +69,8 @@ x[:, NONE] * 10 + y[NONE, :]
 ***
 
 #### Office Hours
+* [Tile Arena](https://tile-arena.vizuara.ai/)
+* [Muse Spark Open Kernel Challenge](https://openkernelchallenge.dev/)
 
 
 ***
