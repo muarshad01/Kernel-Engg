@@ -58,7 +58,7 @@
 #### Part IV: FlashAttention and the modern frontier
 | Lecture | Date | Status |
 |---|---|---|
-| [Lecture 17 - Coding (Nov 16) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-17.md) | Nov xx, 2026 | In Progress | 
+| [Lecture 17 - Coding (Nov 16) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-17.md) | Nov 17, 2026 | In Progress | 
 | [Lecture 18 - Theory (Nov 19) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-18.md) | Nov xx, 2026 |  |
 | [Lecture 19 - Coding (Nov 23) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-19.md) | Nov xx, 2026 | |
 | [Lecture 20 - Theory (Nov 26) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-20.md) | Nov xx, 2026 |  | 
