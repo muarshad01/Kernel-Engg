@@ -68,10 +68,10 @@
 #### Part IV · Inference, Blackwell and DeepSeek, and Part V · AI-written kernels
 | Lecture | Date | Status |
 |---|---|---|
-| [Lecture 21 - Coding (Nov 21) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-21.md) | Nov xx, 2026 | | 
-| [Lecture 22 - Theory (Nov 22) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-22.md) | Nov xx, 2026 |  |
-| [Lecture 23 - Coding (Nov 23) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-23.md) | Nov xx, 2026 | |
-| [Lecture 24 - Coding (Nov 24) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-24.md) | Nov xx, 2026 | |
+| [Lecture 21 - Coding (Nov 30) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-21.md) | Nov xx, 2026 | | 
+| [Lecture 22 - Theory (Dev 03) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-22.md) | Nov xx, 2026 |  |
+| [Lecture 23 - Coding (Dec 07) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-23.md) | Nov xx, 2026 | |
+| [Lecture 24 - Coding (Dec 10) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-24.md) | Nov xx, 2026 | |
 
 ***
 
