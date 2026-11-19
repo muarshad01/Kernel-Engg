@@ -44,6 +44,12 @@
 
 ***
 
+#### Inside Block
+* Q_{tile}= 128 x 128
+* K_{tile} = 64 x 128
+* V_{tile} = 64 x 128
+
+* Block: How many Warps?
 
 
 
