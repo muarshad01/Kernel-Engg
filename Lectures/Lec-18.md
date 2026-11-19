@@ -27,8 +27,8 @@
 #### Blocks launched by FlashAttention
 * Query Matrix (Q) = 4,096 x 128
 * Query Tile = 128 x 128
-* Number or $Q_{tiles} in one head = \frac{4096}{128} = 32$
-* Number or $Q_{tiles} in 32 head  = 32 x 32 = 1,024
+* Number or $Q_{tiles}$ in one head = $\frac{4096}{128} = 32$
+* Number or $Q_{tiles}$ in 32 head  = $32 x 32 = 1,024$
 
 ***
 
@@ -50,6 +50,10 @@
 * V_{tile} = 64 x 128
 
 * Block: How many Warps?
+
+***
+
+* 35:00
 
 
 
