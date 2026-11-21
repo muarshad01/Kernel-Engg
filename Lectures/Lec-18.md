@@ -67,6 +67,7 @@
 * V_{tile} = 64 x 128
 
 * Block: How many Warps - 4 warps $\\{w_1,w_2,w_3,w_4\\}$ - 128 threads
+* Two types of parallelism across warps
 
 ***
 
