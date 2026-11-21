@@ -23,11 +23,11 @@
 
 ***
 
-#### Tiling - Online softmax
+#### FA-2: Tiling - Online softmax
 * **Shared Memory** will initially have: $Q_1 (128,128)$, $K_1 (64,128)$, and $V_1 (64,128)$
 * Then discard $K_1$, and $V_1$ and bring $K_2$, and $V_2$,..., and so on.
 * ...
-* Then bring $Q_1 (128,128)$...
+* Then bring $Q_2 (128,128)$...
 
 |||
 |---|---|
