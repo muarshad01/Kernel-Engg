@@ -61,18 +61,23 @@
 |---|---|---|
 | [Lecture 17 - Coding (Nov 16) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-17.md) | Nov 17, 2026 | :white_check_mark: | 
 | [Lecture 18 - Theory (Nov 19) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-18.md) | Nov 21, 2026 | :white_check_mark: |
-| [Lecture 19 - Coding (Nov 23) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-19.md) | Nov xx, 2026 | |
-| [Lecture 20 - Theory (Nov 26) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-20.md) | Nov xx, 2026 |  | 
 
 ***
 
-#### Part IV · Inference, Blackwell and DeepSeek, and Part V · AI-written kernels
+#### Part IV: Blackwell, FlashAttention 4 and Hopper · three lectures this week
 | Lecture | Date | Status |
 |---|---|---|
-| [Lecture 21 - Coding (Nov 30) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-21.md) | Nov xx, 2026 | | 
-| [Lecture 22 - Theory (Dev 03) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-22.md) | Nov xx, 2026 |  |
-| [Lecture 23 - Coding (Dec 07) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-23.md) | Nov xx, 2026 | |
-| [Lecture 24 - Coding (Dec 10) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-24.md) | Nov xx, 2026 | |
+| [Lecture 19 - Coding (Nov 24) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-19.md) | Nov xx, 2026 | |
+| [Lecture 20 - Theory (Nov 25) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-20.md) | Nov xx, 
+| [Lecture 21 - Coding (Nov 27) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-21.md) | Nov xx, 2026 | | 
+
+***
+
+#### Part IV: Inference and DeepSeek
+| Lecture | Date | Status |
+| [Lecture 22 - Theory (Nov 30) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-22.md) | Nov xx, 2026 |  |
+| [Lecture 23 - Coding (Dec 01) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-23.md) | Nov xx, 2026 | |
+| [Lecture 24 - Coding (Dec 14) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-24.md) | Nov xx, 2026 | |
 
 ***
 
