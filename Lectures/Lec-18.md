@@ -12,7 +12,7 @@
 
 |||
 |---|---|
-| $N_{tokens}$ <br> Seq length during pretraining | 4,096|
+| - $N_{tokens}$ <br> - Seq length during pretraining | 4,096|
 | dim | 128 |
 | $n_{heads}$ | 32 | 
 | Query Matrix (Q) | 4,096 x 128 |
