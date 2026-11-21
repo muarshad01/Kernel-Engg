@@ -50,7 +50,7 @@
 
 | FlashAttention | Number of blocks | Number of heads | Active SMs |
 |---|---|---|---|
-| FA-1 | 32 | 32 | $\frac{32}{132}$ <br> - Inside block: One query tile after other - Q_1, Q_2, ..., Q_{128} (sequential) not exploiting inherent parallelism | 
+| FA-1 | 32 | 32 | $\frac{32}{132}$ <br> - Inside block: One query tile after other - $Q_1, Q_2, ..., Q_{128}$ (sequential) not exploiting inherent parallelism | 
 | FA-2 | 32 | 32 |       |
 
 ***
