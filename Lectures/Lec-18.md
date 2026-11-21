@@ -85,7 +85,7 @@
 * [Modal GPU Glossary](https://modal.com/gpu-glossary/device-hardware/streaming-multiprocessor)
 * **Too1-1**: Tensor Memory Accelerator (TMA)
 * **Tool-2**: WarpGroup Matrix Multiply-Accumulate (WGMMA)
-  * wgmma.mma_async versus mma synx
+  * `wgmma.mma_async` versus `mma sync`
 
 #### Example: Data Copy
 * Consider $Key_{tile} = 64 \times 128$.
