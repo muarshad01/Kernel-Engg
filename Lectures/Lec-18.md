@@ -1,17 +1,6 @@
 ## FlashAttention 2 & 3
 
-#### FA2
-* Blocks
-* Inside blocks
-
-#### FA3
-* TMA 
-* Producer Consumer
-
-***
-
 #### FA1
-
 |||
 |---|---|
 | - $N_{tokens}$ <br> - Seq length during pretraining | 4,096|
@@ -42,14 +31,11 @@
 
 #### FA-2: Blocks launched by FlashAttention
 * Query Matrix ($Q_{N\times d}$) = $4,096 \times 128$
-* Query Tile = 128 x 128
+* $Query_{tile} = 128 \times 128$
 * Number of $Q_{tiles}$ in 1 head = $\frac{4096}{128} = 32$
 * Number of $Q_{tiles}$ in 32 head  = $32 \times 32 = 1,024$
 
 ***
-
-#### FA-2: Blocks to Lunch
-
 | FlashAttention | Number of blocks | Number of heads | Number of query tiles | Active SMs |
 |---|---|---|---|---|
 | FA-1 | 32 | 32 | | $\frac{32}{132}$ filled only <br> - Inside block: One query tile after other - $\\{Q_1, Q_2, ..., Q_{128}\\}$ (sequential) not exploiting inherent parallelism | 
@@ -90,6 +76,16 @@
 |---|---|
 | Tensor Core | 4096 |
 | SFU | 16 |
+
+***
+
+* 45:00
+
+## FA-3
+
+#### FA3
+* TMA 
+* Producer Consumer
 
 
 
