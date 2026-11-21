@@ -78,6 +78,19 @@
 
 * NOTE: Since a Q needs all Keys, approach-2 is better
 
+***
+
+* Online softmax is slightly different b/w FA-1 and FA-2
+
+*** 
+
+* 40:00
+
+| Core | Operations/tick |
+|---|---|
+| Tensor Core | 4096 |
+| SFU | 16 |
+
 
 
 
