@@ -75,6 +75,7 @@
 
 #### Part IV: Inference and DeepSeek
 | Lecture | Date | Status |
+|---|---|---|
 | [Lecture 22 - Theory (Nov 30) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-22.md) | Nov xx, 2026 |  |
 | [Lecture 23 - Coding (Dec 01) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-23.md) | Nov xx, 2026 | |
 | [Lecture 24 - Coding (Dec 14) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-24.md) | Nov xx, 2026 | |
