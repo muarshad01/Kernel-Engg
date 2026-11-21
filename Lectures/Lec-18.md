@@ -16,8 +16,8 @@
 | dim | 128 |
 | $n_{heads}$ | 32 | 
 | Query Matrix ($Q_{N\times d}$) | 4,096 x 128 |
-| Key Matrix (K)   | 4,096 x 128 |
-| Query Value (V)  | 4,096 x 128 |
+| Key Matrix ($K_{N\times d}$)   | 4,096 x 128 |
+| Query Value ($V_{N\times d}$)  | 4,096 x 128 |
 
 #### Tiling - Online softmax
 * Q_1 (128,128)
