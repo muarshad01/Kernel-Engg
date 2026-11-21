@@ -4,6 +4,7 @@
 * [How GPU Really Works](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/how-gpu-really-work.md) -- Nov 03, 2026
 * [microsoft/mma-sim](https://github.com/microsoft/MMA-Sim)
 * [Paper: You don’t need long context (NVIDIA)](https://arxiv.org/pdf/2611.05306) - Nov 206
+* [Modal GPU glossary](https://modal.com/gpu-glossary)
 
 ***
 
