@@ -74,11 +74,11 @@
 * 35:00
 
 * $Q_{tile}= 128 \times 128$
-* $K_{tile} = 64 times 128$
+* $K_{tile} = 64 \times 128$
 
 || Query | Keys|
 |---|---|---|
-| Approach-1 | $Q_{tile}= 128 \times 128$ | $K_{tile} = 64 times 128$ | $\\{w_1,w_2,w_3,w_4\\}$|
+| Approach-1 | $Q_{tile}= 128 \times 128$ | $K_{tile} = 64 \times 128$ | $\\{w_1,w_2,w_3,w_4\\}$|
 | Approach-2 |||
 
 
