@@ -42,15 +42,10 @@
 ***
 
 ### Block to lunch
-* FA-1: Number of blocks = Number of heads = 32
-* Drawback-1: 32/132 SM filled only
-* Inside block: One query tile after other - $Q_1, Q_2, ..., Q_{128}$ (sequential) not exploiting inherent parallelism
-* FA-2: Number of blocks = Number of Query tiles = 1,024
-
 
 | FlashAttention | Number of blocks | Number of heads | Number of query tiles | Active SMs |
 |---|---|---|---|---|
-| FA-1 | 32 | 32 | | $\frac{32}{132}$ filled only <br> - Inside block: One query tile after other - $Q_1, Q_2, ..., Q_{128}$ (sequential) not exploiting inherent parallelism | 
+| FA-1 | 32 | 32 | | $\frac{32}{132}$ filled only <br> - Inside block: One query tile after other - $\\{Q_1, Q_2, ..., Q_{128}\\}$ (sequential) not exploiting inherent parallelism | 
 | FA-2 | 1,024 |  | 1,024 |     |
 
 ***
