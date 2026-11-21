@@ -48,7 +48,7 @@
 
 ***
 
-#### Blocks to Lunch
+#### FA-2: Blocks to Lunch
 
 | FlashAttention | Number of blocks | Number of heads | Number of query tiles | Active SMs |
 |---|---|---|---|---|
@@ -60,7 +60,8 @@
 
 * 20:00
 
-#### Inside Blocks
+#### FA-2: Inside Blocks
+* 1 block = 1 query tile
 * Q_{tile}= 128 x 128
 * K_{tile} = 64 x 128
 * V_{tile} = 64 x 128
