@@ -87,8 +87,11 @@
 * **Tool-2**: WarpGroup Matrix Multiply-Accumulate (WGMMA)
   * wgmma.mma_async versus mma synx
 
-
-* Consider $Key_{tile} = 64 \times 128$. How many number are there  $64 \times 128 (BF16)=16,384$ bytes
+#### Example: Data Copy
+* Consider $Key_{tile} = 64 \times 128$.
+* How many number are there  $64 \times 128 (BF16)=16,384$ bytes
+* $16,384$ bytes need to be copied and brought to shared memory
+* 1,024 copies of 16 bytes
 
 
 #### FA3
