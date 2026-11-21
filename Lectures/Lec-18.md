@@ -38,6 +38,12 @@
 * Inside block: One query tile after other - Q_1, Q_2, ..., Q_{128} (sequential) not exploiting inherent parallelism
 * FA-1: Number of blocks = Number of Query tiles = 1,024
 
+
+| FlashAttention | Number of blocks | Number of heads |
+|---|---|---|
+| FA-1 | 32 | 32 | 
+
+
 ***
 
 * 20:00
