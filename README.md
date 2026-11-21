@@ -89,6 +89,11 @@
 
 ***
 
+#### Best GPU programming courses
+* [NVIDIA – Fundamentals of Accelerated Computing with CUDA C/C++](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-AC-04+V2&utm_source=chatgpt.com)
+
+***
+
 #### Kernel Engineering Course Details
 * [Vizuara's Kernel Engineering Workshop is here](https://kernelworkshop.vizuara.ai/#curriculum)
 * [Kernel Engineering: From CUDA Foundations to Frontier AI Kernels](https://maven.com/rajat-dandekar/kernel-engineering?utm_source=vizuara&utm_medium=email&utm_campaign=kernel_oct2026&utm_content=focused_invitation)
