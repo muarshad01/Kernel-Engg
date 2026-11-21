@@ -99,6 +99,10 @@
 * [H100] -> only 1-thread does the copy and remaning 127 are available for computation
 
 
+<p align="center">
+  <img src="https://github.com/muarshad01/Kernel-Engg/blob/main/images/Lecture-18/tma-h100.png" width="300" height="300" />
+</p>
+
 #### FA3
 * Producer Consumer
 
