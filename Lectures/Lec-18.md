@@ -41,20 +41,19 @@
 
 ***
 
-### Block to lunch
+#### Blocks to Lunch
 
 | FlashAttention | Number of blocks | Number of heads | Number of query tiles | Active SMs |
 |---|---|---|---|---|
 | FA-1 | 32 | 32 | | $\frac{32}{132}$ filled only <br> - Inside block: One query tile after other - $\\{Q_1, Q_2, ..., Q_{128}\\}$ (sequential) not exploiting inherent parallelism | 
 | FA-2 | 1,024 | 32 | 1,024 |     |
+* First Optimization of FA-2: Query tiles are independent of each other and they can be divided across SMs.
 
 ***
 
 * 20:00
 
-***
-
-#### Inside Block
+#### Inside Blocks
 * Q_{tile}= 128 x 128
 * K_{tile} = 64 x 128
 * V_{tile} = 64 x 128
