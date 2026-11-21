@@ -61,28 +61,22 @@
 * 20:00
 
 #### FA-2: Inside Blocks
-* 1 block = 1 query tile
-* Q_{tile}= 128 x 128
-* K_{tile} = 64 x 128
-* V_{tile} = 64 x 128
-
-* Block: How many Warps - 4 warps $\\{w_1,w_2,w_3,w_4\\}$ - 128 threads
-* Two types of parallelism across warps
-
-***
 
 * 35:00
 
+#### Two types of parallelism across warps
 * $Q_{tile}= 128 \times 128$
 * $K_{tile} = 64 \times 128$
-* We have 4 Warps $\\{w_1=16,w_2=16,w_3=16,w_4=16\\}$ - 128 threads
+* $V_{tile} = 64 \times 128$
+* We have 4 Warps ($\\{w_1,w_2,w_3,w_4\\}$) - 128 threads
 
-|.  | Query | Keys|
+
+| Type | Query | Keys|
 |---|---|---|
-| Approach-1 | $Q_{tile}= 128 \times 128$ | - Partition $K_{tile}$ into 4 Warps <br> - $\\{w_1=16,w_2=16,w_3=16,w_4=16\\}$  |
+| Approach-1 | $Q_{tile}= 128 \times 128$ | - Partition $K_{tile}$ into 4 Warps <br> - $\\{k_1=16,k_2=16,k_3=16,k_4=16\\}$  |
 | Approach-2 | - Partition $Q_{tile}$ into 4 Warps <br> - $\\{q_1=32,q_2=32,q_3=32,q_4=32\\}$ | $K_{tile} = 64 \times 128$ |
 
-
+* NOTE: Since a Q needs all Keys, approach-2 is better
 
 
 
