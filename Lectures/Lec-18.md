@@ -75,10 +75,11 @@
 
 * $Q_{tile}= 128 \times 128$
 * $K_{tile} = 64 \times 128$
+* We have 4 Warps $\\{w_1=16,w_2=16,w_3=16,w_4=16\\}$ - 128 threads
 
 || Query | Keys|
 |---|---|---|
-| Approach-1 | $Q_{tile}= 128 \times 128$ | $K_{tile} = 64 \times 128$ | $\\{w_1,w_2,w_3,w_4\\}$|
+| Approach-1 | $Q_{tile}= 128 \times 128$ | - Partition $K_{tile} = 64 \times 128$ into 4 Warps <br> - $\\{w_1=16,w_2=16,w_3=16,w_4=16\\}$  | $\\{w_1,w_2,w_3,w_4\\}$|
 | Approach-2 |||
 
 
