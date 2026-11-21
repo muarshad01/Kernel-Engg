@@ -86,6 +86,7 @@
 * **Too1-1**: Tensor Memory Accelerator (TMA)
 * **Tool-2**: WarpGroup Matrix Multiply-Accumulate (WGMMA)
   * `wgmma.mma_async` versus `mma sync`
+* Producer Consumer
 
 #### Example: Data Copy
 * Consider $Key_{tile} = 64 \times 128$.
@@ -112,9 +113,21 @@ $$
 
 * 1:15:00
 
-#### FA3
-* Producer Consumer
+* Consider block = 384 threads = 3 warp group of 128 threads each
+* 1-wg: Producer (only copies)
+* 2-wg: Consumer-1
+* 3-wg: Consumer-3
 
-* 
+***
+
+* 1:25:00
+
+* Wgmma
+* consumer-1 Tensor Core
+* consumre-2 SFU
+
+***
+
+* 1:30:00
 
 
