@@ -73,8 +73,8 @@
 
 | Type | Query | Keys|
 |---|---|---|
-| Approach-1 | $Q_{tile}= 128 \times 128$ | - Partition $K_{tile}$ into 4 Warps <br> - $\\{k_1=16,k_2=16,k_3=16,k_4=16\\}$  |
-| Approach-2 | - Partition $Q_{tile}$ into 4 Warps <br> - $\\{q_1=32,q_2=32,q_3=32,q_4=32\\}$ | $K_{tile} = 64 \times 128$ |
+| FA-1 | $Q_{tile}= 128 \times 128$ | - Partition $K_{tile}$ into 4 Warps <br> - $\\{k_1=16,k_2=16,k_3=16,k_4=16\\}$  |
+| FA-2 | - Partition $Q_{tile}$ into 4 Warps <br> - $\\{q_1=32,q_2=32,q_3=32,q_4=32\\}$ | $K_{tile} = 64 \times 128$ |
 
 * NOTE: Since a Q needs all Keys, approach-2 is better
 
