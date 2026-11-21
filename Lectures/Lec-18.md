@@ -10,6 +10,7 @@
 
 ***
 
+#### FA1
 |||
 |---|---|
 | - $N_{tokens}$ <br> - Seq length during pretraining | 4,096|
