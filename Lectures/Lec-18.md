@@ -11,6 +11,7 @@
 ***
 
 #### FA1
+
 |||
 |---|---|
 | - $N_{tokens}$ <br> - Seq length during pretraining | 4,096|
@@ -20,10 +21,16 @@
 | Key Matrix ($K_{N\times d}$)   | 4,096 x 128 |
 | Query Value ($V_{N\times d}$)  | 4,096 x 128 |
 
+***
+
 #### Tiling - Online softmax
-* Q_1 (128,128)
+* Q_1 (128,128) -> Q_2...
 * K_1 (64,128) -> K_2...
 * V_1 (64,128) -> V_2...
+
+* Shared Memory will have initially Q_1, K_1, and V_1
+* Online softmax
+* Then discard K_1, and V_1 and bring K_2, and V_2,...
 
 * 10:00
 
