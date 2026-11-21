@@ -44,11 +44,9 @@
 
 ***
 
-* 20:00
+* 35:00
 
 #### FA-2: Inside Blocks
-
-* 35:00
 
 #### Two types of parallelism across warps
 * $Q_{tile}= 128 \times 128$
