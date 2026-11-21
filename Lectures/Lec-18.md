@@ -93,16 +93,13 @@
 $$
 \begin{align}
 \text{How ~many ~number ~are ~there} &= 64 \times 128 ~(BF16) \\
-                                     &= 16,384 ~bytes \\
+                                     &= 16,384 ~bytes ~need ~to ~be ~copied ~from ~HBM ~and ~brought ~to ~shared ~memory \\
                                      &= 1,024 ~copies ~of ~16 ~bytes \\
 \end{align}
 $$
 
-* How many number are there: $64 \times 128 ~(BF16) = 16,384$ bytes
-* $16,384$ bytes need to be copied and brought to shared memory
-* 1,024 copies of 16 bytes
 * 1 block = 4 warps = 128 threads
-* 128 threads = 1,024 copies of 16 bytes
+* 1,024 copies of 16 bytes = 128 threads = 
 * Each thread has to do 8 copies
 * Drawback: ALL 128 threads are busy copying
 * [H100] -> only 1-thread does the copy and remaning 127 are available for computation
