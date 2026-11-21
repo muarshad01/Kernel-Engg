@@ -100,7 +100,7 @@
 
 
 <p align="center">
-  <img src="https://github.com/muarshad01/Kernel-Engg/blob/main/images/Lecture-18/tma-h100.png" width="300" height="300" />
+  <img src="https://github.com/muarshad01/Kernel-Engg/blob/main/images/Lecture-18/tma-h100.png" width="500" height="400" />
 </p>
 
 #### FA3
