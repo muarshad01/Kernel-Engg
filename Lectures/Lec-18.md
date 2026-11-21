@@ -44,7 +44,7 @@
 ### Block to lunch
 * FA-1: Number of blocks = Number of heads = 32
 * Drawback-1: 32/132 SM filled only
-* Inside block: One query tile after other - Q_1, Q_2, ..., Q_{128} (sequential) not exploiting inherent parallelism
+* Inside block: One query tile after other - $Q_1, Q_2, ..., Q_{128}$ (sequential) not exploiting inherent parallelism
 * FA-1: Number of blocks = Number of Query tiles = 1,024
 
 
