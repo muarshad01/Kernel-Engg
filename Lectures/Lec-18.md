@@ -31,7 +31,9 @@
 
 * 10:00
 
-#### Blocks launched by FlashAttention
+***
+
+#### FA-2: Blocks launched by FlashAttention
 * Query Matrix ($Q_{N\times d}$) = 4,096 x 128
 * Query Tile = 128 x 128
 * Number of $Q_{tiles}$ in 1 head = $\frac{4096}{128} = 32$
@@ -46,10 +48,10 @@
 * FA-1: Number of blocks = Number of Query tiles = 1,024
 
 
-| FlashAttention | Number of blocks | Number of heads |
-|---|---|---|
-| FA-1 | 32 | 32 | 
-
+| FlashAttention | Number of blocks | Number of heads | Active SMs |
+|---|---|---|---|
+| FA-1 | 32 | 32 | $\frac{32}{132}$ <br> - Inside block: One query tile after other - Q_1, Q_2, ..., Q_{128} (sequential) not exploiting inherent parallelism | 
+| FA-2 | 32 | 32 |       |
 
 ***
 
