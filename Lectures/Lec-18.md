@@ -32,6 +32,8 @@
 #### FA-2: Blocks launched by FlashAttention
 * Query Matrix ($Q_{N\times d}$) = $4,096 \times 128$
 * $Query_{tile} = 128 \times 128$
+* $Key_{tile} = 64 \times 128$
+* $Value_{tile} = 64 \times 128$
 * Number of $Q_{tiles}$ in 1 head = $\frac{4096}{128} = 32$
 * Number of $Q_{tiles}$ in 32 head  = $32 \times 32 = 1,024$
 
@@ -84,6 +86,10 @@
 * **Too1-1**: Tensor Memory Accelerator (TMA)
 * **Tool-2**: WarpGroup Matrix Multiply-Accumulate (WGMMA)
   * wgmma.mma_async versus mma synx
+
+
+* Consider $Key_{tile} = 64 \times 128$. How many number are there  $64 \times 128 (BF16)=16,384$ bytes
+
 
 #### FA3
 * Producer Consumer
