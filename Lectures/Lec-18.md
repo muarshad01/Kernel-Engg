@@ -24,20 +24,20 @@
 ***
 
 #### Tiling - Online softmax
-* **Shared Memory** will initially have: Q_1 (128,128), K_1 (64,128), and V_1 (64,128)
-* Then discard K_1, and V_1 and bring K_2, and V_2,..., and so on.
+* **Shared Memory** will initially have: $Q_1 (128,128)$, $K_1 (64,128)$, and $V_1 (64,128)$
+* Then discard $K_1$, and $V_1$ and bring $K_2$, and $V_2$,..., and so on.
 * ...
-* Then bring Q_1 (128,128)...
+* Then bring $Q_1 (128,128)$...
 
 * 10:00
 
 ***
 
 #### FA-2: Blocks launched by FlashAttention
-* Query Matrix ($Q_{N\times d}$) = 4,096 x 128
+* Query Matrix ($Q_{N\times d}$) = $4,096 \times 128$
 * Query Tile = 128 x 128
 * Number of $Q_{tiles}$ in 1 head = $\frac{4096}{128} = 32$
-* Number of $Q_{tiles}$ in 32 head  = $32 x 32 = 1,024$
+* Number of $Q_{tiles}$ in 32 head  = $32 \times 32 = 1,024$
 
 ***
 
