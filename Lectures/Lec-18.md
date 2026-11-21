@@ -99,21 +99,22 @@ $$
 $$
 
 * 1 block = 4 warps = 128 threads
-* 1,024 copies of 16 bytes = 128 threads = 
-* Each thread has to do 8 copies
-* Drawback: ALL 128 threads are busy copying
-* [H100] -> only 1-thread does the copy and remaning 127 are available for computation
-
+* 1,024 copies of 16 bytes = 128 threads
+* This means, each thread has to do 8 copies
+* **Drawback**: ALL 128 threads are busy copying
+* **[H100]** -> only 1-thread does the copy and remaning 127 are available for computation!!!
 
 <p align="center">
   <img src="https://github.com/muarshad01/Kernel-Engg/blob/main/images/Lecture-18/tma-h100.png" width="500" height="400" />
 </p>
 
+***
+
+* 1:00:00
+
 #### FA3
 * Producer Consumer
 
 * 
-
-
 
 
