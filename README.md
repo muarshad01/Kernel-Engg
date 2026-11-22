@@ -64,7 +64,7 @@
 
 ***
 
-#### Part IV: Blackwell, FlashAttention 4 and Hopper · three lectures this week
+#### Part IV: Blackwell, FlashAttention-4 and Hopper
 | Lecture | Date | Status |
 |---|---|---|
 | [Lecture 19 - Coding (Nov 23) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-19.md) | Nov xx, 2026 | |
