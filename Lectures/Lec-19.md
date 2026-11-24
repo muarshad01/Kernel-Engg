@@ -45,10 +45,10 @@
 * Don't keep these number in Registers
 * Use a new memory: Tensor Memory (TMEM)
 
-#### TMEM
+#### [TMEM GPU Gloassary - Modal](https://modal.com/gpu-glossary/device-hardware/tensor-memory)
 * 128 lanes
 * 512 columns
-* $128 \times 512 \times  4 = 256~KB$ 
+* TMEM: $128 \times 512 \times  4 bytes = 256$ KB per SM  
 
 ***
 
@@ -56,8 +56,10 @@
 
 #### Blackwell - What is different?
 1. Tensor mem (TMEM) - 256 KB
-2. Who issues an instruction?
-3. Co-operative Thread Array (CTA) pairs
+2. Who issues an instruction, starts the multiplier?
+* (Hopper - `wgmma`
+* Blackwell - TMEM: No threads holds any number of multiplication operand. Registers are empty. One thread (`tcgen05.mma`) out of 128 is nominated.
+4. Co-operative Thread Array (CTA) pairs
 
 ***
 
