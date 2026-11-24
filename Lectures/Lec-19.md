@@ -8,10 +8,6 @@
 
 ***
 
-* [H100 versusw B200](https://github.com/muarshad01/Kernel-Engg/blob/main/H100-versus-B200.md)
-
-***
-
 #### Thinking Machines Lab
 * [The Inkling family](https://thinkingmachines.ai/inkling/)
 * Inkling 2 Small is the largest model we are aware of that was trained end-to-end with a native 4-bit forward pass.
@@ -22,7 +18,11 @@
 
 ***
 
-* 10:00
+* [H100 versusw B200](https://github.com/muarshad01/Kernel-Engg/blob/main/H100-versus-B200.md)
+
+***
+
+* 20:00
 
 #### Blackwell - What is different?
 * 1 - TMEM
