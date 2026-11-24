@@ -32,7 +32,9 @@
 2. Shared Mem
 3. Registers
 
-* Remember: Consumer WG1 (64 x 128 = 16k/128), Consumer WG2 (64 x 128 = 16k/128)
+* ** Remember**:
+  * Consumer WG1 (64 x 128 = 16k/128)
+  * Consumer WG2 (64 x 128 = 16k/128)
 
 ***
 
