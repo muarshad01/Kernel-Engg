@@ -36,12 +36,14 @@
   * Consumer WG1 (64 x 128 = 16k/128)
   * Consumer WG2 (64 x 128 = 16k/128)
 
+#### Register Bottleneck
 | Case-1 | Case-2 |
 |---|---|
 | wg:128    | wg: 64   |
 | Register limit | ---      |
 | 2x speed  | 1x speed |
-
+* Don't keep these number in Registers
+* Use a new memory: Tensor Memory (TMEM)
 
 ***
 
