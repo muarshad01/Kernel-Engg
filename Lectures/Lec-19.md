@@ -36,6 +36,13 @@
   * Consumer WG1 (64 x 128 = 16k/128)
   * Consumer WG2 (64 x 128 = 16k/128)
 
+| Case-1 | Case-2 |
+|---|---|
+| wg:128    | wg: 64   |
+| Register limit | ---      |
+| 2x speed  | 1x speed |
+
+
 ***
 
 * 30:00
