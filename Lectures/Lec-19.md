@@ -33,7 +33,10 @@
 
 * 1:50:00
 
-#### NVFP4 (2E1M)
+#### NVFP4 
+1. E2M1
+2. Block of size 16
+3. Each block has own scaling factor stored as block of 8-bit
 
 ***
 
