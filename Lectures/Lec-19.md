@@ -7,7 +7,9 @@
 
 <p align="center">
   <img src="https://github.com/muarshad01/Kernel-Engg/blob/main/images/Lecture-19/blackwell.png" width="600" height="600" />
-</p>p
+</p>
+
+***
 
 #### Thinking Machines Lab
 * [End‑to‑End 4‑Bit Training](https://thinkingmachines.ai/blog/end-to-end-4-bit-training/)
