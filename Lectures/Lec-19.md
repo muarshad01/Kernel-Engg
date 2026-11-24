@@ -24,6 +24,18 @@
 
 * 20:00
 
+#### FlashAttention
+* $Q_{tile} = 128 \times 256 = 32,768$ (Stored in Shared memory - Registers)
+* Registers per threads = 32,768/128 = 32k / 128 = 256 (limit!!!)
+* [SM Limits](https://github.com/muarshad01/Kernel-Engg/blob/main/H100.md)
+1. Threads
+2. Shared Mem
+3. Registers
+
+* Remember: Consumer WG1 (64 x 128 = 16k/128), Consumer WG2 (64 x 128 = 16k/128)
+
+***
+
 #### Blackwell - What is different?
 * 1 - TMEM
 * 2 - Who issues an instruction
