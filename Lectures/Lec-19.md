@@ -45,6 +45,12 @@
 * Don't keep these number in Registers
 * Use a new memory: Tensor Memory (TMEM)
 
+#### TMEM
+* 128 lanes
+* 512 columns
+* $128 \times 512 \times  4 = 256~KB$ 
+
+
 ***
 
 * 30:00
