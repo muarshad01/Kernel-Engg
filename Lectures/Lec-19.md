@@ -6,6 +6,6 @@
 ***
 
 <p align="center">
-  <img src="https://github.com/muarshad01/Kernel-Engg/blob/main/images/Lecture-19/blackwell.png" width="500" height="400" />
+  <img src="https://github.com/muarshad01/Kernel-Engg/blob/main/images/Lecture-19/blackwell.png" width="600" height="600" />
 </p>p
 
