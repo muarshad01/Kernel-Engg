@@ -68,7 +68,7 @@
 #### Part IV: Blackwell, FlashAttention-4 and Hopper
 | Lecture | Date | Status |
 |---|---|---|
-| [Lecture 19 - Coding (Nov 23) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-19.md) | Nov xx, 2026 | In Progress |
+| [Lecture 19 - Coding (Nov 23) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-19.md) | Nov 24, 2026 | :white_check_mark: |
 | [Lecture 20 - Theory (Nov 25) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-20.md) | Nov xx, 2026 | | 
 | [Lecture 21 - Coding (Nov 27) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-21.md) | Nov xx, 2026 | | 
 
