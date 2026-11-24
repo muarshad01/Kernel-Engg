@@ -10,7 +10,7 @@
 </p>
 
 
-|| H100| B200|
+|| H100 (Hopper) | B200 (Blackwell)|
 |---|---|---|
 |     | Single Die | Double Die |
 | SMs | 132 | 148 |
