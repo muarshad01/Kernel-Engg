@@ -3,7 +3,7 @@
 * What changed from Hopper to Blackwell:
 1. `Tensor memory (TMEM - 256KB)` beside the tensor cores,
 2. ONE thread (`tcgen05.mma`) that starts a multiply, and
-3. TWO SMs that share one (CTA pairs).
+3. TWO SMs that share one (Co-operative Thread Array (CTA) pairs).
 * Why 4-bit math is a big deal, how a floating-point number works, the **E2M1** ladder and NVFP4's two levels of block scaling, and the two Blackwell instructions that quantize and multiply.
 
 ***
