@@ -26,9 +26,10 @@
 ***
 
 #### Thinking Machines Lab
+* [The Inkling family](https://thinkingmachines.ai/inkling/)
+* Inkling 2 Small is the largest model we are aware of that was trained end-to-end with a native 4-bit forward pass.
 * [End‑to‑End 4‑Bit Training](https://thinkingmachines.ai/blog/end-to-end-4-bit-training/)
-  * Inkling 2 Small is the largest model we are aware of that was trained end-to-end with a native 4-bit forward pass.
-  * [4-Bit Training, Tested on a Real B200 - VIZUARA](https://4bit.vizuara.ai/)
+* [4-Bit Training, Tested on a Real B200 - VIZUARA](https://4bit.vizuara.ai/)
  
 ***
 
