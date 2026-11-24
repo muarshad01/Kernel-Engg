@@ -23,8 +23,8 @@
 | TMEM      | ---        | 256 KB per SM | New Memory|
 |---|---|---|---|
 | Tensor Core - BF16 | 4,096 | 8,192  | Twice the Math|
-| Tensor Core - NVFP4 | -- | 32,768 | 4-bit Math|
-|  | No 4-bith Math | 4-bit Math||
+| Tensor Core - NVFP4 | -- | 32,768 | |
+|  | No 4-bith Math | 4-bit Math | 4-bit Math |
 
 ***
 
