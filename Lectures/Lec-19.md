@@ -50,10 +50,9 @@
 * 512 columns
 * $128 \times 512 \times  4 = 256~KB$ 
 
-
 ***
 
-* 30:00
+* 40:00
 
 #### Blackwell - What is different?
 1. Tensor mem (TMEM) - 256 KB
