@@ -38,10 +38,12 @@
 
 ***
 
+* 30:00
+
 #### Blackwell - What is different?
-* 1 - TMEM
-* 2 - Who issues an instruction
-* 3 - CTA Pairs (Co-operative Thread Array)
+1. Tensor mem (TMEM) - 256 KB
+2. Who issues an instruction?
+3. Co-operative Thread Array (CTA) pairs
 
 ***
 
