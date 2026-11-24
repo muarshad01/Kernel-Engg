@@ -12,7 +12,8 @@
 
 || H100| B200|
 |---|---|---|
-| SMs | 132 | |
+|     | Single Die | Double Die |
+| SMs | 132 | 148 |
 | HBM | 80 GB | 180 GB|
 | Bandwidth | 3.35 TB/s | 8 TB/s |
 
