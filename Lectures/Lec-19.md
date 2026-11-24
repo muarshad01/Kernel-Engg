@@ -8,17 +8,7 @@
 
 ***
 
-<p align="center">
-  <img src="https://github.com/muarshad01/Kernel-Engg/blob/main/images/Lecture-19/blackwell.png" width="600" height="600" />
-</p>
-
 * [H100 versusw B200](https://github.com/muarshad01/Kernel-Engg/blob/main/H100-versus-B200.md)
-
-***
-
-<p align="center">
-  <img src="https://github.com/muarshad01/Kernel-Engg/blob/main/images/Lecture-19/H-versus-B.png" width="600" height="600" />
-</p>
 
 ***
 
