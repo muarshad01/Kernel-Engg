@@ -61,6 +61,10 @@
 * Blackwell - TMEM: No threads holds any number of multiplication operand. Registers are empty. One thread (`tcgen05.mma`) out of 128 is nominated.
 4. Co-operative Thread Array (CTA) pairs
 
+<p align="center">
+  <img src="https://github.com/muarshad01/Kernel-Engg/blob/main/images/Lecture-19/tcgen05-mma.png" width="600" height="600" />
+</p>
+
 ***
 
 * 1:10:00
