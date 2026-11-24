@@ -15,7 +15,7 @@
 
 || H100 (Hopper) | B200 (Blackwell)|
 |---|---|---|
-|           | Single Die | Double Die |
+|           | One Die    | Two Dies (One GPU) |
 | SMs       | 132        | 148        |
 | HBM       | 80 GB      | 180 GB     |
 | Bandwidth | 3.35 TB/s  | 8 TB/s     |
