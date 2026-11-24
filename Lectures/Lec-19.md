@@ -9,3 +9,13 @@
   <img src="https://github.com/muarshad01/Kernel-Engg/blob/main/images/Lecture-19/blackwell.png" width="600" height="600" />
 </p>p
 
+#### Thinking Machines Lab
+* [End‑to‑End 4‑Bit Training](https://thinkingmachines.ai/blog/end-to-end-4-bit-training/)
+  * Inkling 2 Small is the largest model we are aware of that was trained end-to-end with a native 4-bit forward pass.
+  * [4-Bit Training, Tested on a Real B200 - VIZUARA](https://4bit.vizuara.ai/)
+ 
+***
+
+* 10:00
+
+#### Blackwell - What is different?
