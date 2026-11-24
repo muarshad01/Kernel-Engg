@@ -18,13 +18,21 @@
 
 * 10:00
 
-1. Blackwell - What is different?
-2. Quantization 4-bit (Blackwell)
-3. NVFP4
-4. Project (e2e 4-bit pretraining)
-
+#### Blackwell - What is different?
+* 1 - TMEM
+* 2 - Who issues an instruction
+* 3 - CPA Pairs
 
 ***
+
+* 1:10:00
+
+#### Quantization 4-bit (Blackwell)
+
+***
+
+3. NVFP4
+4. Project (e2e 4-bit pretraining)
 
 
 
