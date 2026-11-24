@@ -2,7 +2,7 @@
 * In this class, we train a language model end to end on a B200 in NVFP4 (NVIDIA FP4).
 * What changed from Hopper to Blackwell:
 1. `Tensor memory (TMEM - 256KB)` beside the tensor cores,
-2. ONE thread (`tcgen05.mma`) that starts a multiply, and
+2. ONE thread (`tcgen05.mma.cta_group::2`) that starts a multiply, and
 3. TWO SMs that share one (`Co-operative Thread Array (CTA)` pairs).
 * Why 4-bit math is a big deal, how a floating-point number works, the **E2M1** ladder and NVFP4's two levels of block scaling, and the two Blackwell instructions that quantize and multiply.
 
@@ -58,8 +58,9 @@
 1. Tensor mem (TMEM) - 256 KB
 2. Who issues an instruction, starts the multiplier?
 * (Hopper - `wgmma`
-* Blackwell - TMEM: No threads holds any number of multiplication operand. Registers are empty. One thread (`tcgen05.mma`) out of 128 is nominated.
-4. Co-operative Thread Array (CTA) pairs
+* Blackwell - TMEM: No threads holds any number of multiplication operand. Registers are empty. One thread (`tcgen05.mma.cta_group::2`) out of 128 is nominated.
+3. Co-operative Thread Array (CTA) pairs -
+* NVIDIA terminology for block
 
 <p align="center">
   <img src="https://github.com/muarshad01/Kernel-Engg/blob/main/images/Lecture-19/tcgen05-mma.png" width="600" height="600" />
@@ -69,7 +70,7 @@
 
 * 1:10:00
 
-#### Quantization 4-bit (Blackwell)
+#### QUANTIZATION
 
 ***
 
