@@ -1,3 +1,13 @@
+<p align="center">
+  <img src="https://github.com/muarshad01/Kernel-Engg/blob/main/images/Lecture-19/blackwell.png" width="600" height="600" />
+</p>
+
+***
+
+<p align="center">
+  <img src="https://github.com/muarshad01/Kernel-Engg/blob/main/images/Lecture-19/H-versus-B.png" width="600" height="600" />
+</p>
+
 || H100 (Hopper) | B200 (Blackwell)||
 |---|---|---|---|
 |           | One Die    | Two Dies (One GPU) ||
