@@ -31,8 +31,14 @@
 
 ***
 
-3. NVFP4
-4. Project (e2e 4-bit pretraining)
+* 1:50:00
+
+#### NVFP4 (2E1M)
+
+***
+
+* Project (e2e 4-bit pretraining)
+
 
 
 
