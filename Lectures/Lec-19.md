@@ -40,7 +40,14 @@
 
 ***
 
+* 2:25:00
+
 * Project (e2e 4-bit pretraining)
+
+***
+
+
+
 
 
 
