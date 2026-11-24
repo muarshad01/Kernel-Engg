@@ -23,7 +23,7 @@
 #### Blackwell - What is different?
 * 1 - TMEM
 * 2 - Who issues an instruction
-* 3 - CPA Pairs
+* 3 - CTA Pairs (Co-operative Thread Array)
 
 ***
 
