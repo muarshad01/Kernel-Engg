@@ -9,6 +9,12 @@
   <img src="https://github.com/muarshad01/Kernel-Engg/blob/main/images/Lecture-19/blackwell.png" width="600" height="600" />
 </p>
 
+
+|| H100| B200|
+|---|---|---|
+| SMs | 132 | |
+| HBM | 3.35 TB/s |
+
 ***
 
 <p align="center">
