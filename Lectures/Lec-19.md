@@ -89,6 +89,10 @@
 | E2M1 | - $\\{0, 0.5, 1, 1.5, 2, 3, 4, 6\\}$ <br> - 16 possible values   | Good precision at lower numbers. Convenient tradeoff. |
 | E3-- | $\\{0, 0.5, 1, 2, 4, 8, 16, 32\\}$     | Lowest precision; highest range. |
 
+***
+
+* 2:00:00
+
 #### Scaling and How to Scale
 ||||
 |---|---|---|
