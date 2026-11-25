@@ -71,6 +71,7 @@
 * 1:10:00
 
 #### QUANTIZATION
+* [Quantization - Inference Course](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-7.md)
 
 ***
 
