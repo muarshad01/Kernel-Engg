@@ -72,6 +72,11 @@
 
 #### QUANTIZATION
 * [Quantization - Inference Course](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-7.md)
+* (NVFP4/MXFP4 - E2M1) ~ 3.64 x BF16
+* 4x math rate
+* 3.5x fewer bytes transferred from HBM (Arithmetic Intensity (AI) increases)
+* Model is 3.5x smaller
+
 
 ***
 
