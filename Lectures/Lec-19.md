@@ -89,15 +89,19 @@
 | E2M1 | - $\\{0, 0.5, 1, 1.5, 2, 3, 4, 6\\}$ <br> - 16 possible values   | Good precision at lower numbers. Convenient tradeoff. |
 | E3-- | $\\{0, 0.5, 1, 2, 4, 8, 16, 32\\}$     | Lowest precision; highest range. |
 
-1. E2M1
-2. Block of size 16
-3. Each block has own scaling factor stored as block of 8-bit
-
+#### Scaling and How to Scale
 ||||
 |---|---|---|
 | Scale           | $\frac{max(\lvert x \rvert)}{6}$ | Scaling is important <br> otherwise, most numbers map to zero. |
 | q = Quantization| $\lceil\frac{x}{scale}\rceil$ ||
 | De-quantization | q x scale ||
+
+
+1. E2M1
+2. Block of size 16
+3. Each block has own scaling factor stored as block of 8-bit
+
+
 
 ***
 
