@@ -82,7 +82,8 @@
 #### 4-bit
 * S-M-E
 * 1 sign bit
-|   |  | |
+
+||||
 |---|---|---|
 | --M3 | $\\{0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5\\}$ | Highest precision; lowest range. |
 | E2M1 | - $\\{0, 0.5, 1, 1.5, 2, 3, 4, 6\\}$ <br> - 16 possible values   | Good precision at lower numbers. Convenient tradeoff. |
