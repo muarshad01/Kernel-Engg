@@ -93,7 +93,6 @@
 2. Block of size 16
 3. Each block has own scaling factor stored as block of 8-bit
 
-* scale = =
 |||
 |---|---|
 | Scale           | $\frac{max(\lvert x \rvert)}{6}$ |
