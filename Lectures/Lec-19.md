@@ -83,6 +83,7 @@
 * S-M-E
 * 1 sign bit
 * $(-1)^s \times 1M \times 2^{(E-1)}$
+
 ||||
 |---|---|---|
 | --M3 | $\\{0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5\\}$ | Highest precision; lowest range. |
