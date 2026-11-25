@@ -77,10 +77,22 @@
 * 3.5x fewer bytes transferred from HBM (Arithmetic Intensity (AI) increases)
 * Model is 3.5x smaller
 
+* 1:40:00
+
+#### 4-bit
+* S-M-E
+* 1 sign bit
+
+| ||
+|---|---|
+|||
+| ALL 3M | $\\{0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5\\}$ |
+| 2E1M | $\\{0, 0.5, 1, 1.5, 2, 3, 4, 6\\}$ |
+| ALl 3E | $\\{0, 0.5, 1, 2, 4, 8,16, 32\\}$ |
 
 ***
 
-* 1:50:00
+
 
 #### NVFP4 
 1. E2M1
