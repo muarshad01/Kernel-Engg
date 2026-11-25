@@ -83,12 +83,11 @@
 * S-M-E
 * 1 sign bit
 
-| ||
-|---|---|
-|||
-| ALL 3M | $\\{0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5\\}$ |
-| 2E1M | $\\{0, 0.5, 1, 1.5, 2, 3, 4, 6\\}$ |
-| ALl 3E | $\\{0, 0.5, 1, 2, 4, 8,16, 32\\}$ |
+|   |.  |.  |
+|---|---|---|
+| --M3 | $\\{0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5\\}$ | Highest precision; lowest range. |
+| E2M1 | - $\\{0, 0.5, 1, 1.5, 2, 3, 4, 6\\}$ <br> - 16 possible values   | Good precision at lower numbers. Convenient tradeoff. |
+| E3-- | $\\{0, 0.5, 1, 2, 4, 8, 16, 32\\}$     | Lowest precision; highest range. |
 
 ***
 
