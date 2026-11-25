@@ -93,11 +93,11 @@
 2. Block of size 16
 3. Each block has own scaling factor stored as block of 8-bit
 
-|||
-|---|---|
-| Scale           | $\frac{max(\lvert x \rvert)}{6}$ |
-| q = Quantization| $\lceil\frac{x}{scale}\rceil$ |
-| De-quantization | q x scale |
+||||
+|---|---|---|
+| Scale           | $\frac{max(\lvert x \rvert)}{6}$ | Scaling is important <br> otherwise, most numbers map to zero. |
+| q = Quantization| $\lceil\frac{x}{scale}\rceil$ ||
+| De-quantization | q x scale ||
 
 ***
 
