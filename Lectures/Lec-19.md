@@ -79,10 +79,9 @@
 
 * 1:40:00
 
-#### 4-bit
-* S-M-E
+#### FP4: 4-bit 
+* S-M-E: $(-1)^s \times 1M \times 2^{(E-1)}$
 * 1 sign bit
-* $(-1)^s \times 1M \times 2^{(E-1)}$
 
 ||||
 |---|---|---|
@@ -90,11 +89,6 @@
 | E2M1 | - $\\{0, 0.5, 1, 1.5, 2, 3, 4, 6\\}$ <br> - 16 possible values   | Good precision at lower numbers. Convenient tradeoff. |
 | E3-- | $\\{0, 0.5, 1, 2, 4, 8, 16, 32\\}$     | Lowest precision; highest range. |
 
-***
-
-
-
-#### NVFP4 
 1. E2M1
 2. Block of size 16
 3. Each block has own scaling factor stored as block of 8-bit
