@@ -97,8 +97,8 @@
 |||
 |---|---|
 | Scale           | $\frac{max(\lvert x \rvert)}{6}$ |
-| Quantization    | $\ceil\frac{x}{scale}\rceil$|
-| De-quantization ||
+| Quantization (q)    | $\lceil\frac{x}{scale}\rceil$ |
+| De-quantization | q x scale |
 
 ***
 
