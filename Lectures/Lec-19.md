@@ -109,6 +109,9 @@
 
 * 2:20:00
 
+#### Once Instruction, Two scales
+* `cvt...e4m3x2`
+* `cvt.rn.satfinite.e2m1x2.f32`
 * Project (e2e 4-bit pretraining)
 
 ***
