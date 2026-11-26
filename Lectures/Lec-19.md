@@ -93,7 +93,7 @@
 
 * 2:00:00
 
-#### Scaling and How to Scale
+#### Scaling and How to Scale (Block Scaling)
 ||||
 |---|---|---|
 | Scale           | $\frac{max(\lvert x \rvert)}{6}$ | Scaling is important <br> otherwise, most numbers map to zero. |
@@ -102,7 +102,7 @@
 
 
 1. E2M1
-2. Block of size 16
+2. Block Scaling: Block of size 16
 3. Each block has own scaling factor stored as block of 8-bit
 
 
