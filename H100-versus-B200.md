@@ -10,6 +10,7 @@
 
 || H100 (Hopper) | B200 (Blackwell)||
 |---|---|---|---|
+| | FA2 | FA3 ||
 |           | One Die    | Two Dies (One GPU) ||
 | SMs       | 132        | 148         ||
 |---|---|---|---|
