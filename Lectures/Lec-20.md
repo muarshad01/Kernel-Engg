@@ -5,10 +5,15 @@
 *** 
 
 * [Hopper versus Blackwell](https://github.com/muarshad01/Kernel-Engg/blob/main/H100-versus-B200.md)
-* FA2: Hopper (H100)
-* FA3: Blackwell (B200)
 
 ***
+
+* 15:00
+
+#### FA4
+* Bigger query tiles
+  * $Q_1(128, 128), Q_2(128, 128)$
+* Asymmetric hardware scaling
 
 
 
