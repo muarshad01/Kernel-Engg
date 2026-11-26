@@ -17,7 +17,7 @@
 | HBM       | 80 GB      | 180 GB      ||
 | Bandwidth | 3.35 TB/s  | 8 TB/s      ||
 | TMEM      | ---        | 256 KB per SM | New Memory|
-|           | - `wgmma` <br> - wrote results -> Registers | - `tcgen05.mma`  <br> - issued by a single thread - <br> multiplications -> TMEM ||
+|           | - `wgmma` <br> - wrote results -> Registers | - `tcgen05.mma`  <br> - issued by a single thread <br> - multiplications -> TMEM ||
 |---|---|---|---|
 | Tensor Core - BF16 | 4,096 | 8,192  | Twice the Math|
 | Tensor Core - NVFP4 | -- | 32,768 | |
