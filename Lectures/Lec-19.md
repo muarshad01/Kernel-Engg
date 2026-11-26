@@ -32,8 +32,8 @@
 2. Shared Mem
 3. Registers
 
-* $Q(128,128),K(128,128),V(128,128)4
-* **Remember**:
+#### Ping-Pong Dance
+* $Q(128, 128), K(128, 128), V(128, 128)$
   * Consumer WG1 (64 x 128 = 16k/128)
   * Consumer WG2 (64 x 128 = 16k/128)
 
