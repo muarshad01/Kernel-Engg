@@ -32,6 +32,7 @@
 2. Shared Mem
 3. Registers
 
+* $Q(128,128),K(128,128),V(128,128)4
 * **Remember**:
   * Consumer WG1 (64 x 128 = 16k/128)
   * Consumer WG2 (64 x 128 = 16k/128)
