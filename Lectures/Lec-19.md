@@ -105,11 +105,9 @@
 2. **Block Scaling**: Block of size 16 (16 consective values); 
 3. Each block has own scaling factor stored as block of 8-bit [E4M3].
 
-
-
 ***
 
-* 2:25:00
+* 2:20:00
 
 * Project (e2e 4-bit pretraining)
 
