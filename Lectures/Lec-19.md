@@ -33,6 +33,10 @@
 3. Registers
 
 #### Ping-Pong Dance
+```
+A: TC      - softmax
+B: softmax - TC
+```
 * $Q(128, 128), K(128, 128), V(128, 128)$
   * Consumer WG1 (64 x 128 = 16k/128)
   * Consumer WG2 (64 x 128 = 16k/128)
