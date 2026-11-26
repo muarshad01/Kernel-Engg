@@ -38,6 +38,7 @@
 
 #### Fused Multiply Add (FMA)
 * What is we smartly convert and exponential operation in a multiplication operation
+* $2^{\log_2 (e^x)}=e^x$
 
 ***
 
