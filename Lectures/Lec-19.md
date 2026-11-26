@@ -102,7 +102,7 @@
 
 
 1. E2M1
-2. Block Scaling: Block of size 16
+2. **Block Scaling**: Block of size 16 (16 consective values); Each block has own scaling factor stored as 8-bit [E4M3].
 3. Each block has own scaling factor stored as block of 8-bit
 
 
