@@ -25,13 +25,16 @@
 * 30:00
 
 ### FA4: 4 Warp Groups = 16 Warps = 512 threads
-* wg1 - drives work on TCs
+* wg1 (`tcgen05.mma`) - drives work on TCs
 * wg2, wg3 - Softmax 
 * wg4 - corrections
 
 *** 
 
 * 50:00
+
+#### Fused Multiply Add (FMA)
+* What is we smartly convert and exponential operation in a multiplication operation
 
 ***
 
