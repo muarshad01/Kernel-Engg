@@ -20,6 +20,9 @@
   <img src="https://github.com/muarshad01/Kernel-Engg/blob/main/images/Lecture-20/asymm-hardware-scaling.png" width="500" height="400" />
 </p>
 
+***
+
+* 30:00
 
 
 
