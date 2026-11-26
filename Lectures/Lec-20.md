@@ -24,5 +24,12 @@
 
 * 30:00
 
+* FA4: 4 Warp Groups = 16 Warps = 512 threads
+* Warpgroups - drives work on TCs: wg1
+* Warpgroups - Softmax: wg2, wg3
+* Warpgroups - corrections: wg4
+
+*** 
+
 
 
