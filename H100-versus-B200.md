@@ -10,7 +10,7 @@
 
 || H100 (Hopper) | B200 (Blackwell)||
 |---|---|---|---|
-| | FA2 | FA3 ||
+| | FlashAttention-2 | FlashAttention-3 ||
 |           | One Die    | Two Dies (One GPU) ||
 | SMs       | 132        | 148         ||
 |---|---|---|---|
