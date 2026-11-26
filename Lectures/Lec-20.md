@@ -15,7 +15,6 @@
   * $Q_1(128, 128), Q_2(128, 128)$
 * Asymmetric hardware scaling
 
-
 <p align="center">
   <img src="https://github.com/muarshad01/Kernel-Engg/blob/main/images/Lecture-20/asymm-hardware-scaling.png" width="500" height="400" />
 </p>
@@ -23,6 +22,10 @@
 ***
 
 * 30:00
+
+<p align="center">
+  <img src="https://github.com/muarshad01/Kernel-Engg/blob/main/images/Lecture-20/fa4-wgs.png" width="500" height="400" />
+</p>
 
 ### FA4: 4 Warp Groups = 16 Warps = 512 threads
 * wg1 (`tcgen05.mma`) - drives work on TCs
