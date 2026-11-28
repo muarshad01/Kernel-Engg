@@ -69,7 +69,7 @@
 | Lecture | Date | Status |
 |---|---|---|
 | [Lecture 19 - Theory (Nov 23) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-19.md) | Nov 25, 2026 | :white_check_mark: |
-| [Lecture 20 - Coding (Nov 25) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-20.md) | Nov 27, 2026 | In Progress | 
+| [Lecture 20 - Coding (Nov 25) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-20.md) | Nov 28, 2026 | :white_check_mark: | 
 | [Lecture 21 - Coding (Nov 27) - Raj](https://github.com/muarshad01/Kernel-Engg/blob/main/Lectures/Lec-21.md) | Nov xx, 2026 | | 
 
 ***
